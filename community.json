@@ -1,0 +1,831 @@
+[
+  {
+    "name": "gfm-render",
+    "repo": "briangtn/claude-gfm-render",
+    "path": "",
+    "sha": "a209ad5a0ec35c0813d2d80ab62b596140b0c807",
+    "version": "0.1.0",
+    "license": "MIT",
+    "category": "rendering",
+    "description": "GitHub Flavored Markdown in the transcript: alerts (> [!NOTE]), task lists, strikethrough and Mermaid diagrams",
+    "zh": "在对话里渲染 GitHub 风格 Markdown：提示块、任务列表、删除线、Mermaid 图",
+    "access": [
+      "process",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "agent-flow",
+    "repo": "Charlie0113-T/claude-agent-flow",
+    "path": "",
+    "sha": "d87b2559dec03979e088026e8f48aee5f9d2cab5",
+    "version": "0.1.0",
+    "license": "Apache-2.0",
+    "category": "agents",
+    "description": "The agent flow pane: /flow opens a live tree of the session's subagents and teammates beside the transcript, fed by engine events, with a text fallback where no pane can be drawn.",
+    "zh": "/flow 在对话旁打开子 agent 和队友的实时树状图",
+    "access": [
+      "agent",
+      "clock",
+      "command",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "tw-stock-mod",
+    "repo": "darrell-tw/darrelltw-mods",
+    "path": "mods/tw-stock-mod",
+    "sha": "649efd272da992051c48d25f30a393e0e0ce45b8",
+    "version": "0.13.5",
+    "license": "MIT",
+    "category": "fun",
+    "description": "Watchlist band above the Claude Code prompt: Taiwan hours show the Taiwan list (紅漲綠跌), US hours show the US list (綠漲紅跌), in a broker-style table with a Solari split-flap footer, plus a 損益 mode (P&L view) for your holdings. 20 symbols a market, 10 on screen at a time. Live prices from Yahoo by default, no key and no account; 永豐 Shioaji (macOS/Linux) and 群益 Capital (Windows) are opt-in real-time routes the band runs itself, tried in your own preference order (twSources) - keep that order and any broker paths in a user-level ~/.claude/stock-band.json so a shared project config stays neutral. Needs function hooks (early access) and an interactive terminal. Zero model tokens.",
+    "zh": "台股/美股自选股看板，按交易时段切换，含持仓损益模式",
+    "access": [
+      "clock",
+      "env",
+      "fs",
+      "http",
+      "process",
+      "session",
+      "ui"
+    ]
+  },
+  {
+    "name": "mindful-claude",
+    "repo": "halluton/Mindful-Claude",
+    "path": "",
+    "sha": "411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+    "version": "2.0.0",
+    "license": "MIT",
+    "category": "fun",
+    "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal.",
+    "zh": "Claude 干活时在输入框上方带你做呼吸练习，spinner 跟着呼吸计数",
+    "access": [
+      "clock",
+      "command",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "agent-radar",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/agent-radar",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.2",
+    "license": "MIT",
+    "category": "agents",
+    "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
+    "zh": "每个运行中的子 agent 一行：用时、工具次数、正在做什么（/radar 看全部）",
+    "access": [
+      "agent",
+      "clock",
+      "command",
+      "session",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "blast-radius",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/blast-radius",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.2.2",
+    "license": "MIT",
+    "category": "safety",
+    "description": "Holds risky Bash commands and shows what they would change before they run.",
+    "zh": "拦住有风险的 Bash 命令，先展示会改动什么再让你确认",
+    "access": [
+      "clock",
+      "env",
+      "process",
+      "session",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "browser-lanes",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/browser-lanes",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.2",
+    "license": "MIT",
+    "category": "agents",
+    "description": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.",
+    "zh": "显示 Playwright 浏览器被谁占用；子 agent 要用浏览器时排队，/browser clean 清理残留",
+    "access": [
+      "command",
+      "process",
+      "session",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "cache-clock",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/cache-clock",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.0",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "A prompt-cache line under your status line: minutes left while warm, and how many tokens the next message re-caches once cold. /cache-clock setup adds it.",
+    "zh": "状态栏下一行：提示缓存还热几分钟，冷了以后下一条要重新缓存多少 token",
+    "access": [
+      "command",
+      "env",
+      "fs",
+      "process",
+      "session",
+      "settings"
+    ]
+  },
+  {
+    "name": "context-bar",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/context-bar",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.1",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point. /context-bar shows or hides it.",
+    "zh": "上下文窗口按类别分色的堆叠条，含 token 数和压缩点（/context-bar 开关）",
+    "access": [
+      "command",
+      "session",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "glance",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/glance",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.0",
+    "license": "MIT",
+    "category": "productivity",
+    "description": "One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all.",
+    "zh": "一行显示需要你处理的事：下一个会议、PR、Linear 任务、Slack 私信（走已连接的 MCP）",
+    "access": [
+      "clock",
+      "command",
+      "mcp",
+      "process",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "md-preview",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/md-preview",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.3",
+    "license": "MIT",
+    "category": "rendering",
+    "description": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.",
+    "zh": "Claude 编辑的 Markdown 文件在侧边面板按 GitHub 样式渲染，前后对照（/md）",
+    "access": [
+      "clock",
+      "command",
+      "env",
+      "fs",
+      "process",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "merge-gate",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/merge-gate",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.4",
+    "license": "MIT",
+    "category": "safety",
+    "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+    "zh": "`gh pr merge` 要等 CI 通过且跑过一次 Codex 审查才放行",
+    "access": [
+      "command",
+      "env",
+      "fs",
+      "process",
+      "session",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "mission-control",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/mission-control",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.2",
+    "license": "MIT",
+    "category": "agents",
+    "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+    "zh": "/mission 打开主 agent、子 agent 和所有工具调用的实时地图，外加文件代码地图",
+    "access": [
+      "clock",
+      "command",
+      "env",
+      "fs",
+      "model",
+      "process",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "next-steps",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/next-steps",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.1",
+    "license": "MIT",
+    "category": "productivity",
+    "description": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.",
+    "zh": "每轮结束后给出 2–3 个可能的下一条提示，空输入框里按 1/2/3 选用",
+    "access": [
+      "agent",
+      "model",
+      "session",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "now-playing",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/now-playing",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.0",
+    "license": "MIT",
+    "category": "fun",
+    "description": "What Spotify is playing, one line above the prompt: track, progress and the lyric being sung, with ⏮ ⏸ ⏭ buttons. /music controls it too. macOS.",
+    "zh": "一行显示 Spotify 正在播放的歌、进度和当前歌词，带控制按钮（仅 macOS）",
+    "access": [
+      "clock",
+      "command",
+      "http",
+      "process",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "openai-balance",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/openai-balance",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.1",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "Your OpenAI API credit above the prompt: an estimated balance with a gauge, today's spend, where the money mostly went, and the last call. /openai-balance shows the breakdown.",
+    "zh": "OpenAI API 余额估算、今日花费和主要去向（/openai-balance）",
+    "access": [
+      "clock",
+      "command",
+      "http",
+      "process",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "prayer-times",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/prayer-times",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.3",
+    "license": "MIT",
+    "category": "fun",
+    "description": "The current prayer and how long is left, the next prayer, and zawal, above the prompt. Computed on your computer from your location; nothing is sent anywhere.",
+    "zh": "当前和下一次礼拜时间及剩余时长，在本机按位置计算，不联网",
+    "access": [
+      "clock",
+      "command",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "reels",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/reels",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.3",
+    "license": "MIT",
+    "category": "fun",
+    "description": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done.",
+    "zh": "在终端面板播 YouTube Shorts，Claude 工作时播放、完成时暂停",
+    "access": [
+      "command",
+      "env",
+      "fs",
+      "http",
+      "process",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "replay-theater",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/replay-theater",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.3",
+    "license": "MIT",
+    "category": "rendering",
+    "description": "Step through the last turn's file edits, one diff at a time.",
+    "zh": "逐个 diff 回放上一轮的文件修改",
+    "access": [
+      "command",
+      "fs",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "review-watch",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/review-watch",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.0",
+    "license": "MIT",
+    "category": "agents",
+    "description": "A live line above the prompt for each running code review: Codex or a review subagent, its model, what it reviews, time, and Codex's latest output. A toast with the findings when it ends.",
+    "zh": "每个进行中的代码审查（Codex 或审查子 agent）一行实时状态，结束时弹出结论",
+    "access": [
+      "agent",
+      "clock",
+      "env",
+      "process",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "rulebook-guard",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/rulebook-guard",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.2",
+    "license": "MIT",
+    "category": "safety",
+    "description": "Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.",
+    "zh": "写作和 git 规则：替换正文里的破折号；amend、未格式化的 push、提交里带个人信息时先问你",
+    "access": [
+      "env",
+      "fs",
+      "process",
+      "ui"
+    ]
+  },
+  {
+    "name": "session-saver",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/session-saver",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.2",
+    "license": "MIT",
+    "category": "productivity",
+    "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+    "zh": "给未命名会话起名；/park 记下进度，恢复会话时显示",
+    "access": [
+      "command",
+      "model",
+      "process",
+      "session",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "snake",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/snake",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.2.3",
+    "license": "MIT",
+    "category": "fun",
+    "description": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.",
+    "zh": "Claude 工作时在面板里玩贪吃蛇，需要先 /snake 打开",
+    "access": [
+      "command",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "switchboard",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/switchboard",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.3.1",
+    "license": "MIT",
+    "category": "agents",
+    "description": "Picks the model for each subagent that names none, with OpenAI's Decisions API or Jev, from its short label only. One line per spawn above the prompt; /route shows each pick and what each subagent cost.",
+    "zh": "为没指定模型的子 agent 自动选模型（调用 OpenAI Decisions API 或 Jev），/route 看选择和花费",
+    "access": [
+      "clock",
+      "command",
+      "env",
+      "http",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "token-weather",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/token-weather",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.2.1",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt.",
+    "zh": "把上下文占用画成天气预报，附提示缓存倒计时",
+    "access": [
+      "clock",
+      "env",
+      "fs",
+      "process",
+      "session",
+      "settings",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "usage-meter",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/usage-meter",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.0",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
+    "zh": "5 小时和 7 天用量小进度条，带重置倒计时和本会话费用",
+    "access": [
+      "clock",
+      "session",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "where-am-i",
+    "repo": "hamzafer/claude-code-mods",
+    "path": "mods/where-am-i",
+    "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9",
+    "version": "0.1.4",
+    "license": "MIT",
+    "category": "productivity",
+    "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
+    "zh": "输入框上方实时小结：目标、正在做、等你处理、下一步（/where 看详细）",
+    "access": [
+      "command",
+      "model",
+      "session",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "skins",
+    "repo": "hellosverre/claude-skins",
+    "path": "",
+    "sha": "342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a",
+    "version": "0.1.1",
+    "license": "MIT",
+    "category": "rendering",
+    "description": "Skins for Claude Code's transcript: themed tool rows, reply gutters and spinner words. /skin swaps them live.",
+    "zh": "给对话记录换皮肤：工具行、回复边栏和 spinner 文案，/skin 实时切换",
+    "access": [
+      "clock",
+      "command",
+      "config",
+      "session",
+      "state",
+      "store",
+      "tool",
+      "ui"
+    ]
+  },
+  {
+    "name": "aside",
+    "repo": "JayDoubleu/aside",
+    "path": "",
+    "sha": "cf2b7562ae7b376cdcf9e2436a926aba77dc759f",
+    "version": "0.1.0",
+    "license": "MIT",
+    "category": "productivity",
+    "description": "Read-only side chat: /aside opens a pane beside the transcript where you ask about the session so far; answers come from a tool-less fork of the session's own transcript and nothing is written back into the main thread.",
+    "zh": "只读旁聊：/aside 在侧边问关于当前会话的问题，不写回主对话",
+    "access": [
+      "clock",
+      "command",
+      "model",
+      "session",
+      "ui"
+    ]
+  },
+  {
+    "name": "usage-band",
+    "repo": "JetsonChan/CC-Usage-Band",
+    "path": "usage-band",
+    "sha": "60cd60949b1f52c96ddba3ea24ed0848ff302196",
+    "version": "1.0.6",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "A band above the prompt showing your 5-hour and 7-day limits, context window and prompt-cache hit rate, styled for the terminal and the desktop app",
+    "zh": "输入框上方显示 5 小时/7 天限额、上下文和缓存命中率，终端和桌面版都适配",
+    "access": [
+      "clock",
+      "command",
+      "env",
+      "session",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "context-view",
+    "repo": "kongyo2/context-view",
+    "path": "",
+    "sha": "137e4e3db754684144ec953c5e66085bc2959766",
+    "version": "0.3.0",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "The context window as one row above the prompt, drawn the way Claude Code draws its own meters: the context's cells, the percentage used, the tokens over the window, and the tokens left before auto-compact. /context-view hides and shows it.",
+    "zh": "一行显示上下文占用，样式同 Claude Code 自带的仪表，含距自动压缩还剩多少",
+    "access": [
+      "clock",
+      "command",
+      "env",
+      "session",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "lcm",
+    "repo": "lossless-claude/lcm",
+    "path": "",
+    "sha": "0c17dbffda452cf7fae46929af427dff355aeaa3",
+    "version": "0.16.0",
+    "license": "MIT",
+    "category": "productivity",
+    "description": "Lossless context management — DAG-based summarization that preserves every message",
+    "zh": "无损上下文管理：用 DAG 做分层摘要，每条消息都还能找回",
+    "access": [
+      "clock",
+      "env",
+      "fs",
+      "http",
+      "model",
+      "process",
+      "session",
+      "ui"
+    ]
+  },
+  {
+    "name": "secret-redactor",
+    "repo": "ray-amjad/awesome-claude-code-function-hooks",
+    "path": "plugins/secret-redactor",
+    "sha": "12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625",
+    "version": "1.0.0",
+    "license": "MIT",
+    "category": "safety",
+    "description": "Keeps secrets, email addresses and IP addresses out of the session transcript: swaps each one for a stable placeholder on the way in, and puts the real value back on the way into a tool call",
+    "zh": "密钥、邮箱、IP 进对话前换成固定占位符，调用工具时再换回真实值",
+    "access": [
+      "ui"
+    ]
+  },
+  {
+    "name": "vercel-deploy-status",
+    "repo": "ray-amjad/awesome-claude-code-function-hooks",
+    "path": "plugins/vercel-deploy-status",
+    "sha": "12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625",
+    "version": "1.0.1",
+    "license": "MIT",
+    "category": "git",
+    "description": "Pins the Vercel deploy queue of the linked project under the prompt: every deploy queued, building or just finished, with its phase and elapsed time",
+    "zh": "在输入框下方固定显示当前项目的 Vercel 部署队列和进度",
+    "access": [
+      "clock",
+      "fs",
+      "process",
+      "session",
+      "ui"
+    ]
+  },
+  {
+    "name": "flightdeck",
+    "repo": "scasella/claude-flightdeck",
+    "path": "",
+    "sha": "f31daca523d36c501cd0df23a737a44c7dc56ad6",
+    "version": "0.3.2",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
+    "zh": "agent 仪表盘：模型状态、每次权限判定、子 agent 卡片和泳道、本轮小票、会话日志",
+    "access": [
+      "clock",
+      "command",
+      "session",
+      "state",
+      "ui"
+    ]
+  },
+  {
+    "name": "cc-arcade",
+    "repo": "sezaakgun/cc-arcade",
+    "path": "",
+    "sha": "0baff06d31295850283c2eebe052f39bbc35473f",
+    "version": "0.2.0",
+    "license": "MIT",
+    "category": "fun",
+    "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
+    "zh": "输入框上方 9 个小游戏（贪吃蛇、俄罗斯方块、2048 等），外加随测试和提交成长的宠物",
+    "access": [
+      "clock",
+      "command",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "cc-pr-tracker",
+    "repo": "sezaakgun/cc-pr-tracker",
+    "path": "",
+    "sha": "2d96fc7ed6bcca44a350700ac4c37e9066d58b46",
+    "version": "0.4.0",
+    "license": "MIT",
+    "category": "git",
+    "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
+    "zh": "盯着的 GitHub PR 的合并状态、审查和必需检查，变化时提醒",
+    "access": [
+      "clock",
+      "env",
+      "fs",
+      "process",
+      "session",
+      "state",
+      "store",
+      "tool",
+      "ui"
+    ]
+  },
+  {
+    "name": "cctop",
+    "repo": "tomstagl/cctop",
+    "path": "plugin",
+    "sha": "6ceafc34a972f4e58d5e53b1c69f80e2a9759d41",
+    "version": "0.10.0",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "btop-style live dashboard for Claude Code internals: /cctop opens it in a side pane, cctop-insights lets the session answer questions from its numbers",
+    "zh": "btop 风格的实时面板：上下文、token、费用、缓存命中、限额、各工具耗时（/cctop）",
+    "access": [
+      "clock",
+      "command",
+      "env",
+      "fs",
+      "process",
+      "prompt",
+      "session",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "agentpane",
+    "repo": "xuanji86/claude-agentpane",
+    "path": "",
+    "sha": "17be88979e5782591a2a184959df1c4168600066",
+    "version": "1.1.4",
+    "license": "MIT",
+    "category": "agents",
+    "description": "A side pane for Claude Code that lists the subagents a session runs, what each is doing and what it costs in tokens, with each one's conversation a click away.",
+    "zh": "侧边面板列出子 agent：各自在做什么、花了多少 token，点开看它的对话",
+    "access": [
+      "agent",
+      "clock",
+      "command",
+      "session",
+      "state",
+      "tool",
+      "ui"
+    ]
+  },
+  {
+    "name": "mdview",
+    "repo": "xuanji86/claude-mdview",
+    "path": "",
+    "sha": "da646556714507acf5d41610605b9911eb9aa42a",
+    "version": "1.0.0",
+    "license": "MIT",
+    "category": "rendering",
+    "description": "Click a .md path in the Claude Code conversation to read it rendered as markdown beside the session, pictures included, and point at any block to have Claude edit it.",
+    "zh": "点击对话里的 .md 路径，在旁边渲染阅读（含图片），还能指着某段让 Claude 改",
+    "access": [
+      "clock",
+      "command",
+      "config",
+      "env",
+      "fs",
+      "process",
+      "prompt",
+      "session",
+      "state",
+      "tool",
+      "ui"
+    ]
+  },
+  {
+    "name": "statuspane",
+    "repo": "xuanji86/claude-statuspane",
+    "path": "",
+    "sha": "13bd8e46edefdf282f117941b886cb529c7d79c3",
+    "version": "1.3.3",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "A floating status card above the Claude Code prompt — model, effort, context, 5h/week limits, cost, directory and branch, GitHub CI and deploys — with clickable settings and a progress-row API any script or mod can feed.",
+    "zh": "输入框上方的浮动状态卡：模型、effort、上下文、5h/周限额、费用、分支、CI",
+    "access": [
+      "clock",
+      "command",
+      "env",
+      "fs",
+      "process",
+      "session",
+      "state",
+      "store",
+      "ui"
+    ]
+  },
+  {
+    "name": "terminal-browser",
+    "repo": "zenbu-labs/terminal-browser",
+    "path": "claude-code-plugin",
+    "sha": "2165ae76c9639e3996829ab0e6d54ddbd4f06ad8",
+    "version": "0.0.2",
+    "license": "MIT",
+    "category": "rendering",
+    "description": "A browser running directly inside claude code. Preview websites, view HTML documents, and let your agent control the built in browser.",
+    "zh": "在对话旁开一个浏览器：预览网页和本地 HTML，也能让 agent 操作这个浏览器",
+    "access": [
+      "clock",
+      "command",
+      "fs",
+      "http",
+      "process",
+      "prompt",
+      "session",
+      "tool",
+      "ui"
+    ]
+  },
+  {
+    "name": "plan-progress",
+    "repo": "zycck/claude-mods",
+    "path": "plugins/plan-progress",
+    "sha": "3539d02d7435397d293e3120ebad22c23214f6c0",
+    "version": "0.8.2",
+    "license": "MIT",
+    "category": "dashboards",
+    "description": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done",
+    "zh": "输入框上方的计划进度条：阶段、步骤、像素填充，决策/出错/完成时有提示音",
+    "access": [
+      "audio",
+      "clock",
+      "command",
+      "config",
+      "fs",
+      "process",
+      "session",
+      "state",
+      "store",
+      "tool",
+      "ui"
+    ]
+  }
+]

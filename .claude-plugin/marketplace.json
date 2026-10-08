@@ -1,17 +1,741 @@
 {
-  "name": "claude-code-mods",
-  "owner": { "name": "claude-code-mods" },
-  "description": "Claude Code mods (function-hook plugins) and a template for writing your own.",
+  "name": "best-claude-code-mods",
+  "owner": {
+    "name": "claude-code-mods"
+  },
+  "description": "Hand-picked Claude Code mods (function-hook plugins): validated, pinned to a checked commit, one add away.",
   "plugins": [
     {
       "name": "env-guard",
       "source": "./env-guard",
-      "description": "Refuses reads and edits of .env files."
+      "description": "Refuses reads and edits of .env files.",
+      "category": "ours",
+      "license": "MIT"
     },
     {
       "name": "turn-band",
       "source": "./turn-band",
-      "description": "A row above the prompt with the last turn's time and tool-call count."
+      "description": "A row above the prompt with the last turn's time and tool-call count.",
+      "category": "ours",
+      "license": "MIT"
+    },
+    {
+      "name": "gfm-render",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/briangtn/claude-gfm-render.git",
+        "sha": "a209ad5a0ec35c0813d2d80ab62b596140b0c807"
+      },
+      "description": "GitHub Flavored Markdown in the transcript: alerts (> [!NOTE]), task lists, strikethrough and Mermaid diagrams",
+      "version": "0.1.0",
+      "author": {
+        "name": "briangtn"
+      },
+      "homepage": "https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807",
+      "license": "MIT",
+      "category": "rendering"
+    },
+    {
+      "name": "agent-flow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Charlie0113-T/claude-agent-flow.git",
+        "sha": "d87b2559dec03979e088026e8f48aee5f9d2cab5"
+      },
+      "description": "The agent flow pane: /flow opens a live tree of the session's subagents and teammates beside the transcript, fed by engine events, with a text fallback where no pane can be drawn.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Charlie0113-T"
+      },
+      "homepage": "https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5",
+      "license": "Apache-2.0",
+      "category": "agents"
+    },
+    {
+      "name": "tw-stock-mod",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/darrell-tw/darrelltw-mods.git",
+        "path": "mods/tw-stock-mod",
+        "sha": "649efd272da992051c48d25f30a393e0e0ce45b8"
+      },
+      "description": "Watchlist band above the Claude Code prompt: Taiwan hours show the Taiwan list (紅漲綠跌), US hours show the US list (綠漲紅跌), in a broker-style table with a Solari split-flap footer, plus a 損益 mode (P&L view) for your holdings. 20 symbols a market, 10 on screen at a time. Live prices from Yahoo by default, no key and no account; 永豐 Shioaji (macOS/Linux) and 群益 Capital (Windows) are opt-in real-time routes the band runs itself, tried in your own preference order (twSources) - keep that order and any broker paths in a user-level ~/.claude/stock-band.json so a shared project config stays neutral. Needs function hooks (early access) and an interactive terminal. Zero model tokens.",
+      "version": "0.13.5",
+      "author": {
+        "name": "darrell-tw"
+      },
+      "homepage": "https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod",
+      "license": "MIT",
+      "category": "fun"
+    },
+    {
+      "name": "mindful-claude",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/halluton/Mindful-Claude.git",
+        "sha": "411c9c4f4f1c3d128159be7315823341ae7d9e2d"
+      },
+      "description": "Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal.",
+      "version": "2.0.0",
+      "author": {
+        "name": "halluton"
+      },
+      "homepage": "https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d",
+      "license": "MIT",
+      "category": "fun"
+    },
+    {
+      "name": "agent-radar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/agent-radar",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages.",
+      "version": "0.1.2",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar",
+      "license": "MIT",
+      "category": "agents"
+    },
+    {
+      "name": "blast-radius",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/blast-radius",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Holds risky Bash commands and shows what they would change before they run.",
+      "version": "0.2.2",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius",
+      "license": "MIT",
+      "category": "safety"
+    },
+    {
+      "name": "browser-lanes",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/browser-lanes",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Shows if this session has a Playwright browser and who holds it. /browser clean closes leftover browsers. A subagent that wants the browser waits until the one using it is done.",
+      "version": "0.1.2",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/browser-lanes",
+      "license": "MIT",
+      "category": "agents"
+    },
+    {
+      "name": "cache-clock",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/cache-clock",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "A prompt-cache line under your status line: minutes left while warm, and how many tokens the next message re-caches once cold. /cache-clock setup adds it.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "context-bar",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/context-bar",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point. /context-bar shows or hides it.",
+      "version": "0.1.1",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "glance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/glance",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance",
+      "license": "MIT",
+      "category": "productivity"
+    },
+    {
+      "name": "md-preview",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/md-preview",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it.",
+      "version": "0.1.3",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview",
+      "license": "MIT",
+      "category": "rendering"
+    },
+    {
+      "name": "merge-gate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/merge-gate",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status.",
+      "version": "0.1.4",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate",
+      "license": "MIT",
+      "category": "safety"
+    },
+    {
+      "name": "mission-control",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/mission-control",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "/mission opens a live map of the main agent, its subagents and every tool call, plus a code map of the files they touch.",
+      "version": "0.1.2",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/mission-control",
+      "license": "MIT",
+      "category": "agents"
+    },
+    {
+      "name": "next-steps",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/next-steps",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss.",
+      "version": "0.1.1",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps",
+      "license": "MIT",
+      "category": "productivity"
+    },
+    {
+      "name": "now-playing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/now-playing",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "What Spotify is playing, one line above the prompt: track, progress and the lyric being sung, with ⏮ ⏸ ⏭ buttons. /music controls it too. macOS.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/now-playing",
+      "license": "MIT",
+      "category": "fun"
+    },
+    {
+      "name": "openai-balance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/openai-balance",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Your OpenAI API credit above the prompt: an estimated balance with a gauge, today's spend, where the money mostly went, and the last call. /openai-balance shows the breakdown.",
+      "version": "0.1.1",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/openai-balance",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "prayer-times",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/prayer-times",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "The current prayer and how long is left, the next prayer, and zawal, above the prompt. Computed on your computer from your location; nothing is sent anywhere.",
+      "version": "0.1.3",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/prayer-times",
+      "license": "MIT",
+      "category": "fun"
+    },
+    {
+      "name": "reels",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/reels",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "YouTube Shorts in a terminal pane: plays while Claude works, pauses when Claude is done.",
+      "version": "0.1.3",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/reels",
+      "license": "MIT",
+      "category": "fun"
+    },
+    {
+      "name": "replay-theater",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/replay-theater",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Step through the last turn's file edits, one diff at a time.",
+      "version": "0.1.3",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/replay-theater",
+      "license": "MIT",
+      "category": "rendering"
+    },
+    {
+      "name": "review-watch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/review-watch",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "A live line above the prompt for each running code review: Codex or a review subagent, its model, what it reviews, time, and Codex's latest output. A toast with the findings when it ends.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/review-watch",
+      "license": "MIT",
+      "category": "agents"
+    },
+    {
+      "name": "rulebook-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/rulebook-guard",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Writing and git rules: replaces em dashes in prose, and asks before git commit --amend, an unformatted push, or personal info in notes and commits.",
+      "version": "0.1.2",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/rulebook-guard",
+      "license": "MIT",
+      "category": "safety"
+    },
+    {
+      "name": "session-saver",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/session-saver",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Names untitled sessions through unpause. /park saves where you left off, and a resumed session shows it.",
+      "version": "0.1.2",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/session-saver",
+      "license": "MIT",
+      "category": "productivity"
+    },
+    {
+      "name": "snake",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/snake",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Snake in a pane while Claude works, paused when it's done. Opt-in, so nothing opens until /snake.",
+      "version": "0.2.3",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/snake",
+      "license": "MIT",
+      "category": "fun"
+    },
+    {
+      "name": "switchboard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/switchboard",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Picks the model for each subagent that names none, with OpenAI's Decisions API or Jev, from its short label only. One line per spawn above the prompt; /route shows each pick and what each subagent cost.",
+      "version": "0.3.1",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/switchboard",
+      "license": "MIT",
+      "category": "agents"
+    },
+    {
+      "name": "token-weather",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/token-weather",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "A live forecast of the context window, with a prompt-cache countdown, drawn above the prompt.",
+      "version": "0.2.1",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/token-weather",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "usage-meter",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/usage-meter",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "Your plan's 5-hour and 7-day usage as small bars above the prompt, with the reset countdown and the session's cost.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/usage-meter",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "where-am-i",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hamzafer/claude-code-mods.git",
+        "path": "mods/where-am-i",
+        "sha": "e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9"
+      },
+      "description": "A live recap above the prompt: goal, doing now, waiting on you, next. /where for a longer one.",
+      "version": "0.1.4",
+      "author": {
+        "name": "hamzafer"
+      },
+      "homepage": "https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/where-am-i",
+      "license": "MIT",
+      "category": "productivity"
+    },
+    {
+      "name": "skins",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hellosverre/claude-skins.git",
+        "sha": "342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a"
+      },
+      "description": "Skins for Claude Code's transcript: themed tool rows, reply gutters and spinner words. /skin swaps them live.",
+      "version": "0.1.1",
+      "author": {
+        "name": "hellosverre"
+      },
+      "homepage": "https://github.com/hellosverre/claude-skins/tree/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a",
+      "license": "MIT",
+      "category": "rendering"
+    },
+    {
+      "name": "aside",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JayDoubleu/aside.git",
+        "sha": "cf2b7562ae7b376cdcf9e2436a926aba77dc759f"
+      },
+      "description": "Read-only side chat: /aside opens a pane beside the transcript where you ask about the session so far; answers come from a tool-less fork of the session's own transcript and nothing is written back into the main thread.",
+      "version": "0.1.0",
+      "author": {
+        "name": "JayDoubleu"
+      },
+      "homepage": "https://github.com/JayDoubleu/aside/tree/cf2b7562ae7b376cdcf9e2436a926aba77dc759f",
+      "license": "MIT",
+      "category": "productivity"
+    },
+    {
+      "name": "usage-band",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JetsonChan/CC-Usage-Band.git",
+        "path": "usage-band",
+        "sha": "60cd60949b1f52c96ddba3ea24ed0848ff302196"
+      },
+      "description": "A band above the prompt showing your 5-hour and 7-day limits, context window and prompt-cache hit rate, styled for the terminal and the desktop app",
+      "version": "1.0.6",
+      "author": {
+        "name": "JetsonChan"
+      },
+      "homepage": "https://github.com/JetsonChan/CC-Usage-Band/tree/60cd60949b1f52c96ddba3ea24ed0848ff302196/usage-band",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "context-view",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kongyo2/context-view.git",
+        "sha": "137e4e3db754684144ec953c5e66085bc2959766"
+      },
+      "description": "The context window as one row above the prompt, drawn the way Claude Code draws its own meters: the context's cells, the percentage used, the tokens over the window, and the tokens left before auto-compact. /context-view hides and shows it.",
+      "version": "0.3.0",
+      "author": {
+        "name": "kongyo2"
+      },
+      "homepage": "https://github.com/kongyo2/context-view/tree/137e4e3db754684144ec953c5e66085bc2959766",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "lcm",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lossless-claude/lcm.git",
+        "sha": "0c17dbffda452cf7fae46929af427dff355aeaa3"
+      },
+      "description": "Lossless context management — DAG-based summarization that preserves every message",
+      "version": "0.16.0",
+      "author": {
+        "name": "lossless-claude"
+      },
+      "homepage": "https://github.com/lossless-claude/lcm/tree/0c17dbffda452cf7fae46929af427dff355aeaa3",
+      "license": "MIT",
+      "category": "productivity"
+    },
+    {
+      "name": "secret-redactor",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ray-amjad/awesome-claude-code-function-hooks.git",
+        "path": "plugins/secret-redactor",
+        "sha": "12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625"
+      },
+      "description": "Keeps secrets, email addresses and IP addresses out of the session transcript: swaps each one for a stable placeholder on the way in, and puts the real value back on the way into a tool call",
+      "version": "1.0.0",
+      "author": {
+        "name": "ray-amjad"
+      },
+      "homepage": "https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/secret-redactor",
+      "license": "MIT",
+      "category": "safety"
+    },
+    {
+      "name": "vercel-deploy-status",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ray-amjad/awesome-claude-code-function-hooks.git",
+        "path": "plugins/vercel-deploy-status",
+        "sha": "12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625"
+      },
+      "description": "Pins the Vercel deploy queue of the linked project under the prompt: every deploy queued, building or just finished, with its phase and elapsed time",
+      "version": "1.0.1",
+      "author": {
+        "name": "ray-amjad"
+      },
+      "homepage": "https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status",
+      "license": "MIT",
+      "category": "git"
+    },
+    {
+      "name": "flightdeck",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scasella/claude-flightdeck.git",
+        "sha": "f31daca523d36c501cd0df23a737a44c7dc56ad6"
+      },
+      "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
+      "version": "0.3.2",
+      "author": {
+        "name": "scasella"
+      },
+      "homepage": "https://github.com/scasella/claude-flightdeck/tree/f31daca523d36c501cd0df23a737a44c7dc56ad6",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "cc-arcade",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sezaakgun/cc-arcade.git",
+        "sha": "0baff06d31295850283c2eebe052f39bbc35473f"
+      },
+      "description": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
+      "version": "0.2.0",
+      "author": {
+        "name": "sezaakgun"
+      },
+      "homepage": "https://github.com/sezaakgun/cc-arcade/tree/0baff06d31295850283c2eebe052f39bbc35473f",
+      "license": "MIT",
+      "category": "fun"
+    },
+    {
+      "name": "cc-pr-tracker",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sezaakgun/cc-pr-tracker.git",
+        "sha": "2d96fc7ed6bcca44a350700ac4c37e9066d58b46"
+      },
+      "description": "Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change",
+      "version": "0.4.0",
+      "author": {
+        "name": "sezaakgun"
+      },
+      "homepage": "https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46",
+      "license": "MIT",
+      "category": "git"
+    },
+    {
+      "name": "cctop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tomstagl/cctop.git",
+        "path": "plugin",
+        "sha": "6ceafc34a972f4e58d5e53b1c69f80e2a9759d41"
+      },
+      "description": "btop-style live dashboard for Claude Code internals: /cctop opens it in a side pane, cctop-insights lets the session answer questions from its numbers",
+      "version": "0.10.0",
+      "author": {
+        "name": "tomstagl"
+      },
+      "homepage": "https://github.com/tomstagl/cctop/tree/6ceafc34a972f4e58d5e53b1c69f80e2a9759d41/plugin",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "agentpane",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xuanji86/claude-agentpane.git",
+        "sha": "17be88979e5782591a2a184959df1c4168600066"
+      },
+      "description": "A side pane for Claude Code that lists the subagents a session runs, what each is doing and what it costs in tokens, with each one's conversation a click away.",
+      "version": "1.1.4",
+      "author": {
+        "name": "xuanji86"
+      },
+      "homepage": "https://github.com/xuanji86/claude-agentpane/tree/17be88979e5782591a2a184959df1c4168600066",
+      "license": "MIT",
+      "category": "agents"
+    },
+    {
+      "name": "mdview",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xuanji86/claude-mdview.git",
+        "sha": "da646556714507acf5d41610605b9911eb9aa42a"
+      },
+      "description": "Click a .md path in the Claude Code conversation to read it rendered as markdown beside the session, pictures included, and point at any block to have Claude edit it.",
+      "version": "1.0.0",
+      "author": {
+        "name": "xuanji86"
+      },
+      "homepage": "https://github.com/xuanji86/claude-mdview/tree/da646556714507acf5d41610605b9911eb9aa42a",
+      "license": "MIT",
+      "category": "rendering"
+    },
+    {
+      "name": "statuspane",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xuanji86/claude-statuspane.git",
+        "sha": "13bd8e46edefdf282f117941b886cb529c7d79c3"
+      },
+      "description": "A floating status card above the Claude Code prompt — model, effort, context, 5h/week limits, cost, directory and branch, GitHub CI and deploys — with clickable settings and a progress-row API any script or mod can feed.",
+      "version": "1.3.3",
+      "author": {
+        "name": "xuanji86"
+      },
+      "homepage": "https://github.com/xuanji86/claude-statuspane/tree/13bd8e46edefdf282f117941b886cb529c7d79c3",
+      "license": "MIT",
+      "category": "dashboards"
+    },
+    {
+      "name": "terminal-browser",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zenbu-labs/terminal-browser.git",
+        "path": "claude-code-plugin",
+        "sha": "2165ae76c9639e3996829ab0e6d54ddbd4f06ad8"
+      },
+      "description": "A browser running directly inside claude code. Preview websites, view HTML documents, and let your agent control the built in browser.",
+      "version": "0.0.2",
+      "author": {
+        "name": "zenbu-labs"
+      },
+      "homepage": "https://github.com/zenbu-labs/terminal-browser/tree/2165ae76c9639e3996829ab0e6d54ddbd4f06ad8/claude-code-plugin",
+      "license": "MIT",
+      "category": "rendering"
+    },
+    {
+      "name": "plan-progress",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zycck/claude-mods.git",
+        "path": "plugins/plan-progress",
+        "sha": "3539d02d7435397d293e3120ebad22c23214f6c0"
+      },
+      "description": "Live plan progress bars above the Claude Code prompt: stages, steps, a pixel fill and soft sounds for decision, error and done",
+      "version": "0.8.2",
+      "author": {
+        "name": "zycck"
+      },
+      "homepage": "https://github.com/zycck/claude-mods/tree/3539d02d7435397d293e3120ebad22c23214f6c0/plugins/plan-progress",
+      "license": "MIT",
+      "category": "dashboards"
     }
   ]
 }
