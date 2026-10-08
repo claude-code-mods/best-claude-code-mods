@@ -25,7 +25,7 @@ For example `/plugin install terminal-browser@best-claude-code-mods`. Run `/plug
 
 ### Dashboards and usage
 
-| Mod | What it does | Reaches |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Reaches |
 | --- | --- | --- |
 | [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>by hamzafer</sub> | A prompt-cache line under your status line: minutes left while warm, and how many tokens the next message re-caches once cold. /cache-clock setup adds it. | files, runs commands |
 | [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>by hamzafer</sub> | Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point. /context-bar shows or hides it. | — |
@@ -41,7 +41,7 @@ For example `/plugin install terminal-browser@best-claude-code-mods`. Run `/plug
 
 ### Agents and subagents
 
-| Mod | What it does | Reaches |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Reaches |
 | --- | --- | --- |
 | [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>by Charlie0113-T</sub> | The agent flow pane: /flow opens a live tree of the session's subagents and teammates beside the transcript, fed by engine events, with a text fallback where no pane can be drawn. | — |
 | [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>by hamzafer</sub> | One live line above the prompt per running subagent: time, tool count and what it's doing. /radar shows every agent and its messages. | — |
@@ -53,7 +53,7 @@ For example `/plugin install terminal-browser@best-claude-code-mods`. Run `/plug
 
 ### Productivity and context
 
-| Mod | What it does | Reaches |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Reaches |
 | --- | --- | --- |
 | [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>by hamzafer</sub> | One line above the prompt with what needs you: next meeting, PRs, Linear issues and Slack DMs. /glance lists them all. | MCP, runs commands |
 | [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>by hamzafer</sub> | After each turn, 2 or 3 likely next prompts above the prompt. Press 1, 2 or 3 in an empty prompt to draft one, 0 to dismiss. | model calls |
@@ -64,7 +64,7 @@ For example `/plugin install terminal-browser@best-claude-code-mods`. Run `/plug
 
 ### Rendering and previews
 
-| Mod | What it does | Reaches |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Reaches |
 | --- | --- | --- |
 | [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>by briangtn</sub> | GitHub Flavored Markdown in the transcript: alerts (> [!NOTE]), task lists, strikethrough and Mermaid diagrams | runs commands |
 | [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>by hamzafer</sub> | Shows the Markdown files Claude edits, rendered like GitHub, in a pane next to the chat. Before and after side by side. /md opens it. | files, runs commands |
@@ -75,7 +75,7 @@ For example `/plugin install terminal-browser@best-claude-code-mods`. Run `/plug
 
 ### Safety and guards
 
-| Mod | What it does | Reaches |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Reaches |
 | --- | --- | --- |
 | [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>by hamzafer</sub> | Holds risky Bash commands and shows what they would change before they run. | runs commands |
 | [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>by hamzafer</sub> | Holds `gh pr merge` until CI passes and one Codex review (OpenAI's luna model) has run. A PR line above the prompt, and /gate shows the PR's status. | files, runs commands |
@@ -84,14 +84,14 @@ For example `/plugin install terminal-browser@best-claude-code-mods`. Run `/plug
 
 ### Git, PRs and deploys
 
-| Mod | What it does | Reaches |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Reaches |
 | --- | --- | --- |
 | [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>by ray-amjad</sub> | Pins the Vercel deploy queue of the linked project under the prompt: every deploy queued, building or just finished, with its phase and elapsed time | files, runs commands |
 | [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>by sezaakgun</sub> | Watch GitHub PRs from a Claude Code session: merge state, review and required checks above the prompt, with alerts when they change | files, runs commands |
 
 ### While you wait
 
-| Mod | What it does | Reaches |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | What it does | Reaches |
 | --- | --- | --- |
 | [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>by darrell-tw</sub> | Taiwan and US stock watchlist above the prompt, switching with market hours, in a broker-style table, plus a profit-and-loss view of your holdings | files, network, runs commands |
 | [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>by halluton</sub> | Guided breathing exercises above the prompt while Claude works: coherent, box, 4-7-8 and the physiological sigh, four animation styles, and the spinner reads the breath. Appears when Claude starts, disappears when Claude answers. Needs function hooks (early access) and an interactive terminal. | — |
@@ -107,6 +107,6 @@ Open an issue with the link to the mod's repository. To add one yourself, add an
 
 ## Credits
 
-Every mod belongs to its author and keeps its own license; this repository only lists them. Many were found through [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods). Authors who want a listing changed or removed can open an issue.
+Every mod belongs to its author and keeps its own license; this repository only lists them. Authors who want a listing changed or removed can open an issue.
 
 Unofficial; not an Anthropic product.

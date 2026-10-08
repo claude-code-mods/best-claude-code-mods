@@ -25,7 +25,7 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ### 儀表板與用量
 
-| Mod | 功能 | 權限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
 | [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>作者 hamzafer</sub> | 狀態列下一行：提示快取還能保溫幾分鐘，冷掉後下一則要重新快取多少 token | 讀寫檔案, 執行指令 |
 | [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>作者 hamzafer</sub> | 上下文視窗依類別分色的堆疊條，含 token 數與壓縮點（/context-bar 開關） | — |
@@ -41,7 +41,7 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ### Agent 與子 agent
 
-| Mod | 功能 | 權限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
 | [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>作者 Charlie0113-T</sub> | /flow 在對話旁開啟子 agent 與隊友的即時樹狀圖 | — |
 | [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>作者 hamzafer</sub> | 每個執行中的子 agent 一行：用時、工具次數、正在做什麼（/radar 看全部） | — |
@@ -53,7 +53,7 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ### 效率與上下文
 
-| Mod | 功能 | 權限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
 | [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>作者 hamzafer</sub> | 一行顯示需要你處理的事：下一場會議、PR、Linear 任務、Slack 私訊（透過已連線的 MCP） | MCP, 執行指令 |
 | [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>作者 hamzafer</sub> | 每輪結束後提供 2–3 個可能的下一則提示，在空白輸入框按 1/2/3 選用 | 呼叫模型 |
@@ -64,7 +64,7 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ### 呈現與預覽
 
-| Mod | 功能 | 權限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
 | [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>作者 briangtn</sub> | 在對話裡渲染 GitHub 風格 Markdown：提示區塊、任務清單、刪除線、Mermaid 圖 | 執行指令 |
 | [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>作者 hamzafer</sub> | Claude 編輯的 Markdown 檔案在側邊面板以 GitHub 樣式呈現，修改前後對照（/md） | 讀寫檔案, 執行指令 |
@@ -75,7 +75,7 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ### 安全與防護
 
-| Mod | 功能 | 權限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
 | [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>作者 hamzafer</sub> | 攔下有風險的 Bash 指令，先顯示會改動什麼再讓你確認 | 執行指令 |
 | [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>作者 hamzafer</sub> | `gh pr merge` 要等 CI 通過並跑過一次 Codex 審查才放行 | 讀寫檔案, 執行指令 |
@@ -84,14 +84,14 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ### Git、PR 與部署
 
-| Mod | 功能 | 權限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
 | [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>作者 ray-amjad</sub> | 在輸入框下方固定顯示目前專案的 Vercel 部署佇列與進度 | 讀寫檔案, 執行指令 |
 | [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>作者 sezaakgun</sub> | 追蹤 GitHub PR 的合併狀態、審查與必要檢查，有變化時提醒 | 讀寫檔案, 執行指令 |
 
 ### 等待時的消遣
 
-| Mod | 功能 | 權限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
 | [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>作者 darrell-tw</sub> | 台股／美股自選股看板，依交易時段切換，含持股損益模式 | 讀寫檔案, 連網, 執行指令 |
 | [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>作者 halluton</sub> | Claude 工作時在輸入框上方帶你做呼吸練習，spinner 跟著呼吸計數 | — |
@@ -107,6 +107,6 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ## 致謝
 
-每個 mod 歸其作者所有，沿用各自的授權；本儲存庫只負責收錄。其中許多是透過 [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) 發現的。作者如需修改或下架收錄資訊，請開 issue。
+每個 mod 歸其作者所有，沿用各自的授權；本儲存庫只負責收錄。作者如需修改或下架收錄資訊，請開 issue。
 
 非官方專案，與 Anthropic 無關。

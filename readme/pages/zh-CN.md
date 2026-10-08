@@ -31,6 +31,6 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ## 致谢
 
-每个 mod 归其作者所有，沿用各自的许可证；本仓库只做收录。其中很多是通过 [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) 发现的。作者如需修改或下架收录信息，请开 issue。
+每个 mod 归其作者所有，沿用各自的许可证；本仓库只做收录。作者如需修改或下架收录信息，请开 issue。
 
 非官方项目，与 Anthropic 无关。

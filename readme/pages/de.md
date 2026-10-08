@@ -31,6 +31,6 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ## Danksagung
 
-Jeder Mod gehört seinem Autor und behält seine eigene Lizenz; dieses Repository listet sie nur auf. Viele wurden über [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) gefunden. Autoren, die einen Eintrag ändern oder entfernen lassen möchten, können ein Issue öffnen.
+Jeder Mod gehört seinem Autor und behält seine eigene Lizenz; dieses Repository listet sie nur auf. Autoren, die einen Eintrag ändern oder entfernen lassen möchten, können ein Issue öffnen.
 
 Inoffiziell; kein Produkt von Anthropic.

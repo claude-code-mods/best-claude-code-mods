@@ -25,7 +25,7 @@
 
 ### Панели и расход
 
-| Mod | Что делает | Доступ |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Что делает | Доступ |
 | --- | --- | --- |
 | [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>автор hamzafer</sub> | Строка под строкой состояния: сколько минут кэш ещё «тёплый» и сколько токенов придётся кэшировать заново | файлы, запуск команд |
 | [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>автор hamzafer</sub> | Окно контекста в виде составной полосы, цвет на категорию, с числом токенов и точкой сжатия (/context-bar) | — |
@@ -41,7 +41,7 @@
 
 ### Агенты и субагенты
 
-| Mod | Что делает | Доступ |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Что делает | Доступ |
 | --- | --- | --- |
 | [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>автор Charlie0113-T</sub> | /flow открывает рядом с диалогом живое дерево субагентов и участников команды | — |
 | [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>автор hamzafer</sub> | По строке на каждого работающего субагента: время, число вызовов инструментов, чем занят (/radar — все) | — |
@@ -53,7 +53,7 @@
 
 ### Продуктивность и контекст
 
-| Mod | Что делает | Доступ |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Что делает | Доступ |
 | --- | --- | --- |
 | [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>автор hamzafer</sub> | Всё, что ждёт вас, одной строкой: следующая встреча, PR, задачи Linear и личные сообщения Slack (через MCP) | MCP, запуск команд |
 | [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>автор hamzafer</sub> | После каждого хода 2–3 вероятных следующих запроса; нажмите 1, 2 или 3 в пустом поле, чтобы взять один | вызов моделей |
@@ -64,7 +64,7 @@
 
 ### Отображение и просмотр
 
-| Mod | Что делает | Доступ |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Что делает | Доступ |
 | --- | --- | --- |
 | [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>автор briangtn</sub> | Markdown в стиле GitHub в диалоге: блоки-подсказки, списки задач, зачёркивание и диаграммы Mermaid | запуск команд |
 | [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>автор hamzafer</sub> | Markdown-файлы, которые правит Claude, в боковой панели как на GitHub, «до» и «после» рядом (/md) | файлы, запуск команд |
@@ -75,7 +75,7 @@
 
 ### Безопасность и защита
 
-| Mod | Что делает | Доступ |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Что делает | Доступ |
 | --- | --- | --- |
 | [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>автор hamzafer</sub> | Задерживает опасные команды Bash и показывает, что они изменят, прежде чем вы подтвердите | запуск команд |
 | [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>автор hamzafer</sub> | Не пускает `gh pr merge`, пока не пройдёт CI и не будет выполнено ревью Codex | файлы, запуск команд |
@@ -84,14 +84,14 @@
 
 ### Git, PR и деплой
 
-| Mod | Что делает | Доступ |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Что делает | Доступ |
 | --- | --- | --- |
 | [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>автор ray-amjad</sub> | Очередь деплоев Vercel связанного проекта под полем ввода, с этапом и временем | файлы, запуск команд |
 | [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>автор sezaakgun</sub> | Состояние слияния, ревью и обязательные проверки отслеживаемых PR на GitHub, с оповещением при изменениях | файлы, запуск команд |
 
 ### Пока ждёте
 
-| Mod | Что делает | Доступ |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Что делает | Доступ |
 | --- | --- | --- |
 | [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>автор darrell-tw</sub> | Список акций Тайваня и США, переключается по торговым часам, с режимом прибылей и убытков | файлы, сеть, запуск команд |
 | [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>автор halluton</sub> | Дыхательные упражнения над полем ввода, пока Claude работает; спиннер считает вместе с вами | — |
@@ -107,6 +107,6 @@
 
 ## Благодарности
 
-Каждый мод принадлежит своему автору и распространяется под его лицензией; этот репозиторий только собирает их. Многие найдены через [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods). Авторы, желающие изменить или убрать запись, могут открыть issue.
+Каждый мод принадлежит своему автору и распространяется под его лицензией; этот репозиторий только собирает их. Авторы, желающие изменить или убрать запись, могут открыть issue.
 
 Неофициальный проект; не является продуктом Anthropic.

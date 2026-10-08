@@ -25,7 +25,7 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ### Dashboards und Verbrauch
 
-| Mod | Was er tut | Zugriff |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Was er tut | Zugriff |
 | --- | --- | --- |
 | [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>von hamzafer</sub> | Eine Zeile unter der Statuszeile: Minuten, die der Prompt-Cache noch warm ist, und wie viele Tokens danach neu gecacht werden | Dateien, führt Befehle aus |
 | [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>von hamzafer</sub> | Das Kontextfenster als gestapelter Balken, eine Farbe pro Kategorie, mit Tokens und Verdichtungspunkt (/context-bar) | — |
@@ -41,7 +41,7 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ### Agenten und Subagenten
 
-| Mod | Was er tut | Zugriff |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Was er tut | Zugriff |
 | --- | --- | --- |
 | [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>von Charlie0113-T</sub> | /flow öffnet neben dem Gespräch einen Live-Baum der Subagenten und Teammitglieder | — |
 | [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>von hamzafer</sub> | Eine Zeile pro laufendem Subagenten: Zeit, Werkzeuganzahl und was er tut (/radar zeigt alle) | — |
@@ -53,7 +53,7 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ### Produktivität und Kontext
 
-| Mod | Was er tut | Zugriff |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Was er tut | Zugriff |
 | --- | --- | --- |
 | [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>von hamzafer</sub> | Was auf dich wartet in einer Zeile: nächstes Meeting, PRs, Linear-Issues und Slack-DMs (über verbundenes MCP) | MCP, führt Befehle aus |
 | [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>von hamzafer</sub> | Nach jedem Durchgang 2 bis 3 wahrscheinliche nächste Prompts; 1, 2 oder 3 im leeren Prompt übernimmt einen | ruft Modelle auf |
@@ -64,7 +64,7 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ### Darstellung und Vorschau
 
-| Mod | Was er tut | Zugriff |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Was er tut | Zugriff |
 | --- | --- | --- |
 | [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>von briangtn</sub> | GitHub-Markdown im Gespräch: Hinweisblöcke, Aufgabenlisten, Durchstreichungen und Mermaid-Diagramme | führt Befehle aus |
 | [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>von hamzafer</sub> | Von Claude bearbeitete Markdown-Dateien wie auf GitHub gerendert im Seitenbereich, vorher und nachher (/md) | Dateien, führt Befehle aus |
@@ -75,7 +75,7 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ### Sicherheit und Schutz
 
-| Mod | Was er tut | Zugriff |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Was er tut | Zugriff |
 | --- | --- | --- |
 | [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>von hamzafer</sub> | Hält riskante Bash-Befehle an und zeigt vor deiner Bestätigung, was sie ändern würden | führt Befehle aus |
 | [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>von hamzafer</sub> | Hält `gh pr merge` zurück, bis die CI grün ist und ein Codex-Review gelaufen ist | Dateien, führt Befehle aus |
@@ -84,14 +84,14 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ### Git, PRs und Deployments
 
-| Mod | Was er tut | Zugriff |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Was er tut | Zugriff |
 | --- | --- | --- |
 | [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>von ray-amjad</sub> | Die Vercel-Deploy-Warteschlange des verknüpften Projekts unter dem Prompt, mit Phase und Dauer | Dateien, führt Befehle aus |
 | [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>von sezaakgun</sub> | Merge-Status, Reviews und Pflicht-Checks beobachteter GitHub-PRs, mit Hinweis bei Änderungen | Dateien, führt Befehle aus |
 
 ### Während du wartest
 
-| Mod | Was er tut | Zugriff |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Was er tut | Zugriff |
 | --- | --- | --- |
 | [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>von darrell-tw</sub> | Watchlist für taiwanische und US-Aktien je nach Handelszeit, mit Gewinn-und-Verlust-Ansicht | Dateien, Netzwerk, führt Befehle aus |
 | [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>von halluton</sub> | Geführte Atemübungen über dem Prompt, während Claude arbeitet; der Spinner zählt mit | — |
@@ -107,6 +107,6 @@ Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Z
 
 ## Danksagung
 
-Jeder Mod gehört seinem Autor und behält seine eigene Lizenz; dieses Repository listet sie nur auf. Viele wurden über [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) gefunden. Autoren, die einen Eintrag ändern oder entfernen lassen möchten, können ein Issue öffnen.
+Jeder Mod gehört seinem Autor und behält seine eigene Lizenz; dieses Repository listet sie nur auf. Autoren, die einen Eintrag ändern oder entfernen lassen möchten, können ein Issue öffnen.
 
 Inoffiziell; kein Produkt von Anthropic.

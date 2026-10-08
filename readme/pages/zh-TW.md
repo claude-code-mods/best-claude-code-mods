@@ -31,6 +31,6 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ## 致謝
 
-每個 mod 歸其作者所有，沿用各自的授權；本儲存庫只負責收錄。其中許多是透過 [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) 發現的。作者如需修改或下架收錄資訊，請開 issue。
+每個 mod 歸其作者所有，沿用各自的授權；本儲存庫只負責收錄。作者如需修改或下架收錄資訊，請開 issue。
 
 非官方專案，與 Anthropic 無關。

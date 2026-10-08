@@ -31,6 +31,6 @@ Open an issue with the link to the mod's repository. To add one yourself, add an
 
 ## Credits
 
-Every mod belongs to its author and keeps its own license; this repository only lists them. Many were found through [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods). Authors who want a listing changed or removed can open an issue.
+Every mod belongs to its author and keeps its own license; this repository only lists them. Authors who want a listing changed or removed can open an issue.
 
 Unofficial; not an Anthropic product.

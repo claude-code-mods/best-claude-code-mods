@@ -31,6 +31,6 @@ Ouvrez une issue avec le lien vers le dépôt du mod. Pour l'ajouter vous-même,
 
 ## Remerciements
 
-Chaque mod appartient à son auteur et garde sa propre licence ; ce dépôt ne fait que les répertorier. Beaucoup ont été trouvés grâce à [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods). Les auteurs qui souhaitent modifier ou retirer une fiche peuvent ouvrir une issue.
+Chaque mod appartient à son auteur et garde sa propre licence ; ce dépôt ne fait que les répertorier. Les auteurs qui souhaitent modifier ou retirer une fiche peuvent ouvrir une issue.
 
 Projet non officiel ; ce n'est pas un produit Anthropic.

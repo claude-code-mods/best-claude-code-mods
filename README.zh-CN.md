@@ -25,7 +25,7 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ### 仪表盘与用量
 
-| Mod | 功能 | 权限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
 | [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>作者 hamzafer</sub> | 状态栏下一行：提示缓存还热几分钟，冷了以后下一条要重新缓存多少 token | 读写文件, 运行命令 |
 | [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>作者 hamzafer</sub> | 上下文窗口按类别分色的堆叠条，含 token 数和压缩点（/context-bar 开关） | — |
@@ -41,7 +41,7 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ### Agent 与子 agent
 
-| Mod | 功能 | 权限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
 | [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>作者 Charlie0113-T</sub> | /flow 在对话旁打开子 agent 和队友的实时树状图 | — |
 | [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>作者 hamzafer</sub> | 每个运行中的子 agent 一行：用时、工具次数、正在做什么（/radar 看全部） | — |
@@ -53,7 +53,7 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ### 效率与上下文
 
-| Mod | 功能 | 权限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
 | [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>作者 hamzafer</sub> | 一行显示需要你处理的事：下一个会议、PR、Linear 任务、Slack 私信（通过已连接的 MCP） | MCP, 运行命令 |
 | [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>作者 hamzafer</sub> | 每轮结束后给出 2–3 个可能的下一条提示，在空输入框里按 1/2/3 选用 | 调用模型 |
@@ -64,7 +64,7 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ### 渲染与预览
 
-| Mod | 功能 | 权限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
 | [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>作者 briangtn</sub> | 在对话里渲染 GitHub 风格 Markdown：提示块、任务列表、删除线、Mermaid 图 | 运行命令 |
 | [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>作者 hamzafer</sub> | Claude 编辑的 Markdown 文件在侧边面板按 GitHub 样式渲染，修改前后对照（/md） | 读写文件, 运行命令 |
@@ -75,7 +75,7 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ### 安全与守卫
 
-| Mod | 功能 | 权限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
 | [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>作者 hamzafer</sub> | 拦住有风险的 Bash 命令，先展示会改动什么再让你确认 | 运行命令 |
 | [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>作者 hamzafer</sub> | `gh pr merge` 要等 CI 通过且跑过一次 Codex 审查才放行 | 读写文件, 运行命令 |
@@ -84,14 +84,14 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ### Git、PR 与部署
 
-| Mod | 功能 | 权限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
 | [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>作者 ray-amjad</sub> | 在输入框下方固定显示当前项目的 Vercel 部署队列和进度 | 读写文件, 运行命令 |
 | [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>作者 sezaakgun</sub> | 盯着的 GitHub PR 的合并状态、审查和必需检查，变化时提醒 | 读写文件, 运行命令 |
 
 ### 等待时的消遣
 
-| Mod | 功能 | 权限 |
+| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
 | [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>作者 darrell-tw</sub> | 台股/美股自选股看板，按交易时段切换，含持仓损益模式 | 读写文件, 联网, 运行命令 |
 | [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>作者 halluton</sub> | Claude 干活时在输入框上方带你做呼吸练习，spinner 跟着呼吸计数 | — |
@@ -107,6 +107,6 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 ## 致谢
 
-每个 mod 归其作者所有，沿用各自的许可证；本仓库只做收录。其中很多是通过 [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) 发现的。作者如需修改或下架收录信息，请开 issue。
+每个 mod 归其作者所有，沿用各自的许可证；本仓库只做收录。作者如需修改或下架收录信息，请开 issue。
 
 非官方项目，与 Anthropic 无关。

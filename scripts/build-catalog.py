@@ -11,6 +11,9 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MARKET = ROOT / ".claude-plugin" / "marketplace.json"
+# GitHub tables size columns to their content and strip widths, so the first
+# column is widened with non-breaking spaces in its header.
+FIRST_COLUMN_PAD = "&nbsp;" * 31
 CATEGORY_ORDER = ["dashboards", "agents", "productivity", "rendering", "safety", "git", "fun"]
 
 
@@ -69,7 +72,8 @@ def catalog(mods, summaries, s, lang):
         if not group:
             continue
         lines += [f"### {s['categories'][key]}", "",
-                  "| " + " | ".join(s["columns"]) + " |", "| --- | --- | --- |"]
+                  "| " + " | ".join([s["columns"][0] + FIRST_COLUMN_PAD] + s["columns"][1:]) + " |",
+                  "| --- | --- | --- |"]
         for m in group:
             # English shows the author's own description unless summaries.json overrides it.
             text = summaries.get(m["name"], {}).get(lang, m["description"])

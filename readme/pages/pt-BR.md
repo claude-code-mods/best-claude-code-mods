@@ -31,6 +31,6 @@ Abra uma issue com o link do repositório do mod. Para adicioná-lo você mesmo,
 
 ## Créditos
 
-Cada mod pertence ao seu autor e mantém a própria licença; este repositório apenas os lista. Muitos foram encontrados via [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods). Autores que queiram alterar ou remover uma entrada podem abrir uma issue.
+Cada mod pertence ao seu autor e mantém a própria licença; este repositório apenas os lista. Autores que queiram alterar ou remover uma entrada podem abrir uma issue.
 
 Projeto não oficial; não é um produto da Anthropic.
