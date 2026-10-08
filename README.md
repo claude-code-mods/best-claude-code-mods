@@ -1,4 +1,4 @@
-# ccmods — a Claude Code mods marketplace
+# claude-code-mods — a Claude Code mods marketplace
 
 A Claude Code plugin marketplace of **mods**: plugins made of function hooks
 that watch, rewrite or answer what Claude Code does, and draw their own UI.
@@ -18,8 +18,8 @@ In a Claude Code terminal session:
 
 ```
 /plugin marketplace add claude-code-mods/marketplace
-/plugin install env-guard@ccmods
-/plugin install turn-band@ccmods
+/plugin install env-guard@claude-code-mods
+/plugin install turn-band@claude-code-mods
 ```
 
 Or install a mod in one line; answer `y` to add the marketplace, then pick a scope:
@@ -28,7 +28,7 @@ Or install a mod in one line; answer `y` to add the marketplace, then pick a sco
 /plugin install env-guard --marketplace claude-code-mods/marketplace
 ```
 
-Update later with `/plugin marketplace update ccmods`.
+Update later with `/plugin marketplace update claude-code-mods`.
 
 ## Write a mod
 
@@ -69,8 +69,8 @@ scripts/check.sh    # claude plugin validate + claude plugin test for every mod
 
 ```
 /plugin marketplace add claude-code-mods/marketplace
-/plugin install env-guard@ccmods
-/plugin install turn-band@ccmods
+/plugin install env-guard@claude-code-mods
+/plugin install turn-band@claude-code-mods
 ```
 
 写一个新 mod：运行 `scripts/new-mod.sh my-mod "一句话说明"`，它会复制 `template/`

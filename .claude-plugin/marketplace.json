@@ -1,5 +1,5 @@
 {
-  "name": "ccmods",
+  "name": "claude-code-mods",
   "owner": { "name": "claude-code-mods" },
   "description": "Claude Code mods (function-hook plugins) and a template for writing your own.",
   "plugins": [
