@@ -1,0 +1,6 @@
+{
+  "name": "mod-template",
+  "version": "0.1.0",
+  "description": "Starter mod: a /mod-template slash command.",
+  "author": { "name": "claude-code-mods" }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ccmods",
+  "owner": { "name": "claude-code-mods" },
+  "description": "Claude Code mods (function-hook plugins) and a template for writing your own.",
+  "plugins": [
+    {
+      "name": "env-guard",
+      "source": "./env-guard",
+      "description": "Refuses reads and edits of .env files."
+    },
+    {
+      "name": "turn-band",
+      "source": "./turn-band",
+      "description": "A row above the prompt with the last turn's time and tool-call count."
+    }
+  ]
+}
