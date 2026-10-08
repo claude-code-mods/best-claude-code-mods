@@ -6,20 +6,6 @@
   "description": "Hand-picked Claude Code mods (function-hook plugins): validated, pinned to a checked commit, one add away.",
   "plugins": [
     {
-      "name": "env-guard",
-      "source": "./env-guard",
-      "description": "Refuses reads and edits of .env files.",
-      "category": "ours",
-      "license": "MIT"
-    },
-    {
-      "name": "turn-band",
-      "source": "./turn-band",
-      "description": "A row above the prompt with the last turn's time and tool-call count.",
-      "category": "ours",
-      "license": "MIT"
-    },
-    {
       "name": "gfm-render",
       "source": {
         "source": "url",

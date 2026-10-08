@@ -1,7 +1,0 @@
-{
-  "name": "turn-band",
-  "version": "0.1.0",
-  "description": "A row above the prompt with the last turn's time and tool-call count.",
-  "author": { "name": "claude-code-mods" },
-  "types": "./types/index.d.ts"
-}

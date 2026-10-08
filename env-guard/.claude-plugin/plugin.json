@@ -1,6 +1,0 @@
-{
-  "name": "env-guard",
-  "version": "0.1.0",
-  "description": "Refuses reads and edits of .env files.",
-  "author": { "name": "claude-code-mods" }
-}

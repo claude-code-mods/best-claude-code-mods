@@ -1,0 +1,72 @@
+{
+  "en": {
+    "label": "English", "file": "README.md",
+    "categories": {"dashboards": "Dashboards and usage", "agents": "Agents and subagents", "productivity": "Productivity and context", "rendering": "Rendering and previews", "safety": "Safety and guards", "git": "Git, PRs and deploys", "fun": "While you wait"},
+    "columns": ["Mod", "What it does", "Reaches"],
+    "reach": {"http": "network", "process": "runs commands", "model": "model calls", "fs": "files", "mcp": "MCP"},
+    "by": "by"
+  },
+  "zh-CN": {
+    "label": "简体中文", "file": "README.zh-CN.md",
+    "categories": {"dashboards": "仪表盘与用量", "agents": "Agent 与子 agent", "productivity": "效率与上下文", "rendering": "渲染与预览", "safety": "安全与守卫", "git": "Git、PR 与部署", "fun": "等待时的消遣"},
+    "columns": ["Mod", "功能", "权限"],
+    "reach": {"http": "联网", "process": "运行命令", "model": "调用模型", "fs": "读写文件", "mcp": "MCP"},
+    "by": "作者"
+  },
+  "zh-TW": {
+    "label": "繁體中文", "file": "README.zh-TW.md",
+    "categories": {"dashboards": "儀表板與用量", "agents": "Agent 與子 agent", "productivity": "效率與上下文", "rendering": "呈現與預覽", "safety": "安全與防護", "git": "Git、PR 與部署", "fun": "等待時的消遣"},
+    "columns": ["Mod", "功能", "權限"],
+    "reach": {"http": "連網", "process": "執行指令", "model": "呼叫模型", "fs": "讀寫檔案", "mcp": "MCP"},
+    "by": "作者"
+  },
+  "ja": {
+    "label": "日本語", "file": "README.ja.md",
+    "categories": {"dashboards": "ダッシュボードと使用量", "agents": "エージェントとサブエージェント", "productivity": "生産性とコンテキスト", "rendering": "表示とプレビュー", "safety": "安全とガード", "git": "Git・PR・デプロイ", "fun": "待ち時間に"},
+    "columns": ["Mod", "できること", "アクセス"],
+    "reach": {"http": "ネットワーク", "process": "コマンド実行", "model": "モデル呼び出し", "fs": "ファイル", "mcp": "MCP"},
+    "by": "作者"
+  },
+  "ko": {
+    "label": "한국어", "file": "README.ko.md",
+    "categories": {"dashboards": "대시보드와 사용량", "agents": "에이전트와 서브에이전트", "productivity": "생산성과 컨텍스트", "rendering": "렌더링과 미리보기", "safety": "안전과 가드", "git": "Git, PR, 배포", "fun": "기다리는 동안"},
+    "columns": ["Mod", "기능", "접근 범위"],
+    "reach": {"http": "네트워크", "process": "명령 실행", "model": "모델 호출", "fs": "파일", "mcp": "MCP"},
+    "by": "제작"
+  },
+  "es": {
+    "label": "Español", "file": "README.es.md",
+    "categories": {"dashboards": "Paneles y uso", "agents": "Agentes y subagentes", "productivity": "Productividad y contexto", "rendering": "Renderizado y vistas previas", "safety": "Seguridad y protecciones", "git": "Git, PR y despliegues", "fun": "Mientras esperas"},
+    "columns": ["Mod", "Qué hace", "Acceso"],
+    "reach": {"http": "red", "process": "ejecuta comandos", "model": "llama a modelos", "fs": "archivos", "mcp": "MCP"},
+    "by": "de"
+  },
+  "fr": {
+    "label": "Français", "file": "README.fr.md",
+    "categories": {"dashboards": "Tableaux de bord et usage", "agents": "Agents et sous-agents", "productivity": "Productivité et contexte", "rendering": "Rendu et aperçus", "safety": "Sécurité et garde-fous", "git": "Git, PR et déploiements", "fun": "Pendant l'attente"},
+    "columns": ["Mod", "Ce qu'il fait", "Accès"],
+    "reach": {"http": "réseau", "process": "lance des commandes", "model": "appelle un modèle", "fs": "fichiers", "mcp": "MCP"},
+    "by": "par"
+  },
+  "de": {
+    "label": "Deutsch", "file": "README.de.md",
+    "categories": {"dashboards": "Dashboards und Verbrauch", "agents": "Agenten und Subagenten", "productivity": "Produktivität und Kontext", "rendering": "Darstellung und Vorschau", "safety": "Sicherheit und Schutz", "git": "Git, PRs und Deployments", "fun": "Während du wartest"},
+    "columns": ["Mod", "Was er tut", "Zugriff"],
+    "reach": {"http": "Netzwerk", "process": "führt Befehle aus", "model": "ruft Modelle auf", "fs": "Dateien", "mcp": "MCP"},
+    "by": "von"
+  },
+  "pt-BR": {
+    "label": "Português (Brasil)", "file": "README.pt-BR.md",
+    "categories": {"dashboards": "Painéis e uso", "agents": "Agentes e subagentes", "productivity": "Produtividade e contexto", "rendering": "Renderização e pré-visualização", "safety": "Segurança e proteções", "git": "Git, PRs e deploys", "fun": "Enquanto você espera"},
+    "columns": ["Mod", "O que faz", "Acesso"],
+    "reach": {"http": "rede", "process": "executa comandos", "model": "chama modelos", "fs": "arquivos", "mcp": "MCP"},
+    "by": "por"
+  },
+  "ru": {
+    "label": "Русский", "file": "README.ru.md",
+    "categories": {"dashboards": "Панели и расход", "agents": "Агенты и субагенты", "productivity": "Продуктивность и контекст", "rendering": "Отображение и просмотр", "safety": "Безопасность и защита", "git": "Git, PR и деплой", "fun": "Пока ждёте"},
+    "columns": ["Mod", "Что делает", "Доступ"],
+    "reach": {"http": "сеть", "process": "запуск команд", "model": "вызов моделей", "fs": "файлы", "mcp": "MCP"},
+    "by": "автор"
+  }
+}
