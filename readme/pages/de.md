@@ -21,7 +21,7 @@ Zum Beispiel `/plugin install terminal-browser@best-claude-code-mods`. Mit `/plu
 
 ## Katalog
 
-Die Spalte **Zugriff** zeigt, was der Code eines Mods laut Validator über das Zeichnen der Oberfläche hinaus tun kann. Lies den Quellcode eines Mods, bevor du ihn installierst: Die Prüfung liest den Code, ohne ihn auszuführen, und ist kein Sicherheitsaudit.
+Der Eintrag **Zugriff** auf jeder Karte zeigt, was der Code eines Mods laut Validator über das Zeichnen der Oberfläche hinaus tun kann. Lies den Quellcode eines Mods, bevor du ihn installierst: Die Prüfung liest den Code, ohne ihn auszuführen, und ist kein Sicherheitsaudit.
 
 {{catalog}}
 

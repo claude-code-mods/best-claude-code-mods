@@ -21,7 +21,7 @@ Por exemplo `/plugin install terminal-browser@best-claude-code-mods`. Rode `/plu
 
 ## Catálogo
 
-A coluna **Acesso** mostra o que, segundo o validador, o código do mod pode fazer além de desenhar a interface. Leia o código de um mod antes de instalá-lo: a validação lê o código sem executá-lo e não é uma auditoria de segurança.
+O campo **Acesso** em cada cartão mostra o que, segundo o validador, o código do mod pode fazer além de desenhar a interface. Leia o código de um mod antes de instalá-lo: a validação lê o código sem executá-lo e não é uma auditoria de segurança.
 
 {{catalog}}
 

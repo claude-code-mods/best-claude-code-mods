@@ -21,7 +21,7 @@ Par exemple `/plugin install terminal-browser@best-claude-code-mods`. Lancez `/p
 
 ## Catalogue
 
-La colonne **Accès** indique ce que, selon le validateur, le code du mod peut faire en plus de dessiner son interface. Lisez le code d'un mod avant de l'installer : la validation le lit sans l'exécuter et ne constitue pas un audit de sécurité.
+Le champ **Accès** de chaque carte indique ce que, selon le validateur, le code du mod peut faire en plus de dessiner son interface. Lisez le code d'un mod avant de l'installer : la validation le lit sans l'exécuter et ne constitue pas un audit de sécurité.
 
 {{catalog}}
 

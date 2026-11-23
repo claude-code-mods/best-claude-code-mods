@@ -21,7 +21,7 @@ Por ejemplo `/plugin install terminal-browser@best-claude-code-mods`. Ejecuta `/
 
 ## Catálogo
 
-La columna **Acceso** indica lo que, según el validador, puede hacer el código del mod además de dibujar interfaz. Lee el código de un mod antes de instalarlo: la validación lo lee sin ejecutarlo y no es una auditoría de seguridad.
+El campo **Acceso** de cada tarjeta indica lo que, según el validador, puede hacer el código del mod además de dibujar interfaz. Lee el código de un mod antes de instalarlo: la validación lo lee sin ejecutarlo y no es una auditoría de seguridad.
 
 {{catalog}}
 

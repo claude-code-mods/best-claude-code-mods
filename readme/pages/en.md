@@ -21,7 +21,7 @@ For example `/plugin install terminal-browser@best-claude-code-mods`. Run `/plug
 
 ## Catalogue
 
-**Reaches** lists what the validator reports a mod's code can do beyond drawing UI. Read a mod's source before installing it: validation reads the code without running it, and is not a security audit.
+**Reaches** on each card lists what the validator reports a mod's code can do beyond drawing UI. Read a mod's source before installing it: validation reads the code without running it, and is not a security audit.
 
 {{catalog}}
 

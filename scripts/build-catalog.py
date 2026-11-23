@@ -70,29 +70,30 @@ def catalog(mods, summaries, s, lang, images):
         group = [m for m in mods if m["category"] == key]
         if not group:
             continue
-        lines += [f"### {s['categories'][key]}", "",
-                  "| " + " | ".join([s["columns"][0] + FIRST_COLUMN_PAD] + s["columns"][1:]) + " |",
-                  "| --- | --- | --- |"]
+        lines += [f"### {s['categories'][key]}", ""]
         for m in group:
-            # English shows the author's own description unless summaries.json overrides it.
-            text = summaries.get(m["name"], {}).get(lang, m["description"])
+            name = m["name"]
+            link = homepage(m)
+            text = summaries.get(name, {}).get(lang, m["description"])
             text = text.replace("|", "\\|")
             reach = ", ".join(s["reach"][a] for a in m["access"] if a in s["reach"]) or "—"
             author = m["repo"].split("/")[0]
-            pics = images.get(m['repo'], [])
-            pic = ''
+
+            pics = images.get(m["repo"], [])
             if pics:
                 url = pics[0]
-                if url.startswith('/'):
-                    url = 'https://github.com' + url
-                elif not url.startswith(('http://','https://')):
-                    url = url.replace(os.sep, '/')
-                pic = f'<a href="{homepage(m)}"><img src="{url}" width="200" alt="{m["name"]}"></a><br>'
-            lines.append(f"| {pic}[`{m['name']}`]({homepage(m)})<br><sub>{s['by']} {author}</sub> "
-                         f"| {text} | {reach} |")
+                if url.startswith("/"):
+                    url = "https://github.com" + url
+                elif not url.startswith(("http://", "https://")):
+                    url = url.replace(os.sep, "/")
+                lines += [f"[![{name}]({url})]({link})", ""]
+
+            lines += [f"#### [`{name}`]({link})", "",
+                      f"*{s['by']} {author}* · {text}", "",
+                      f"**{s['columns'][2]}:** {reach}", "",
+                      f"`/plugin install {name}@best-claude-code-mods`", ""]
         lines.append("")
     return "\n".join(lines).rstrip()
-
 
 def main():
     mods = load("community.json")
