@@ -1,43 +1,138 @@
 {
- "kunchenguid/firstmate": ["/kunchenguid/firstmate/raw/main/assets/banner.png"],
- "zenbu-labs/terminal-browser": [],
- "Kuddev/pebrel": ["/Kuddev/pebrel/raw/main/docs/screenshots/nebula-claude-session.png","/Kuddev/pebrel/raw/main/docs/screenshots/nebula-top-tabs.png"],
- "alexgreensh/token-optimizer": ["https://raw.githubusercontent.com/alexgreensh/token-optimizer/main/docs-site/public/media/token-optimizer-desktop-status-bar.gif","/alexgreensh/token-optimizer/raw/main/skills/token-optimizer/assets/dashboard-demo.gif"],
- "amontlabs/lcu": ["/amontlabs/lcu/raw/main/docs/assets/approval-demo.gif","/amontlabs/lcu/raw/main/docs/assets/approved-apps.png"],
- "tamaratran/fast-jev-compaction": [],
- "alexeyw/lot-map": ["/alexeyw/lot-map/raw/main/docs/demo.gif","/alexeyw/lot-map/raw/main/docs/map-working.png"],
- "hex/claude-council": ["/hex/claude-council/raw/main/assets/desktop-code-tab.png"],
- "chipfighter/context-attachment-manager": ["/chipfighter/context-attachment-manager/raw/main/docs/images/hero.gif","/chipfighter/context-attachment-manager/raw/main/plugin/assets/logo.png"],
- "Storybloq/storybloq": ["https://raw.githubusercontent.com/Storybloq/storybloq/main/assets/board.png","https://raw.githubusercontent.com/Storybloq/storybloq/main/assets/autonomous.png"],
- "Paradigm-Study/claude-share": ["/Paradigm-Study/claude-share/raw/main/docs/assets/invitation-demo.png"],
- "Lifecycle-Innovations-Limited/claude-ops": [],
- "NahumLitvin/prismantis": ["/NahumLitvin/prismantis/raw/main/docs/tour.gif","/NahumLitvin/prismantis/raw/main/docs/themes.png"],
- "data-goblin/claude-code-filetree": ["/data-goblin/claude-code-filetree/raw/main/media/filetree-shimmer.gif","/data-goblin/claude-code-filetree/raw/main/media/0.8.2/desktop-light.png"],
- "notque/vexjoy-agent": ["/notque/vexjoy-agent/raw/main/docs/repo-hero.png"],
- "karanb192/cache-tax": ["/karanb192/cache-tax/raw/main/site/assets/refusal.gif","/karanb192/cache-tax/raw/main/site/assets/keepwarm-receipt.png"],
- "tobihagemann/turbo": ["/tobihagemann/turbo/raw/main/assets/logo/thunderbolt-icon-256.png"],
- "Atoll92/agent-standup": ["https://atoll92.github.io/agent-standup/media/banner.png"],
- "scasella/claude-flightdeck": ["/scasella/claude-flightdeck/raw/main/docs/media/demo.gif","/scasella/claude-flightdeck/raw/main/docs/media/docked-session.png"],
- "caliber-ai-org/ai-setup": ["/caliber-ai-org/ai-setup/raw/master/assets/readme/pillars.png"],
- "Mazzeo-Marketing/MazyOS": [],
- "rsmdt/the-startup": ["https://github.com/rsmdt/the-startup/raw/main/logo.png"],
- "pleaseai/shunt": [],
- "aerovato/operator-memory": ["/aerovato/operator-memory/raw/main/docs/assets/change-the-loop.png"],
- "gwittebolle/claude-carbon": ["/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png","/gwittebolle/claude-carbon/raw/main/docs/example-card.png"],
- "sd0xdev/sd0x-harness": ["https://raw.githubusercontent.com/sd0xdev/sd0x-harness/main/banner.jpg"],
- "greenpolo/cc-multi-cli-plugin": [],
- "danyuchn/claude-work-mode": ["/danyuchn/claude-work-mode/raw/main/promo/demo-poster-en.png"],
- "localixai/tokendoctor": ["/localixai/tokendoctor/raw/main/docs/demo.gif","/localixai/tokendoctor/raw/main/docs/dashboard.png"],
- "swingerman/engineer": [],
- "hellosverre/claude-skins": ["/hellosverre/claude-skins/raw/main/docs/demo.gif"],
- "iamumeransari/claude-show-your-work": ["/iamumeransari/claude-show-your-work/raw/main/docs/homepage.jpg"],
- "Avinash-jetwani/jevmem": [],
- "cablate/ctx-handoff-mod": [],
- "petekp/inbox": [],
- "VKirill/claude-lane-stack": [],
- "kunchenguid/compact-adviser": ["/kunchenguid/compact-adviser/raw/main/docs/hint-status-line.png"],
- "avelikiy/great_cto": [],
- "PBJ-2/clauderipple": ["/PBJ-2/clauderipple/raw/main/docs/media/demo.webp","/PBJ-2/clauderipple/raw/main/docs/media/picker.png"],
- "LiarMTTT/TavernWeave": ["/LiarMTTT/TavernWeave/raw/main/docs/assets/tavernweave-v1-cover.png"],
- "rbartoli/agent-usage-guard": ["https://github.com/rbartoli/agent-usage-guard/releases/download/agent-usage-guard--v1.0.0/agent-usage-guard.gif"]
+ "kunchenguid/firstmate": [
+  "/kunchenguid/firstmate/raw/main/assets/banner.png"
+ ],
+ "zenbu-labs/terminal-browser": [
+  "docs/assets/terminal-browser.webp"
+ ],
+ "Kuddev/pebrel": [
+  "/Kuddev/pebrel/raw/main/docs/screenshots/nebula-claude-session.png",
+  "/Kuddev/pebrel/raw/main/docs/screenshots/nebula-top-tabs.png"
+ ],
+ "alexgreensh/token-optimizer": [
+  "https://raw.githubusercontent.com/alexgreensh/token-optimizer/main/docs-site/public/media/token-optimizer-desktop-status-bar.gif",
+  "/alexgreensh/token-optimizer/raw/main/skills/token-optimizer/assets/dashboard-demo.gif"
+ ],
+ "amontlabs/lcu": [
+  "/amontlabs/lcu/raw/main/docs/assets/approval-demo.gif",
+  "/amontlabs/lcu/raw/main/docs/assets/approved-apps.png"
+ ],
+ "tamaratran/fast-jev-compaction": [
+  "docs/assets/fast-jev-compaction.png"
+ ],
+ "alexeyw/lot-map": [
+  "/alexeyw/lot-map/raw/main/docs/demo.gif",
+  "/alexeyw/lot-map/raw/main/docs/map-working.png"
+ ],
+ "hex/claude-council": [
+  "/hex/claude-council/raw/main/assets/desktop-code-tab.png"
+ ],
+ "chipfighter/context-attachment-manager": [
+  "/chipfighter/context-attachment-manager/raw/main/docs/images/hero.gif",
+  "/chipfighter/context-attachment-manager/raw/main/plugin/assets/logo.png"
+ ],
+ "Storybloq/storybloq": [
+  "https://raw.githubusercontent.com/Storybloq/storybloq/main/assets/board.png",
+  "https://raw.githubusercontent.com/Storybloq/storybloq/main/assets/autonomous.png"
+ ],
+ "Paradigm-Study/claude-share": [
+  "/Paradigm-Study/claude-share/raw/main/docs/assets/invitation-demo.png"
+ ],
+ "Lifecycle-Innovations-Limited/claude-ops": [
+  "docs/assets/claude-ops.png"
+ ],
+ "NahumLitvin/prismantis": [
+  "/NahumLitvin/prismantis/raw/main/docs/tour.gif",
+  "/NahumLitvin/prismantis/raw/main/docs/themes.png"
+ ],
+ "data-goblin/claude-code-filetree": [
+  "/data-goblin/claude-code-filetree/raw/main/media/filetree-shimmer.gif",
+  "/data-goblin/claude-code-filetree/raw/main/media/0.8.2/desktop-light.png"
+ ],
+ "notque/vexjoy-agent": [
+  "/notque/vexjoy-agent/raw/main/docs/repo-hero.png"
+ ],
+ "karanb192/cache-tax": [
+  "/karanb192/cache-tax/raw/main/site/assets/refusal.gif",
+  "/karanb192/cache-tax/raw/main/site/assets/keepwarm-receipt.png"
+ ],
+ "tobihagemann/turbo": [
+  "/tobihagemann/turbo/raw/main/assets/logo/thunderbolt-icon-256.png"
+ ],
+ "Atoll92/agent-standup": [
+  "https://atoll92.github.io/agent-standup/media/banner.png"
+ ],
+ "scasella/claude-flightdeck": [
+  "/scasella/claude-flightdeck/raw/main/docs/media/demo.gif",
+  "/scasella/claude-flightdeck/raw/main/docs/media/docked-session.png"
+ ],
+ "caliber-ai-org/ai-setup": [
+  "/caliber-ai-org/ai-setup/raw/master/assets/readme/pillars.png"
+ ],
+ "Mazzeo-Marketing/MazyOS": [
+  "docs/assets/MazyOS.png"
+ ],
+ "rsmdt/the-startup": [
+  "https://github.com/rsmdt/the-startup/raw/main/logo.png"
+ ],
+ "pleaseai/shunt": [
+  "docs/assets/shunt.png"
+ ],
+ "aerovato/operator-memory": [
+  "/aerovato/operator-memory/raw/main/docs/assets/change-the-loop.png"
+ ],
+ "gwittebolle/claude-carbon": [
+  "/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png",
+  "/gwittebolle/claude-carbon/raw/main/docs/example-card.png"
+ ],
+ "sd0xdev/sd0x-harness": [
+  "https://raw.githubusercontent.com/sd0xdev/sd0x-harness/main/banner.jpg"
+ ],
+ "greenpolo/cc-multi-cli-plugin": [
+  "docs/assets/cc-multi-cli-plugin.png"
+ ],
+ "danyuchn/claude-work-mode": [
+  "/danyuchn/claude-work-mode/raw/main/promo/demo-poster-en.png"
+ ],
+ "localixai/tokendoctor": [
+  "/localixai/tokendoctor/raw/main/docs/demo.gif",
+  "/localixai/tokendoctor/raw/main/docs/dashboard.png"
+ ],
+ "swingerman/engineer": [
+  "docs/assets/engineer.png"
+ ],
+ "hellosverre/claude-skins": [
+  "/hellosverre/claude-skins/raw/main/docs/demo.gif"
+ ],
+ "iamumeransari/claude-show-your-work": [
+  "/iamumeransari/claude-show-your-work/raw/main/docs/homepage.jpg"
+ ],
+ "Avinash-jetwani/jevmem": [
+  "docs/assets/jevmem.png"
+ ],
+ "cablate/ctx-handoff-mod": [
+  "docs/assets/ctx-handoff-mod.png"
+ ],
+ "petekp/inbox": [
+  "docs/assets/inbox.png"
+ ],
+ "VKirill/claude-lane-stack": [
+  "docs/assets/claude-lane-stack.png"
+ ],
+ "kunchenguid/compact-adviser": [
+  "/kunchenguid/compact-adviser/raw/main/docs/hint-status-line.png"
+ ],
+ "avelikiy/great_cto": [
+  "docs/assets/great_cto.png"
+ ],
+ "PBJ-2/clauderipple": [
+  "/PBJ-2/clauderipple/raw/main/docs/media/demo.webp",
+  "/PBJ-2/clauderipple/raw/main/docs/media/picker.png"
+ ],
+ "LiarMTTT/TavernWeave": [
+  "/LiarMTTT/TavernWeave/raw/main/docs/assets/tavernweave-v1-cover.png"
+ ],
+ "rbartoli/agent-usage-guard": [
+  "https://github.com/rbartoli/agent-usage-guard/releases/download/agent-usage-guard--v1.0.0/agent-usage-guard.gif"
+ ]
 }

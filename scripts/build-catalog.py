@@ -8,6 +8,7 @@ readme/strings.json (table labels per language) and readme/pages/<lang>.md.
 """
 import json
 import pathlib
+import os
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MARKET = ROOT / ".claude-plugin" / "marketplace.json"
@@ -84,6 +85,8 @@ def catalog(mods, summaries, s, lang, images):
                 url = pics[0]
                 if url.startswith('/'):
                     url = 'https://github.com' + url
+                elif not url.startswith(('http://','https://')):
+                    url = url.replace(os.sep, '/')
                 pic = f'<a href="{homepage(m)}"><img src="{url}" width="200" alt="{m["name"]}"></a><br>'
             lines.append(f"| {pic}[`{m['name']}`]({homepage(m)})<br><sub>{s['by']} {author}</sub> "
                          f"| {text} | {reach} |")
