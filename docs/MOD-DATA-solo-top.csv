@@ -1,0 +1,42 @@
+﻿mod,type,repo,path,lines,stars,own_stars,repo_mod_count,project,last_update,days_since,created,age_days,screenshot,reach,validate,core,decay_n
+fm,Git / PR / CI / deploy,kunchenguid/firstmate,.claude/mods/firstmate-calm,n/a,9046,9046,1,karanb192,2026-11-13,10,2026-06-12,164,n/a,writes or runs,warnings,9046.0,1
+terminal-browser,Browser / web / network,zenbu-labs/terminal-browser,claude-code-plugin,n/a,4739,4739,1,karanb192,2026-11-20,3,2026-07-06,140,n/a,network,warnings,4739.0,1
+pebrel-prompt-suggestions,Session / memory / handoff,Kuddev/pebrel,pebrel_app/res/prompt-suggestions/claude,n/a,3857,3857,1,karanb192,2026-11-21,2,2026-07-05,141,n/a,network,passed,3857.0,1
+token-optimizer,Dashboard / usage / context,alexgreensh/token-optimizer,desktop/token-optimizer-desktop,n/a,3036,3036,1,karanb192,2026-11-19,4,2026-02-26,270,n/a,writes or runs,warnings,3036.0,1
+lcu-approve,Guard / safety / permissions,amontlabs/lcu,adapters/claude-mod/lcu-approve,n/a,2448,2448,1,karanb192,2026-11-19,4,2026-09-22,62,n/a,network,warnings,2448.0,1
+fast-jev-compaction,Session / memory / handoff,tamaratran/fast-jev-compaction,.,n/a,8005,8005,1,karanb192,2026-09-18,66,2026-09-17,67,n/a,network,warnings,1601.0,5
+lot-map,Model routing / effort,alexeyw/lot-map,.,n/a,1057,1057,1,karanb192,2026-11-21,2,2026-11-09,14,n/a,reads,passed,1057.0,1
+claude-council,Status line / band,hex/claude-council,.,n/a,950,950,1,karanb192,2026-11-17,6,2025-12-17,341,n/a,writes or runs,failed,950.0,1
+codex-attachment-manager,Dashboard / usage / context,chipfighter/context-attachment-manager,.,n/a,809,809,1,karanb192,2026-11-20,3,2026-09-24,60,n/a,network,warnings,809.0,1
+storybloq,Session / memory / handoff,Storybloq/storybloq,plugins/storybloq,n/a,788,788,1,karanb192,2026-11-17,6,2026-04-17,220,n/a,reads,warnings,788.0,1
+shared-session,Subagent / agent orchestration,Paradigm-Study/claude-share,plugin,n/a,1131,1131,1,karanb192,2026-10-30,24,2026-10-03,51,n/a,unknown,unknown,565.5,2
+just-do-it,Session / memory / handoff,Lifecycle-Innovations-Limited/claude-ops,claude-ops/skills/ops-jdi/plugin,n/a,556,556,1,karanb192,2026-11-21,2,2026-04-11,226,n/a,writes or runs,warnings,556.0,1
+prismantis,Rendering / UI / theme,NahumLitvin/prismantis,plugin,n/a,477,477,1,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,477.0,1
+filetree,Other / misc,data-goblin/claude-code-filetree,.,n/a,466,466,1,karanb192,2026-11-17,6,2026-10-02,52,n/a,writes or runs,passed,466.0,1
+jev-auto-compact,Session / memory / handoff,notque/vexjoy-agent,plugins/jev-auto-compact,n/a,451,451,1,karanb192,2026-11-20,3,2026-03-18,250,n/a,network,passed,451.0,1
+cache-tax,Dashboard / usage / context,karanb192/cache-tax,.,n/a,441,441,1,karanb192,2026-11-17,6,2026-09-18,66,n/a,writes or runs,passed,441.0,1
+turbo,Git / PR / CI / deploy,tobihagemann/turbo,claude,n/a,424,424,1,karanb192,2026-11-20,3,2026-03-11,257,n/a,writes or runs,warnings,424.0,1
+agent-standup-band,Status line / band,Atoll92/agent-standup,plugin-band,n/a,383,383,1,karanb192,2026-11-21,2,2026-10-10,44,n/a,writes or runs,passed,383.0,1
+flightdeck,Subagent / agent orchestration,scasella/claude-flightdeck,.,n/a,334,334,1,karanb192,2026-11-19,4,2026-10-02,52,n/a,reads,passed,334.0,1
+caliber-jev-compaction,Session / memory / handoff,caliber-ai-org/ai-setup,plugin/caliber-jev-compaction,n/a,1319,1319,1,karanb192,2026-09-24,60,2026-03-10,258,n/a,network,warnings,329.8,4
+mazyos,Git / PR / CI / deploy,Mazzeo-Marketing/MazyOS,.,n/a,305,305,1,karanb192,2026-11-11,12,2026-04-26,211,n/a,reads,passed,305.0,1
+start,Subagent / agent orchestration,rsmdt/the-startup,plugins/start,n/a,587,587,1,karanb192,2026-10-26,28,2025-08-12,468,n/a,reads,warnings,293.5,2
+shunt,Dashboard / usage / context,pleaseai/shunt,plugins/shunt,n/a,267,267,1,karanb192,2026-11-21,2,2026-07-09,137,n/a,network,warnings,267.0,1
+operator,Session / memory / handoff,aerovato/operator-memory,packages/claude-code,n/a,521,521,1,karanb192,2026-11-05,18,2026-08-16,99,n/a,unknown,failed,260.5,2
+claude-carbon,Session / memory / handoff,gwittebolle/claude-carbon,.,n/a,254,254,1,karanb192,2026-11-19,4,2026-04-05,232,n/a,reads,failed,254.0,1
+agentctl,Guard / safety / permissions,sd0xdev/sd0x-harness,mods/agentctl,n/a,196,196,1,karanb192,2026-11-20,3,2026-01-30,297,n/a,writes or runs,passed,196.0,1
+multi-core,Guard / safety / permissions,greenpolo/cc-multi-cli-plugin,plugins/multi-core,n/a,195,195,1,karanb192,2026-11-19,4,2026-04-05,232,n/a,network,passed,195.0,1
+work-mode,Session / memory / handoff,danyuchn/claude-work-mode,plugins/work-mode,n/a,178,178,1,karanb192,2026-11-16,7,2026-11-08,15,n/a,writes or runs,passed,178.0,1
+tokendoctor,Dashboard / usage / context,localixai/tokendoctor,.,n/a,170,170,1,karanb192,2026-11-20,3,2026-10-25,29,n/a,writes or runs,passed,170.0,1
+engineer,Git / PR / CI / deploy,swingerman/engineer,engineer,n/a,164,164,1,karanb192,2026-11-11,12,2026-02-16,280,n/a,writes or runs,warnings,164.0,1
+skins,Dashboard / usage / context,hellosverre/claude-skins,.,n/a,321,321,1,karanb192,2026-11-01,22,2026-10-02,52,n/a,network,warnings,160.5,2
+show-your-work,Other / misc,iamumeransari/claude-show-your-work,.,n/a,313,313,1,karanb192,2026-11-05,18,2026-10-08,46,n/a,network,passed,156.5,2
+jevmem-pane,Guard / safety / permissions,Avinash-jetwani/jevmem,pane,n/a,155,155,1,karanb192,2026-11-20,3,2026-09-22,62,n/a,writes or runs,passed,155.0,1
+ctx-handoff,Dashboard / usage / context,cablate/ctx-handoff-mod,.,n/a,132,132,1,karanb192,2026-11-12,11,2026-10-02,52,n/a,writes or runs,warnings,132.0,1
+inbox,Session / memory / handoff,petekp/inbox,.,n/a,128,128,1,karanb192,2026-11-21,2,2026-10-06,48,n/a,unknown,unknown,128.0,1
+lane-stack,Subagent / agent orchestration,VKirill/claude-lane-stack,plugins/lane-stack,n/a,125,125,1,karanb192,2026-11-13,10,2026-07-11,135,n/a,network,warnings,125.0,1
+compact-adviser,Session / memory / handoff,kunchenguid/compact-adviser,packages/claude-mod,n/a,235,235,1,karanb192,2026-10-26,28,2026-09-17,67,n/a,network,warnings,117.5,2
+great-cto,Dashboard / usage / context,avelikiy/great_cto,.,n/a,117,117,1,karanb192,2026-11-17,6,2026-04-05,232,n/a,network,unknown,117.0,1
+ripple,Dashboard / usage / context,PBJ-2/clauderipple,packages/mod,n/a,116,116,1,karanb192,2026-11-20,3,2026-09-13,71,n/a,network,warnings,116.0,1
+tavernweave-agent-skills,Status line / band,LiarMTTT/TavernWeave,.,n/a,226,226,1,karanb192,2026-11-04,19,2026-07-22,124,n/a,reads,passed,113.0,2
+agent-usage-guard,Dashboard / usage / context,rbartoli/agent-usage-guard,.,n/a,102,102,1,karanb192,2026-11-19,4,2026-07-28,118,n/a,writes or runs,warnings,102.0,1

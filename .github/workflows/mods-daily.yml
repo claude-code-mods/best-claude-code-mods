@@ -1,0 +1,50 @@
+name: Mods daily check
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Refresh mod dataset
+        run: python scripts/fetch-mod-data.py
+
+      - name: Check catalogue drift
+        id: drift
+        run: |
+          python scripts/select_mods.py --check > drift.txt 2>&1 || echo "drift=1" >> "$GITHUB_OUTPUT"
+          cat drift.txt
+
+      - name: Report drift as an issue
+        if: steps.drift.outputs.drift == '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('drift.txt', 'utf8');
+            const title = 'Catalogue drift detected';
+            const { owner, repo } = context.repo;
+            const open = await github.rest.issues.listForRepo({ owner, repo, state: 'open', labels: 'catalogue-drift' });
+            const text = 'The daily selection check found mods whose ranking changed.\n\n```\n' + body + '\n```';
+            if (open.data.length) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: open.data[0].number, body: text });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body: text, labels: ['catalogue-drift'] });
+            }
+
+      - name: Fail when the catalogue is behind
+        if: steps.drift.outputs.drift == '1'
+        run: exit 1

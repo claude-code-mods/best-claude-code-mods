@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Português (Brasil)** · [Русский](README.ru.md)
 
-**Escolhidos a dedo, validados e fixados. Uma adição, 43 mods.**
+**Escolhidos a dedo, validados e fixados. Uma adição, 41 mods.**
 
 Mods são plugins do Claude Code feitos de hooks de função: observam, alteram ou respondem ao que o Claude Code faz, e desenham a própria interface. Este marketplace reúne os melhores mods da comunidade. Cada um foi verificado com `claude plugin validate` e fixado no commit verificado, então mudanças posteriores do autor nunca chegam até você sem revisão.
 
@@ -27,79 +27,72 @@ A coluna **Acesso** mostra o que, segundo o validador, o código do mod pode faz
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | O que faz | Acesso |
 | --- | --- | --- |
-| [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>por hamzafer</sub> | Uma linha sob a barra de status: minutos de cache ainda quente e quantos tokens a próxima mensagem vai recachear | arquivos, executa comandos |
-| [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>por hamzafer</sub> | A janela de contexto como barra empilhada, uma cor por categoria, com tokens e ponto de compactação (/context-bar) | — |
-| [`openai-balance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/openai-balance)<br><sub>por hamzafer</sub> | Saldo estimado da API da OpenAI, gasto de hoje e para onde foi (/openai-balance) | rede, executa comandos |
-| [`token-weather`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/token-weather)<br><sub>por hamzafer</sub> | O uso do contexto como previsão do tempo, com contagem regressiva do cache do prompt | arquivos, executa comandos |
-| [`usage-meter`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/usage-meter)<br><sub>por hamzafer</sub> | Uso de 5 horas e 7 dias em barrinhas, com contagem até o reset e custo da sessão | — |
-| [`usage-band`](https://github.com/JetsonChan/CC-Usage-Band/tree/60cd60949b1f52c96ddba3ea24ed0848ff302196/usage-band)<br><sub>por JetsonChan</sub> | Limites de 5 horas e 7 dias, contexto e acertos de cache acima do prompt, no terminal e no app desktop | — |
-| [`context-view`](https://github.com/kongyo2/context-view/tree/137e4e3db754684144ec953c5e66085bc2959766)<br><sub>por kongyo2</sub> | O contexto numa linha, desenhado como os medidores do próprio Claude Code, com o que falta até a compactação automática | — |
-| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/f31daca523d36c501cd0df23a737a44c7dc56ad6)<br><sub>por scasella</sub> | Painel de agentes: estado do modelo, cada decisão de permissão, cartões e raias de subagentes, recibo do turno e log da sessão | — |
-| [`cctop`](https://github.com/tomstagl/cctop/tree/6ceafc34a972f4e58d5e53b1c69f80e2a9759d41/plugin)<br><sub>por tomstagl</sub> | Painel ao vivo estilo btop: contexto, tokens, custo, acertos de cache, limites e latência por ferramenta (/cctop) | arquivos, executa comandos |
-| [`statuspane`](https://github.com/xuanji86/claude-statuspane/tree/13bd8e46edefdf282f117941b886cb529c7d79c3)<br><sub>por xuanji86</sub> | Cartão de status flutuante acima do prompt: modelo, effort, contexto, limites de 5 h e semanal, custo, branch e CI | arquivos, executa comandos |
-| [`plan-progress`](https://github.com/zycck/claude-mods/tree/3539d02d7435397d293e3120ebad22c23214f6c0/plugins/plan-progress)<br><sub>por zycck</sub> | Barras de progresso do plano acima do prompt: etapas, passos, preenchimento em pixel e sons suaves para decisão, erro e fim | arquivos, executa comandos |
+| [`token-optimizer`](https://github.com/alexgreensh/token-optimizer/tree/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/desktop/token-optimizer-desktop)<br><sub>por alexgreensh</sub> | A token-optimizer status bar that shows where tokens go and how to spend less. | executa comandos, chama modelos, arquivos |
+| [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)<br><sub>por hex</sub> | Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check. | executa comandos, chama modelos, arquivos |
+| [`codex-attachment-manager`](https://github.com/chipfighter/context-attachment-manager/tree/d68a721b7432059c9056d546ff2a26b11b3c0e0c)<br><sub>por chipfighter</sub> | Sends earlier images as short placeholders and fetches originals back by ID, so long image sessions keep the prompt cache. | rede, MCP |
+| [`cache-tax`](https://github.com/karanb192/cache-tax/tree/535ff33225e666e605e731d78f5ac5efe243c7c3)<br><sub>por karanb192</sub> | Keeps the one-hour prompt cache warm during breaks, asking before a cold send and showing the rewrite cost. | chama modelos |
+| [`agent-standup-band`](https://github.com/Atoll92/agent-standup/tree/846d5324f7c00f06d598c86e87ed8b51d774b3ac/plugin-band)<br><sub>por Atoll92</sub> | A line above the prompt when another local session needs you, and a toast when one finishes. | executa comandos, arquivos |
+| [`shunt`](https://github.com/pleaseai/shunt/tree/57182b328e92d3c70bc9ca5a1fd1ee9104cfbabb/plugins/shunt)<br><sub>por pleaseai</sub> | A usage band for the shunt gateway: each window's spend and reset time, plus a full /shunt:usage breakdown. | rede, executa comandos |
+| [`tokendoctor`](https://github.com/localixai/tokendoctor/tree/051fa9598f0a50ed30974b618f2911381b7dcf90)<br><sub>por localixai</sub> | Replays your past sessions to show what each change would have saved, then applies only what you pick. | executa comandos, chama modelos |
+| [`skins`](https://github.com/hellosverre/claude-skins/tree/cf0d39f3785d5c5a4b6189ecc487b1ac479efea0)<br><sub>por hellosverre</sub> | Skins and fifteen themes for the transcript, with rich cards and a usage band; /skin swaps them live. | rede, executa comandos, chama modelos, arquivos |
+| [`ctx-handoff`](https://github.com/cablate/ctx-handoff-mod/tree/a416713a0495be799a31f3650e18458e242270c7)<br><sub>por cablate</sub> | Turns what you teach Claude into project notes, catches common slips, keeps the cache warm and resumes long sessions. | chama modelos, arquivos |
+| [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)<br><sub>por avelikiy</sub> | Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage. | rede |
+| [`ripple`](https://github.com/PBJ-2/clauderipple/tree/c1c6b76a9e4e7a51df2ec5907d6e41d6bf8591e3/packages/mod)<br><sub>por PBJ-2</sub> | Picks reasoning effort per prompt and a worker per delegated task, keeps the cache warm and shows where each request went. | rede, executa comandos, chama modelos, MCP, arquivos |
+| [`tavernweave-agent-skills`](https://github.com/LiarMTTT/TavernWeave/tree/f9863d2b05305457fe9ed8b0c5688d52aca400a5)<br><sub>por LiarMTTT</sub> | 23 shared skills for rolecards, software work and bounded cloud tasks, plus a Soul mode switch above the prompt. | — |
+| [`agent-usage-guard`](https://github.com/rbartoli/agent-usage-guard/tree/02594c2620be9eb60c32e2f77d9d512d9f61b205)<br><sub>por rbartoli</sub> | Holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window. | chama modelos, arquivos |
 
 ### Agentes e subagentes
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | O que faz | Acesso |
 | --- | --- | --- |
-| [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>por Charlie0113-T</sub> | /flow abre ao lado da conversa uma árvore ao vivo dos subagentes e colegas | — |
-| [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>por hamzafer</sub> | Uma linha por subagente em execução: tempo, número de ferramentas e o que está fazendo (/radar mostra todos) | — |
-| [`browser-lanes`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/browser-lanes)<br><sub>por hamzafer</sub> | Mostra quem está com o navegador Playwright; subagentes esperam a vez e /browser clean fecha os restos | executa comandos |
-| [`mission-control`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/mission-control)<br><sub>por hamzafer</sub> | /mission abre um mapa ao vivo do agente principal, subagentes e cada chamada de ferramenta, além de um mapa dos arquivos | arquivos, chama modelos, executa comandos |
-| [`review-watch`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/review-watch)<br><sub>por hamzafer</sub> | Uma linha ao vivo para cada revisão de código (Codex ou subagente revisor) e um aviso com os achados no fim | executa comandos |
-| [`switchboard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/switchboard)<br><sub>por hamzafer</sub> | Escolhe o modelo dos subagentes que não indicam um (OpenAI Decisions API ou Jev); /route mostra escolhas e custos | rede |
-| [`agentpane`](https://github.com/xuanji86/claude-agentpane/tree/17be88979e5782591a2a184959df1c4168600066)<br><sub>por xuanji86</sub> | Painel lateral com os subagentes: o que cada um faz, quantos tokens gasta e a conversa a um clique | — |
+| [`shared-session`](https://github.com/Paradigm-Study/claude-share/tree/9d88f996ac4245c756a89b34e98cfde375028950/plugin)<br><sub>por Paradigm-Study</sub> | Share a session with a link or your team; teammates join from their own Claude Code and watch every turn live. | — |
+| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/626cc0b46d417f81bbff9f5ba3b49abaf8912a85)<br><sub>por scasella</sub> | A live agent dashboard: model vitals, an on-call architect, permission checks, subagent cards and a session log. | — |
+| [`start`](https://github.com/rsmdt/the-startup/tree/e803d51fdb423271d3dde189f5416f3ec51386a9/plugins/start)<br><sub>por rsmdt</sub> | Workflow orchestration commands for agentic software development. | arquivos |
+| [`lane-stack`](https://github.com/VKirill/claude-lane-stack/tree/8bac2b876b72053aa445bb9d1c7c6079bfc4ba8c/plugins/lane-stack)<br><sub>por VKirill</sub> | A solo PM conveyor: orchestrator agents, lane playbooks, onboard and resume commands. | rede, chama modelos |
 
 ### Produtividade e contexto
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | O que faz | Acesso |
 | --- | --- | --- |
-| [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>por hamzafer</sub> | O que precisa de você numa linha: próxima reunião, PRs, issues do Linear e DMs do Slack (via MCP conectado) | MCP, executa comandos |
-| [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>por hamzafer</sub> | Depois de cada turno, 2 ou 3 próximos prompts prováveis; tecle 1, 2 ou 3 com o prompt vazio para usar | chama modelos |
-| [`session-saver`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/session-saver)<br><sub>por hamzafer</sub> | Dá nome às sessões sem título; /park salva onde você parou e mostra ao retomar | chama modelos, executa comandos |
-| [`where-am-i`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/where-am-i)<br><sub>por hamzafer</sub> | Resumo ao vivo acima do prompt: objetivo, o que faz agora, o que espera de você e próximo passo (/where detalha) | chama modelos |
-| [`aside`](https://github.com/JayDoubleu/aside/tree/cf2b7562ae7b376cdcf9e2436a926aba77dc759f)<br><sub>por JayDoubleu</sub> | Chat lateral somente leitura: /aside para perguntar sobre a sessão sem escrever nada na conversa principal | chama modelos |
-| [`lcm`](https://github.com/lossless-claude/lcm/tree/0c17dbffda452cf7fae46929af427dff355aeaa3)<br><sub>por lossless-claude</sub> | Gestão de contexto sem perdas: resumos num DAG que mantêm cada mensagem acessível | arquivos, rede, chama modelos, executa comandos |
+| [`pebrel-prompt-suggestions`](https://github.com/Kuddev/pebrel/tree/ed9b2331340877ba3d775e38c4df6bd1a2abb1fe/pebrel_app/res/prompt-suggestions/claude)<br><sub>por Kuddev</sub> | Native empty-composer prompt predictions through the Pebrel session bridge. | rede |
+| [`fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction/tree/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0)<br><sub>por tamaratran</sub> | Verbatim Jev-guided compaction for Claude Code sessions. | rede, chama modelos |
+| [`lot-map`](https://github.com/alexeyw/lot-map/tree/ad60f057902765d778eedde770d337be45fac3af)<br><sub>por alexeyw</sub> | A live map beside the chat: memory, files, shell, web, model, agents, skills and hooks light up as they are used. | — |
+| [`storybloq`](https://github.com/Storybloq/storybloq/tree/f0b4c08e3a15ffb9841e5a3058c6b1ca57607154/plugins/storybloq)<br><sub>por Storybloq</sub> | Project memory: tickets, issues, handovers and lessons kept in a .story/ folder in your repo. | arquivos |
+| [`just-do-it`](https://github.com/Lifecycle-Innovations-Limited/claude-ops/tree/e434ef7e612f2ff5769def6101fc9d984888d377/claude-ops/skills/ops-jdi/plugin)<br><sub>por Lifecycle-Innovations-Limited</sub> | Continues authorized work through verification and delivery, and surfaces setup issues to repair. | executa comandos, chama modelos |
+| [`filetree`](https://github.com/data-goblin/claude-code-filetree/tree/1fdc3a963f2dc22a939f661ff0ff5a76646c9112)<br><sub>por data-goblin</sub> | An IDE-style file tree that shows what Claude is doing and where in your files. | executa comandos, chama modelos, arquivos |
+| [`jev-auto-compact`](https://github.com/notque/vexjoy-agent/tree/c68ac1fea2a03e437ccc95112d1e56e467a9bd00/plugins/jev-auto-compact)<br><sub>por notque</sub> | At 60% context, prunes stale tool calls with zero generation; skips instead of falling back to an LLM summary. | rede, chama modelos |
+| [`caliber-jev-compaction`](https://github.com/caliber-ai-org/ai-setup/tree/f5dbc002022a8a10acad25c1cce23ddefdc19d0d/plugin/caliber-jev-compaction)<br><sub>por caliber-ai-org</sub> | Verbatim Jev-guided compaction for Claude Code sessions. | rede, chama modelos |
+| [`operator`](https://github.com/aerovato/operator-memory/tree/93c3fce64f0a72adeb89fa868600eb418548ec07/packages/claude-code)<br><sub>por aerovato</sub> | Durable project and user memory for agent-driven development. | — |
+| [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)<br><sub>por gwittebolle</sub> | Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app. | arquivos |
+| [`work-mode`](https://github.com/danyuchn/claude-work-mode/tree/e19eda1e8465308bd79a74fad295cf9b6d9cdf71/plugins/work-mode)<br><sub>por danyuchn</sub> | Session modes: auto (no mid-task questions), out (delegate batch work) and wrap (converge and finish). | executa comandos, arquivos |
+| [`show-your-work`](https://github.com/iamumeransari/claude-show-your-work/tree/71e546044e3ba61b98a6938a03270da791f9ca2e)<br><sub>por iamumeransari</sub> | Shows finished work in the terminal: screenshots, click-through videos and synced before/after QA. | rede, executa comandos, chama modelos, arquivos |
+| [`inbox`](https://github.com/petekp/inbox/tree/02e441cd447edf86fc30fbd03e9117a8ead9da7a)<br><sub>por petekp</sub> | Gathers the questions, tasks, findings and PRs waiting on you in a session. | — |
+| [`compact-adviser`](https://github.com/kunchenguid/compact-adviser/tree/37fa1a665b8933de68c90014312060e862cf121a/packages/claude-mod)<br><sub>por kunchenguid</sub> | Suggests or runs /compact at a completed checkpoint, judged by TypeSafe Jev. | rede, chama modelos, arquivos |
 
 ### Renderização e pré-visualização
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | O que faz | Acesso |
 | --- | --- | --- |
-| [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>por briangtn</sub> | Markdown no estilo GitHub na conversa: alertas, listas de tarefas, tachado e diagramas Mermaid | executa comandos |
-| [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>por hamzafer</sub> | Os Markdown que o Claude edita, renderizados como no GitHub num painel lateral, com antes e depois (/md) | arquivos, executa comandos |
-| [`replay-theater`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/replay-theater)<br><sub>por hamzafer</sub> | Repasse as edições de arquivos do último turno, um diff de cada vez | arquivos |
-| [`skins`](https://github.com/hellosverre/claude-skins/tree/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a)<br><sub>por hellosverre</sub> | Temas para a conversa: linhas de ferramentas, margens das respostas e textos do spinner; /skin troca na hora | — |
-| [`mdview`](https://github.com/xuanji86/claude-mdview/tree/da646556714507acf5d41610605b9911eb9aa42a)<br><sub>por xuanji86</sub> | Clique num caminho .md da conversa para lê-lo renderizado ao lado, com imagens, e aponte um bloco para o Claude editar | arquivos, executa comandos |
-| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/2165ae76c9639e3996829ab0e6d54ddbd4f06ad8/claude-code-plugin)<br><sub>por zenbu-labs</sub> | Um navegador ao lado da conversa: pré-visualize sites e HTML local, e deixe o agente controlá-lo | arquivos, rede, executa comandos |
+| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/fa9e5eb053d2a1da11f7ccba720a0d3d389c05a6/claude-code-plugin)<br><sub>por zenbu-labs</sub> | A browser inside Claude Code: preview sites and HTML, and let the agent drive the built-in browser. | rede, executa comandos, chama modelos, arquivos |
+| [`prismantis`](https://github.com/NahumLitvin/prismantis/tree/3718a40abc57b836108a65bd9f01d06d3237e52d/plugin)<br><sub>por NahumLitvin</sub> | Colorful, themeable rendering for replies: tables, headings, code, numbers, paths and links. | executa comandos, arquivos |
 
 ### Segurança e proteções
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | O que faz | Acesso |
 | --- | --- | --- |
-| [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>por hamzafer</sub> | Segura comandos Bash arriscados e mostra o que mudariam antes de você confirmar | executa comandos |
-| [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>por hamzafer</sub> | Segura `gh pr merge` até a CI passar e uma revisão do Codex ter rodado | arquivos, executa comandos |
-| [`rulebook-guard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/rulebook-guard)<br><sub>por hamzafer</sub> | Regras de escrita e git: troca travessões no texto e pergunta antes de amend, push sem formatar ou dados pessoais em commits | arquivos, executa comandos |
-| [`secret-redactor`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/secret-redactor)<br><sub>por ray-amjad</sub> | Troca segredos, e-mails e IPs por marcadores fixos antes de entrarem na conversa e os restaura nas chamadas de ferramentas | — |
+| [`lcu-approve`](https://github.com/amontlabs/lcu/tree/1bd45b304295c7665b559fcc32f7b3a8f1b1d859/adapters/claude-mod/lcu-approve)<br><sub>por amontlabs</sub> | Per-app approval for computer use: allow this conversation, always allow, or deny, plus a panel of approved apps. | executa comandos, MCP, arquivos |
+| [`agentctl`](https://github.com/sd0xdev/sd0x-harness/tree/b0206637edd2e44c993da12b6b30858f96bc3cdc/mods/agentctl)<br><sub>por sd0xdev</sub> | An agent control plane for a session: task scope, evidence and hand-over. | executa comandos, chama modelos, arquivos |
+| [`multi-core`](https://github.com/greenpolo/cc-multi-cli-plugin/tree/66d9b0a6b06b25fd648ecd53311a647bb57e2fb4/plugins/multi-core)<br><sub>por greenpolo</sub> | Use ChatGPT, Cursor, OpenCode and Antigravity models inside one session, switching with /model. | rede, chama modelos |
+| [`jevmem-pane`](https://github.com/Avinash-jetwani/jevmem/tree/c29753ccb2c9706e417fda25efa422682358955b/pane)<br><sub>por Avinash-jetwani</sub> | A side pane showing what jevmem recalled, what its guard decided and what the last turn saved. | executa comandos, arquivos |
 
 ### Git, PRs e deploys
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | O que faz | Acesso |
 | --- | --- | --- |
-| [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>por ray-amjad</sub> | A fila de deploys da Vercel do projeto vinculado, fixa sob o prompt, com fase e tempo | arquivos, executa comandos |
-| [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>por sezaakgun</sub> | Estado de merge, revisões e checks obrigatórios dos PRs do GitHub que você acompanha, com alerta quando mudam | arquivos, executa comandos |
-
-### Enquanto você espera
-
-| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | O que faz | Acesso |
-| --- | --- | --- |
-| [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>por darrell-tw</sub> | Painel de ações de Taiwan e dos EUA que alterna conforme o pregão, com modo de lucros e perdas | arquivos, rede, executa comandos |
-| [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>por halluton</sub> | Exercícios de respiração guiados acima do prompt enquanto o Claude trabalha; o spinner conta com você | — |
-| [`now-playing`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/now-playing)<br><sub>por hamzafer</sub> | O que toca no Spotify numa linha: faixa, progresso e letra atual, com botões (só macOS) | rede, executa comandos |
-| [`prayer-times`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/prayer-times)<br><sub>por hamzafer</sub> | A oração atual, a próxima e quanto falta, calculadas no seu computador sem enviar nada | — |
-| [`reels`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/reels)<br><sub>por hamzafer</sub> | YouTube Shorts num painel do terminal: tocam enquanto o Claude trabalha e pausam ao terminar | arquivos, rede, executa comandos |
-| [`snake`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/snake)<br><sub>por hamzafer</sub> | Jogo da cobrinha num painel enquanto o Claude trabalha; só abre com /snake | — |
-| [`cc-arcade`](https://github.com/sezaakgun/cc-arcade/tree/0baff06d31295850283c2eebe052f39bbc35473f)<br><sub>por sezaakgun</sub> | Nove jogos acima do prompt (cobrinha, blocos, 2048…) e um bichinho que cresce com testes e commits | — |
+| [`fm`](https://github.com/kunchenguid/firstmate/tree/427056c4181c41074ad24f051f79919330df0fa5/.claude/mods/firstmate-calm)<br><sub>por kunchenguid</sub> | The sailboat working animation and a conversation-only transcript, sharing a calm-mode preference across sessions. | arquivos |
+| [`turbo`](https://github.com/tobihagemann/turbo/tree/3bc6b4436d96be22497109e16e68fe4dfa323531/claude)<br><sub>por tobihagemann</sub> | A human-gated agentic software factory: you decide what to build and judge the result, skills build and ship it. | chama modelos, arquivos |
+| [`mazyos`](https://github.com/Mazzeo-Marketing/MazyOS/tree/d2b65b392f1ee230afb088d155fc734def5f105d)<br><sub>por Mazzeo-Marketing</sub> | A Portuguese business OS plugin: your company memory in every session, brand identity on outputs, and 17 marketing/SEO skills. | arquivos |
+| [`engineer`](https://github.com/swingerman/engineer/tree/ae4cb5fe32007dd6a3d717c9998dcfb12b1f348e/engineer)<br><sub>por swingerman</sub> | A disciplined agentic-engineering methodology kit: intake, AC discovery, spec, planning, implementation, verification, hardening. | executa comandos, chama modelos |
 
 ## Sugerir um mod
 

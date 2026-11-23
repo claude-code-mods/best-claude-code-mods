@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · **한국어** · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md)
 
-**엄선하고, 검증하고, 버전을 고정했습니다. 한 번 추가하면 43개의 mod를 바로 설치할 수 있습니다.**
+**엄선하고, 검증하고, 버전을 고정했습니다. 한 번 추가하면 41개의 mod를 바로 설치할 수 있습니다.**
 
 Mod는 함수 훅으로 만든 Claude Code 플러그인입니다. Claude Code의 동작을 관찰하고, 바꾸거나 대신 처리할 수 있으며, 자체 UI도 그릴 수 있습니다. 이 마켓플레이스는 커뮤니티의 뛰어난 mod를 모았습니다. 모두 `claude plugin validate`로 검증했고 검증한 커밋에 고정했기 때문에, 작성자의 이후 변경 사항이 검토 없이 전달되지 않습니다.
 
@@ -27,79 +27,72 @@ Claude Code 터미널 세션에서:
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 기능 | 접근 범위 |
 | --- | --- | --- |
-| [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>제작 hamzafer</sub> | 상태 표시줄 아래 한 줄: 프롬프트 캐시가 유지되는 남은 분, 식은 뒤 다음 메시지가 다시 캐시할 토큰 수 | 파일, 명령 실행 |
-| [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>제작 hamzafer</sub> | 컨텍스트 창을 카테고리별 색상의 누적 막대로 표시, 토큰 수와 압축 지점 포함(/context-bar로 켜고 끄기) | — |
-| [`openai-balance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/openai-balance)<br><sub>제작 hamzafer</sub> | OpenAI API 잔액 추정, 오늘 지출, 주요 사용처(/openai-balance) | 네트워크, 명령 실행 |
-| [`token-weather`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/token-weather)<br><sub>제작 hamzafer</sub> | 컨텍스트 사용량을 일기예보처럼 보여 주고, 프롬프트 캐시 카운트다운도 표시합니다 | 파일, 명령 실행 |
-| [`usage-meter`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/usage-meter)<br><sub>제작 hamzafer</sub> | 5시간·7일 사용량을 작은 막대로 표시하고, 초기화까지 남은 시간과 세션 비용도 보여 줍니다 | — |
-| [`usage-band`](https://github.com/JetsonChan/CC-Usage-Band/tree/60cd60949b1f52c96ddba3ea24ed0848ff302196/usage-band)<br><sub>제작 JetsonChan</sub> | 프롬프트 위에 5시간/7일 한도, 컨텍스트, 캐시 적중률 표시. 터미널과 데스크톱 앱 모두 지원 | — |
-| [`context-view`](https://github.com/kongyo2/context-view/tree/137e4e3db754684144ec953c5e66085bc2959766)<br><sub>제작 kongyo2</sub> | 컨텍스트 사용량을 한 줄로, Claude Code 기본 미터와 같은 모양으로 표시하며 자동 압축까지 남은 양도 보여 줍니다 | — |
-| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/f31daca523d36c501cd0df23a737a44c7dc56ad6)<br><sub>제작 scasella</sub> | 에이전트 대시보드: 모델 상태, 모든 권한 판정, 서브에이전트 카드와 스윔레인, 턴 영수증, 세션 로그 | — |
-| [`cctop`](https://github.com/tomstagl/cctop/tree/6ceafc34a972f4e58d5e53b1c69f80e2a9759d41/plugin)<br><sub>제작 tomstagl</sub> | btop 스타일 실시간 대시보드: 컨텍스트, 토큰, 비용, 캐시 적중률, 한도, 도구별 지연 시간(/cctop) | 파일, 명령 실행 |
-| [`statuspane`](https://github.com/xuanji86/claude-statuspane/tree/13bd8e46edefdf282f117941b886cb529c7d79c3)<br><sub>제작 xuanji86</sub> | 프롬프트 위 플로팅 상태 카드: 모델, effort, 컨텍스트, 5시간/주간 한도, 비용, 브랜치, CI | 파일, 명령 실행 |
-| [`plan-progress`](https://github.com/zycck/claude-mods/tree/3539d02d7435397d293e3120ebad22c23214f6c0/plugins/plan-progress)<br><sub>제작 zycck</sub> | 프롬프트 위 계획 진행 막대: 단계, 스텝, 픽셀 채우기, 결정·오류·완료 시 부드러운 알림음 | 파일, 명령 실행 |
+| [`token-optimizer`](https://github.com/alexgreensh/token-optimizer/tree/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/desktop/token-optimizer-desktop)<br><sub>제작 alexgreensh</sub> | A token-optimizer status bar that shows where tokens go and how to spend less. | 명령 실행, 모델 호출, 파일 |
+| [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)<br><sub>제작 hex</sub> | Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check. | 명령 실행, 모델 호출, 파일 |
+| [`codex-attachment-manager`](https://github.com/chipfighter/context-attachment-manager/tree/d68a721b7432059c9056d546ff2a26b11b3c0e0c)<br><sub>제작 chipfighter</sub> | Sends earlier images as short placeholders and fetches originals back by ID, so long image sessions keep the prompt cache. | 네트워크, MCP |
+| [`cache-tax`](https://github.com/karanb192/cache-tax/tree/535ff33225e666e605e731d78f5ac5efe243c7c3)<br><sub>제작 karanb192</sub> | Keeps the one-hour prompt cache warm during breaks, asking before a cold send and showing the rewrite cost. | 모델 호출 |
+| [`agent-standup-band`](https://github.com/Atoll92/agent-standup/tree/846d5324f7c00f06d598c86e87ed8b51d774b3ac/plugin-band)<br><sub>제작 Atoll92</sub> | A line above the prompt when another local session needs you, and a toast when one finishes. | 명령 실행, 파일 |
+| [`shunt`](https://github.com/pleaseai/shunt/tree/57182b328e92d3c70bc9ca5a1fd1ee9104cfbabb/plugins/shunt)<br><sub>제작 pleaseai</sub> | A usage band for the shunt gateway: each window's spend and reset time, plus a full /shunt:usage breakdown. | 네트워크, 명령 실행 |
+| [`tokendoctor`](https://github.com/localixai/tokendoctor/tree/051fa9598f0a50ed30974b618f2911381b7dcf90)<br><sub>제작 localixai</sub> | Replays your past sessions to show what each change would have saved, then applies only what you pick. | 명령 실행, 모델 호출 |
+| [`skins`](https://github.com/hellosverre/claude-skins/tree/cf0d39f3785d5c5a4b6189ecc487b1ac479efea0)<br><sub>제작 hellosverre</sub> | Skins and fifteen themes for the transcript, with rich cards and a usage band; /skin swaps them live. | 네트워크, 명령 실행, 모델 호출, 파일 |
+| [`ctx-handoff`](https://github.com/cablate/ctx-handoff-mod/tree/a416713a0495be799a31f3650e18458e242270c7)<br><sub>제작 cablate</sub> | Turns what you teach Claude into project notes, catches common slips, keeps the cache warm and resumes long sessions. | 모델 호출, 파일 |
+| [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)<br><sub>제작 avelikiy</sub> | Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage. | 네트워크 |
+| [`ripple`](https://github.com/PBJ-2/clauderipple/tree/c1c6b76a9e4e7a51df2ec5907d6e41d6bf8591e3/packages/mod)<br><sub>제작 PBJ-2</sub> | Picks reasoning effort per prompt and a worker per delegated task, keeps the cache warm and shows where each request went. | 네트워크, 명령 실행, 모델 호출, MCP, 파일 |
+| [`tavernweave-agent-skills`](https://github.com/LiarMTTT/TavernWeave/tree/f9863d2b05305457fe9ed8b0c5688d52aca400a5)<br><sub>제작 LiarMTTT</sub> | 23 shared skills for rolecards, software work and bounded cloud tasks, plus a Soul mode switch above the prompt. | — |
+| [`agent-usage-guard`](https://github.com/rbartoli/agent-usage-guard/tree/02594c2620be9eb60c32e2f77d9d512d9f61b205)<br><sub>제작 rbartoli</sub> | Holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window. | 모델 호출, 파일 |
 
 ### 에이전트와 서브에이전트
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 기능 | 접근 범위 |
 | --- | --- | --- |
-| [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>제작 Charlie0113-T</sub> | /flow로 대화 옆에 서브에이전트와 팀원의 실시간 트리를 엽니다 | — |
-| [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>제작 hamzafer</sub> | 실행 중인 서브에이전트마다 한 줄: 경과 시간, 도구 호출 수, 하는 일(/radar로 전체 보기) | — |
-| [`browser-lanes`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/browser-lanes)<br><sub>제작 hamzafer</sub> | Playwright 브라우저를 누가 쓰는지 표시, 서브에이전트는 차례를 기다리고 /browser clean으로 남은 브라우저 정리 | 명령 실행 |
-| [`mission-control`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/mission-control)<br><sub>제작 hamzafer</sub> | /mission으로 메인 에이전트, 서브에이전트, 모든 도구 호출의 실시간 지도와 파일 코드 맵을 엽니다 | 파일, 모델 호출, 명령 실행 |
-| [`review-watch`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/review-watch)<br><sub>제작 hamzafer</sub> | 진행 중인 코드 리뷰(Codex 또는 리뷰 서브에이전트)마다 실시간 한 줄, 끝나면 결과를 토스트로 표시 | 명령 실행 |
-| [`switchboard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/switchboard)<br><sub>제작 hamzafer</sub> | 모델을 지정하지 않은 서브에이전트에 모델을 자동 선택(OpenAI Decisions API 또는 Jev), /route로 선택과 비용 확인 | 네트워크 |
-| [`agentpane`](https://github.com/xuanji86/claude-agentpane/tree/17be88979e5782591a2a184959df1c4168600066)<br><sub>제작 xuanji86</sub> | 서브에이전트 목록 사이드 패널: 각자 하는 일과 토큰 비용, 클릭하면 대화 내용 확인 | — |
+| [`shared-session`](https://github.com/Paradigm-Study/claude-share/tree/9d88f996ac4245c756a89b34e98cfde375028950/plugin)<br><sub>제작 Paradigm-Study</sub> | Share a session with a link or your team; teammates join from their own Claude Code and watch every turn live. | — |
+| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/626cc0b46d417f81bbff9f5ba3b49abaf8912a85)<br><sub>제작 scasella</sub> | A live agent dashboard: model vitals, an on-call architect, permission checks, subagent cards and a session log. | — |
+| [`start`](https://github.com/rsmdt/the-startup/tree/e803d51fdb423271d3dde189f5416f3ec51386a9/plugins/start)<br><sub>제작 rsmdt</sub> | Workflow orchestration commands for agentic software development. | 파일 |
+| [`lane-stack`](https://github.com/VKirill/claude-lane-stack/tree/8bac2b876b72053aa445bb9d1c7c6079bfc4ba8c/plugins/lane-stack)<br><sub>제작 VKirill</sub> | A solo PM conveyor: orchestrator agents, lane playbooks, onboard and resume commands. | 네트워크, 모델 호출 |
 
 ### 생산성과 컨텍스트
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 기능 | 접근 범위 |
 | --- | --- | --- |
-| [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>제작 hamzafer</sub> | 처리할 일을 한 줄로: 다음 회의, PR, Linear 이슈, Slack DM(연결된 MCP를 통해) | MCP, 명령 실행 |
-| [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>제작 hamzafer</sub> | 턴이 끝날 때마다 다음 프롬프트 후보 2~3개를 보여 주고, 빈 입력창에서 1/2/3으로 선택 | 모델 호출 |
-| [`session-saver`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/session-saver)<br><sub>제작 hamzafer</sub> | 이름 없는 세션에 이름을 붙이고, /park로 진행 상황을 저장해 재개할 때 보여 줍니다 | 모델 호출, 명령 실행 |
-| [`where-am-i`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/where-am-i)<br><sub>제작 hamzafer</sub> | 프롬프트 위 실시간 요약: 목표, 지금 하는 일, 당신을 기다리는 일, 다음 단계(/where로 자세히) | 모델 호출 |
-| [`aside`](https://github.com/JayDoubleu/aside/tree/cf2b7562ae7b376cdcf9e2436a926aba77dc759f)<br><sub>제작 JayDoubleu</sub> | 읽기 전용 사이드 채팅: /aside로 현재 세션에 대해 옆에서 질문하고, 메인 대화에는 기록하지 않습니다 | 모델 호출 |
-| [`lcm`](https://github.com/lossless-claude/lcm/tree/0c17dbffda452cf7fae46929af427dff355aeaa3)<br><sub>제작 lossless-claude</sub> | 무손실 컨텍스트 관리: DAG 기반 요약으로 모든 메시지를 다시 찾을 수 있습니다 | 파일, 네트워크, 모델 호출, 명령 실행 |
+| [`pebrel-prompt-suggestions`](https://github.com/Kuddev/pebrel/tree/ed9b2331340877ba3d775e38c4df6bd1a2abb1fe/pebrel_app/res/prompt-suggestions/claude)<br><sub>제작 Kuddev</sub> | Native empty-composer prompt predictions through the Pebrel session bridge. | 네트워크 |
+| [`fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction/tree/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0)<br><sub>제작 tamaratran</sub> | Verbatim Jev-guided compaction for Claude Code sessions. | 네트워크, 모델 호출 |
+| [`lot-map`](https://github.com/alexeyw/lot-map/tree/ad60f057902765d778eedde770d337be45fac3af)<br><sub>제작 alexeyw</sub> | A live map beside the chat: memory, files, shell, web, model, agents, skills and hooks light up as they are used. | — |
+| [`storybloq`](https://github.com/Storybloq/storybloq/tree/f0b4c08e3a15ffb9841e5a3058c6b1ca57607154/plugins/storybloq)<br><sub>제작 Storybloq</sub> | Project memory: tickets, issues, handovers and lessons kept in a .story/ folder in your repo. | 파일 |
+| [`just-do-it`](https://github.com/Lifecycle-Innovations-Limited/claude-ops/tree/e434ef7e612f2ff5769def6101fc9d984888d377/claude-ops/skills/ops-jdi/plugin)<br><sub>제작 Lifecycle-Innovations-Limited</sub> | Continues authorized work through verification and delivery, and surfaces setup issues to repair. | 명령 실행, 모델 호출 |
+| [`filetree`](https://github.com/data-goblin/claude-code-filetree/tree/1fdc3a963f2dc22a939f661ff0ff5a76646c9112)<br><sub>제작 data-goblin</sub> | An IDE-style file tree that shows what Claude is doing and where in your files. | 명령 실행, 모델 호출, 파일 |
+| [`jev-auto-compact`](https://github.com/notque/vexjoy-agent/tree/c68ac1fea2a03e437ccc95112d1e56e467a9bd00/plugins/jev-auto-compact)<br><sub>제작 notque</sub> | At 60% context, prunes stale tool calls with zero generation; skips instead of falling back to an LLM summary. | 네트워크, 모델 호출 |
+| [`caliber-jev-compaction`](https://github.com/caliber-ai-org/ai-setup/tree/f5dbc002022a8a10acad25c1cce23ddefdc19d0d/plugin/caliber-jev-compaction)<br><sub>제작 caliber-ai-org</sub> | Verbatim Jev-guided compaction for Claude Code sessions. | 네트워크, 모델 호출 |
+| [`operator`](https://github.com/aerovato/operator-memory/tree/93c3fce64f0a72adeb89fa868600eb418548ec07/packages/claude-code)<br><sub>제작 aerovato</sub> | Durable project and user memory for agent-driven development. | — |
+| [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)<br><sub>제작 gwittebolle</sub> | Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app. | 파일 |
+| [`work-mode`](https://github.com/danyuchn/claude-work-mode/tree/e19eda1e8465308bd79a74fad295cf9b6d9cdf71/plugins/work-mode)<br><sub>제작 danyuchn</sub> | Session modes: auto (no mid-task questions), out (delegate batch work) and wrap (converge and finish). | 명령 실행, 파일 |
+| [`show-your-work`](https://github.com/iamumeransari/claude-show-your-work/tree/71e546044e3ba61b98a6938a03270da791f9ca2e)<br><sub>제작 iamumeransari</sub> | Shows finished work in the terminal: screenshots, click-through videos and synced before/after QA. | 네트워크, 명령 실행, 모델 호출, 파일 |
+| [`inbox`](https://github.com/petekp/inbox/tree/02e441cd447edf86fc30fbd03e9117a8ead9da7a)<br><sub>제작 petekp</sub> | Gathers the questions, tasks, findings and PRs waiting on you in a session. | — |
+| [`compact-adviser`](https://github.com/kunchenguid/compact-adviser/tree/37fa1a665b8933de68c90014312060e862cf121a/packages/claude-mod)<br><sub>제작 kunchenguid</sub> | Suggests or runs /compact at a completed checkpoint, judged by TypeSafe Jev. | 네트워크, 모델 호출, 파일 |
 
 ### 렌더링과 미리보기
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 기능 | 접근 범위 |
 | --- | --- | --- |
-| [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>제작 briangtn</sub> | 대화에서 GitHub 스타일 Markdown 렌더링: 알림 블록, 작업 목록, 취소선, Mermaid 다이어그램 | 명령 실행 |
-| [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>제작 hamzafer</sub> | Claude가 편집한 Markdown 파일을 사이드 패널에 GitHub 스타일로 렌더링하고 변경 전후를 나란히 비교(/md) | 파일, 명령 실행 |
-| [`replay-theater`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/replay-theater)<br><sub>제작 hamzafer</sub> | 직전 턴의 파일 수정을 diff 단위로 하나씩 되짚어 봅니다 | 파일 |
-| [`skins`](https://github.com/hellosverre/claude-skins/tree/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a)<br><sub>제작 hellosverre</sub> | 대화 기록 스킨: 도구 행, 답변 여백, 스피너 문구에 테마 적용. /skin으로 즉시 전환 | — |
-| [`mdview`](https://github.com/xuanji86/claude-mdview/tree/da646556714507acf5d41610605b9911eb9aa42a)<br><sub>제작 xuanji86</sub> | 대화 속 .md 경로를 클릭하면 옆에 렌더링해 보여 주고(이미지 포함), 특정 블록을 가리켜 Claude에게 수정을 맡길 수 있습니다 | 파일, 명령 실행 |
-| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/2165ae76c9639e3996829ab0e6d54ddbd4f06ad8/claude-code-plugin)<br><sub>제작 zenbu-labs</sub> | 대화 옆에 브라우저를 엽니다. 웹사이트와 로컬 HTML을 미리 보고, 에이전트가 조작할 수도 있습니다 | 파일, 네트워크, 명령 실행 |
+| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/fa9e5eb053d2a1da11f7ccba720a0d3d389c05a6/claude-code-plugin)<br><sub>제작 zenbu-labs</sub> | A browser inside Claude Code: preview sites and HTML, and let the agent drive the built-in browser. | 네트워크, 명령 실행, 모델 호출, 파일 |
+| [`prismantis`](https://github.com/NahumLitvin/prismantis/tree/3718a40abc57b836108a65bd9f01d06d3237e52d/plugin)<br><sub>제작 NahumLitvin</sub> | Colorful, themeable rendering for replies: tables, headings, code, numbers, paths and links. | 명령 실행, 파일 |
 
 ### 안전과 가드
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 기능 | 접근 범위 |
 | --- | --- | --- |
-| [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>제작 hamzafer</sub> | 위험한 Bash 명령을 멈추고, 무엇이 바뀌는지 보여 준 뒤 확인을 받습니다 | 명령 실행 |
-| [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>제작 hamzafer</sub> | CI가 통과하고 Codex 리뷰가 한 번 실행될 때까지 `gh pr merge`를 보류합니다 | 파일, 명령 실행 |
-| [`rulebook-guard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/rulebook-guard)<br><sub>제작 hamzafer</sub> | 글쓰기·git 규칙: 본문의 대시를 바꾸고, amend·포맷 안 된 push·개인 정보가 담긴 커밋 전에 확인 | 파일, 명령 실행 |
-| [`secret-redactor`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/secret-redactor)<br><sub>제작 ray-amjad</sub> | 비밀 키, 이메일, IP를 대화에 들어가기 전 고정 플레이스홀더로 바꾸고, 도구 호출 때 원래 값으로 되돌립니다 | — |
+| [`lcu-approve`](https://github.com/amontlabs/lcu/tree/1bd45b304295c7665b559fcc32f7b3a8f1b1d859/adapters/claude-mod/lcu-approve)<br><sub>제작 amontlabs</sub> | Per-app approval for computer use: allow this conversation, always allow, or deny, plus a panel of approved apps. | 명령 실행, MCP, 파일 |
+| [`agentctl`](https://github.com/sd0xdev/sd0x-harness/tree/b0206637edd2e44c993da12b6b30858f96bc3cdc/mods/agentctl)<br><sub>제작 sd0xdev</sub> | An agent control plane for a session: task scope, evidence and hand-over. | 명령 실행, 모델 호출, 파일 |
+| [`multi-core`](https://github.com/greenpolo/cc-multi-cli-plugin/tree/66d9b0a6b06b25fd648ecd53311a647bb57e2fb4/plugins/multi-core)<br><sub>제작 greenpolo</sub> | Use ChatGPT, Cursor, OpenCode and Antigravity models inside one session, switching with /model. | 네트워크, 모델 호출 |
+| [`jevmem-pane`](https://github.com/Avinash-jetwani/jevmem/tree/c29753ccb2c9706e417fda25efa422682358955b/pane)<br><sub>제작 Avinash-jetwani</sub> | A side pane showing what jevmem recalled, what its guard decided and what the last turn saved. | 명령 실행, 파일 |
 
 ### Git, PR, 배포
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 기능 | 접근 범위 |
 | --- | --- | --- |
-| [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>제작 ray-amjad</sub> | 연결된 프로젝트의 Vercel 배포 대기열과 진행 상황을 프롬프트 아래에 고정 표시 | 파일, 명령 실행 |
-| [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>제작 sezaakgun</sub> | 지켜보는 GitHub PR의 병합 상태, 리뷰, 필수 검사를 보여 주고 바뀌면 알려 줍니다 | 파일, 명령 실행 |
-
-### 기다리는 동안
-
-| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 기능 | 접근 범위 |
-| --- | --- | --- |
-| [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>제작 darrell-tw</sub> | 대만·미국 주식 관심 종목 보드, 거래 시간대에 따라 전환되며 보유 종목 손익 모드 포함 | 파일, 네트워크, 명령 실행 |
-| [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>제작 halluton</sub> | Claude가 일하는 동안 프롬프트 위에서 호흡 운동을 안내하고, 스피너가 호흡을 셉니다 | — |
-| [`now-playing`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/now-playing)<br><sub>제작 hamzafer</sub> | Spotify에서 재생 중인 곡, 진행률, 현재 가사를 한 줄로 표시, 제어 버튼 포함(macOS 전용) | 네트워크, 명령 실행 |
-| [`prayer-times`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/prayer-times)<br><sub>제작 hamzafer</sub> | 현재와 다음 기도 시간 및 남은 시간을 위치 기반으로 로컬에서 계산, 외부 전송 없음 | — |
-| [`reels`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/reels)<br><sub>제작 hamzafer</sub> | 터미널 패널에서 YouTube Shorts 재생, Claude가 일할 때 재생하고 끝나면 일시정지 | 파일, 네트워크, 명령 실행 |
-| [`snake`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/snake)<br><sub>제작 hamzafer</sub> | Claude가 일하는 동안 패널에서 스네이크 게임, /snake로 열어야 시작 | — |
-| [`cc-arcade`](https://github.com/sezaakgun/cc-arcade/tree/0baff06d31295850283c2eebe052f39bbc35473f)<br><sub>제작 sezaakgun</sub> | 프롬프트 위 미니게임 9종(스네이크, 테트리스류, 2048 등)과 테스트·커밋으로 자라는 펫 | — |
+| [`fm`](https://github.com/kunchenguid/firstmate/tree/427056c4181c41074ad24f051f79919330df0fa5/.claude/mods/firstmate-calm)<br><sub>제작 kunchenguid</sub> | The sailboat working animation and a conversation-only transcript, sharing a calm-mode preference across sessions. | 파일 |
+| [`turbo`](https://github.com/tobihagemann/turbo/tree/3bc6b4436d96be22497109e16e68fe4dfa323531/claude)<br><sub>제작 tobihagemann</sub> | A human-gated agentic software factory: you decide what to build and judge the result, skills build and ship it. | 모델 호출, 파일 |
+| [`mazyos`](https://github.com/Mazzeo-Marketing/MazyOS/tree/d2b65b392f1ee230afb088d155fc734def5f105d)<br><sub>제작 Mazzeo-Marketing</sub> | A Portuguese business OS plugin: your company memory in every session, brand identity on outputs, and 17 marketing/SEO skills. | 파일 |
+| [`engineer`](https://github.com/swingerman/engineer/tree/ae4cb5fe32007dd6a3d717c9998dcfb12b1f348e/engineer)<br><sub>제작 swingerman</sub> | A disciplined agentic-engineering methodology kit: intake, AC discovery, spec, planning, implementation, verification, hardening. | 명령 실행, 모델 호출 |
 
 ## mod 추천하기
 

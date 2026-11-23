@@ -1,0 +1,175 @@
+﻿mod,type,repo,path,lines,stars,own_stars,repo_mod_count,project,last_update,days_since,created,age_days,screenshot,reach,validate,core,decay_n
+fm,Git / PR / CI / deploy,kunchenguid/firstmate,.claude/mods/firstmate-calm,n/a,9046,9046,1,karanb192,2026-11-13,10,2026-06-12,164,n/a,writes or runs,warnings,9046.0,1
+terminal-browser,Browser / web / network,zenbu-labs/terminal-browser,claude-code-plugin,n/a,4739,4739,1,karanb192,2026-11-20,3,2026-07-06,140,n/a,network,warnings,4739.0,1
+pebrel-prompt-suggestions,Session / memory / handoff,Kuddev/pebrel,pebrel_app/res/prompt-suggestions/claude,n/a,3857,3857,1,karanb192,2026-11-21,2,2026-07-05,141,n/a,network,passed,3857.0,1
+token-optimizer,Dashboard / usage / context,alexgreensh/token-optimizer,desktop/token-optimizer-desktop,n/a,3036,3036,1,karanb192,2026-11-19,4,2026-02-26,270,n/a,writes or runs,warnings,3036.0,1
+lcu-approve,Guard / safety / permissions,amontlabs/lcu,adapters/claude-mod/lcu-approve,n/a,2448,2448,1,karanb192,2026-11-19,4,2026-09-22,62,n/a,network,warnings,2448.0,1
+fast-jev-compaction,Session / memory / handoff,tamaratran/fast-jev-compaction,.,n/a,8005,8005,1,karanb192,2026-09-18,66,2026-09-17,67,n/a,network,warnings,1601.0,5
+moai-board,Guard / safety / permissions,modu-ai/moai-adk,mods/moai-board,n/a,1258,,2,karanb192,2026-11-21,2,2025-09-16,433,n/a,writes or runs,warnings,1258.0,1
+moai-status,Dashboard / usage / context,modu-ai/moai-adk,mods/moai-status,n/a,1258,,2,karanb192,2026-11-21,2,2025-09-16,433,n/a,writes or runs,warnings,1258.0,1
+databricks-cli,Other / misc,data-goblin/power-bi-agentic-development,plugins/databricks-cli,n/a,1103,,4,karanb192,2026-11-10,13,2026-01-15,312,n/a,writes or runs,passed,1103.0,1
+fabric-cli,Other / misc,data-goblin/power-bi-agentic-development,plugins/fabric-cli,n/a,1103,,4,karanb192,2026-11-10,13,2026-01-15,312,n/a,writes or runs,passed,1103.0,1
+fabric-data-app,Git / PR / CI / deploy,data-goblin/power-bi-agentic-development,plugins/fabric-data-app,n/a,1103,,4,karanb192,2026-11-10,13,2026-01-15,312,n/a,writes or runs,passed,1103.0,1
+reports,Rendering / UI / theme,data-goblin/power-bi-agentic-development,plugins/reports,n/a,1103,,4,karanb192,2026-11-10,13,2026-01-15,312,n/a,writes or runs,passed,1103.0,1
+lot-map,Model routing / effort,alexeyw/lot-map,.,n/a,1057,1057,1,karanb192,2026-11-21,2,2026-11-09,14,n/a,reads,passed,1057.0,1
+claude-council,Status line / band,hex/claude-council,.,n/a,950,950,1,karanb192,2026-11-17,6,2025-12-17,341,n/a,writes or runs,failed,950.0,1
+codex-attachment-manager,Dashboard / usage / context,chipfighter/context-attachment-manager,.,n/a,809,809,1,karanb192,2026-11-20,3,2026-09-24,60,n/a,network,warnings,809.0,1
+storybloq,Session / memory / handoff,Storybloq/storybloq,plugins/storybloq,n/a,788,788,1,karanb192,2026-11-17,6,2026-04-17,220,n/a,reads,warnings,788.0,1
+shared-session,Subagent / agent orchestration,Paradigm-Study/claude-share,plugin,n/a,1131,1131,1,karanb192,2026-10-30,24,2026-10-03,51,n/a,unknown,unknown,565.5,2
+just-do-it,Session / memory / handoff,Lifecycle-Innovations-Limited/claude-ops,claude-ops/skills/ops-jdi/plugin,n/a,556,556,1,karanb192,2026-11-21,2,2026-04-11,226,n/a,writes or runs,warnings,556.0,1
+agent-radar,Status line / band,hamzafer/claude-code-mods,mods/agent-radar,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+akatsuki-night,Rendering / UI / theme,hamzafer/claude-code-mods,mods/akatsuki-night,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+blast-radius,Guard / safety / permissions,hamzafer/claude-code-mods,mods/blast-radius,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+browser-lanes,Subagent / agent orchestration,hamzafer/claude-code-mods,mods/browser-lanes,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+cache-clock,Dashboard / usage / context,hamzafer/claude-code-mods,mods/cache-clock,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,warnings,501.0,1
+context-bar,Dashboard / usage / context,hamzafer/claude-code-mods,mods/context-bar,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+glance,Status line / band,hamzafer/claude-code-mods,mods/glance,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,network,passed,501.0,1
+gotham-night,Rendering / UI / theme,hamzafer/claude-code-mods,mods/gotham-night,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+heatmap,Git / PR / CI / deploy,hamzafer/claude-code-mods,mods/heatmap,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,warnings,501.0,1
+interstellar,Rendering / UI / theme,hamzafer/claude-code-mods,mods/interstellar,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+matrix-mode,Rendering / UI / theme,hamzafer/claude-code-mods,mods/matrix-mode,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+md-preview,Rendering / UI / theme,hamzafer/claude-code-mods,mods/md-preview,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,warnings,501.0,1
+merge-gate,Status line / band,hamzafer/claude-code-mods,mods/merge-gate,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,warnings,501.0,1
+mission-control,Subagent / agent orchestration,hamzafer/claude-code-mods,mods/mission-control,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+next-steps,Status line / band,hamzafer/claude-code-mods,mods/next-steps,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,warnings,501.0,1
+now-playing,Status line / band,hamzafer/claude-code-mods,mods/now-playing,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,network,passed,501.0,1
+openai-balance,Dashboard / usage / context,hamzafer/claude-code-mods,mods/openai-balance,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,network,warnings,501.0,1
+openrouter-balance,Dashboard / usage / context,hamzafer/claude-code-mods,mods/openrouter-balance,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,network,warnings,501.0,1
+prayer-times,Status line / band,hamzafer/claude-code-mods,mods/prayer-times,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,warnings,501.0,1
+reels,Fun / novelty,hamzafer/claude-code-mods,mods/reels,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,network,passed,501.0,1
+replay-theater,Git / PR / CI / deploy,hamzafer/claude-code-mods,mods/replay-theater,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+review-watch,Status line / band,hamzafer/claude-code-mods,mods/review-watch,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+rulebook-guard,Guard / safety / permissions,hamzafer/claude-code-mods,mods/rulebook-guard,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,warnings,501.0,1
+secret-guard,Dashboard / usage / context,hamzafer/claude-code-mods,mods/secret-guard,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+session-saver,Session / memory / handoff,hamzafer/claude-code-mods,mods/session-saver,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+snake,Fun / novelty,hamzafer/claude-code-mods,mods/snake,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+stark-lab,Rendering / UI / theme,hamzafer/claude-code-mods,mods/stark-lab,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+switchboard,Dashboard / usage / context,hamzafer/claude-code-mods,mods/switchboard,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,network,warnings,501.0,1
+token-weather,Dashboard / usage / context,hamzafer/claude-code-mods,mods/token-weather,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+usage-meter,Dashboard / usage / context,hamzafer/claude-code-mods,mods/usage-meter,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,reads,passed,501.0,1
+where-am-i,Status line / band,hamzafer/claude-code-mods,mods/where-am-i,n/a,501,,31,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,501.0,1
+prismantis,Rendering / UI / theme,NahumLitvin/prismantis,plugin,n/a,477,477,1,karanb192,2026-11-20,3,2026-10-02,52,n/a,writes or runs,passed,477.0,1
+filetree,Other / misc,data-goblin/claude-code-filetree,.,n/a,466,466,1,karanb192,2026-11-17,6,2026-10-02,52,n/a,writes or runs,passed,466.0,1
+jev-auto-compact,Session / memory / handoff,notque/vexjoy-agent,plugins/jev-auto-compact,n/a,451,451,1,karanb192,2026-11-20,3,2026-03-18,250,n/a,network,passed,451.0,1
+cache-tax,Dashboard / usage / context,karanb192/cache-tax,.,n/a,441,441,1,karanb192,2026-11-17,6,2026-09-18,66,n/a,writes or runs,passed,441.0,1
+turbo,Git / PR / CI / deploy,tobihagemann/turbo,claude,n/a,424,424,1,karanb192,2026-11-20,3,2026-03-11,257,n/a,writes or runs,warnings,424.0,1
+ag2space-inbox,Session / memory / handoff,sonichi/sutando,packages/ag2-sparrow/ag2_sparrow/adapters/claude_code/ag2space-inbox,n/a,411,,4,karanb192,2026-11-21,2,2026-03-28,240,n/a,writes or runs,warnings,411.0,1
+sutando-observer,Status line / band,sonichi/sutando,skills/claude-observer/plugin,n/a,411,,4,karanb192,2026-11-21,2,2026-03-28,240,n/a,writes or runs,passed,411.0,1
+pr-watch,Session / memory / handoff,sonichi/sutando,skills/pr-watch/mod,n/a,411,,4,karanb192,2026-11-21,2,2026-03-28,240,n/a,writes or runs,passed,411.0,1
+task-watch,Session / memory / handoff,sonichi/sutando,src/agent/claude/task-watch-mod,n/a,411,,4,karanb192,2026-11-21,2,2026-03-28,240,n/a,writes or runs,warnings,411.0,1
+agent-profiler,Subagent / agent orchestration,YeonwooSung/my-claude-code-mods,agent-profiler,1880,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,network,warnings,389.5,2
+assumption-tracker,Productivity / workflow,YeonwooSung/my-claude-code-mods,assumption-tracker,263,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,draws and remembers,warnings,389.5,2
+blast-radius,Guard / safety / permissions,YeonwooSung/my-claude-code-mods,blast-radius,291,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+command-shelf,Productivity / workflow,YeonwooSung/my-claude-code-mods,command-shelf,275,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+context-inspector,Session / memory / handoff,YeonwooSung/my-claude-code-mods,context-inspector,1862,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+decision-ledger,Git / PR / CI / deploy,YeonwooSung/my-claude-code-mods,decision-ledger,259,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,draws and remembers,warnings,389.5,2
+dependency-lens,Productivity / workflow,YeonwooSung/my-claude-code-mods,dependency-lens,320,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+env-doctor,Productivity / workflow,YeonwooSung/my-claude-code-mods,env-doctor,345,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+handoff-pack,Session / memory / handoff,YeonwooSung/my-claude-code-mods,handoff-pack,271,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+loop-detective,Git / PR / CI / deploy,YeonwooSung/my-claude-code-mods,loop-detective,455,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,draws and remembers,warnings,389.5,2
+model-effort-band,Status line / band,YeonwooSung/my-claude-code-mods,model-effort-band,175,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,draws and remembers,warnings,389.5,2
+pin-memo,Git / PR / CI / deploy,YeonwooSung/my-claude-code-mods,pin-memo,304,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,draws and remembers,warnings,389.5,2
+review-queue,Git / PR / CI / deploy,YeonwooSung/my-claude-code-mods,review-queue,298,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+scope-guard,Guard / safety / permissions,YeonwooSung/my-claude-code-mods,scope-guard,268,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+time-machine,Session / memory / handoff,YeonwooSung/my-claude-code-mods,time-machine,2453,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+token-run,Dashboard / usage / context,YeonwooSung/my-claude-code-mods,token-run,368,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,draws and remembers,warnings,389.5,2
+verify-board,Productivity / workflow,YeonwooSung/my-claude-code-mods,verify-board,266,779,,17,YeonwooSung,2026-11-01,22,2026-10-09,45,no,writes or runs,warnings,389.5,2
+agent-standup-band,Status line / band,Atoll92/agent-standup,plugin-band,n/a,383,383,1,karanb192,2026-11-21,2,2026-10-10,44,n/a,writes or runs,passed,383.0,1
+conserve,Git / PR / CI / deploy,athola/claude-night-market,plugins/conserve,n/a,350,,2,karanb192,2026-11-20,3,2025-11-23,365,n/a,reads,passed,350.0,1
+egregore,Subagent / agent orchestration,athola/claude-night-market,plugins/egregore,n/a,350,,2,karanb192,2026-11-20,3,2025-11-23,365,n/a,reads,passed,350.0,1
+flightdeck,Subagent / agent orchestration,scasella/claude-flightdeck,.,n/a,334,334,1,karanb192,2026-11-19,4,2026-10-02,52,n/a,reads,passed,334.0,1
+caliber-jev-compaction,Session / memory / handoff,caliber-ai-org/ai-setup,plugin/caliber-jev-compaction,n/a,1319,1319,1,karanb192,2026-09-24,60,2026-03-10,258,n/a,network,warnings,329.8,4
+mazyos,Git / PR / CI / deploy,Mazzeo-Marketing/MazyOS,.,n/a,305,305,1,karanb192,2026-11-11,12,2026-04-26,211,n/a,reads,passed,305.0,1
+lesson-cards,Guard / safety / permissions,yonatangross/orchestkit,mods/lesson-cards,n/a,305,,5,karanb192,2026-11-20,3,2025-12-31,327,n/a,reads,warnings,305.0,1
+memory-lens,Model routing / effort,yonatangross/orchestkit,mods/memory-lens,n/a,305,,5,karanb192,2026-11-20,3,2025-12-31,327,n/a,reads,warnings,305.0,1
+promote-lights,Status line / band,yonatangross/orchestkit,mods/promote-lights,n/a,305,,5,karanb192,2026-11-20,3,2025-12-31,327,n/a,writes or runs,warnings,305.0,1
+prompt-enhancer,Git / PR / CI / deploy,yonatangross/orchestkit,mods/prompt-enhancer,n/a,305,,5,karanb192,2026-11-20,3,2025-12-31,327,n/a,writes or runs,warnings,305.0,1
+secrets-veil,Dashboard / usage / context,yonatangross/orchestkit,mods/secrets-veil,n/a,305,,5,karanb192,2026-11-20,3,2025-12-31,327,n/a,reads,warnings,305.0,1
+start,Subagent / agent orchestration,rsmdt/the-startup,plugins/start,n/a,587,587,1,karanb192,2026-10-26,28,2025-08-12,468,n/a,reads,warnings,293.5,2
+after,Git / PR / CI / deploy,midudev/better-claude,plugins/after,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,writes or runs,warnings,289.0,1
+context-meter,Dashboard / usage / context,midudev/better-claude,plugins/context-meter,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,reads,warnings,289.0,1
+image-preview,Status line / band,midudev/better-claude,plugins/image-preview,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,writes or runs,warnings,289.0,1
+narrator,Status line / band,midudev/better-claude,plugins/narrator,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,writes or runs,warnings,289.0,1
+quick-peek,Git / PR / CI / deploy,midudev/better-claude,plugins/quick-peek,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,writes or runs,passed,289.0,1
+sub-meter,Dashboard / usage / context,midudev/better-claude,plugins/sub-meter,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,reads,warnings,289.0,1
+think-hard,Model routing / effort,midudev/better-claude,plugins/think-hard,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,draws and remembers,warnings,289.0,1
+time-machine,Session / memory / handoff,midudev/better-claude,plugins/time-machine,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,writes or runs,warnings,289.0,1
+token-meter,Dashboard / usage / context,midudev/better-claude,plugins/token-meter,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,reads,passed,289.0,1
+use-haiku,Model routing / effort,midudev/better-claude,plugins/use-haiku,n/a,289,,10,karanb192,2026-11-18,5,2026-10-05,49,n/a,reads,passed,289.0,1
+shunt,Dashboard / usage / context,pleaseai/shunt,plugins/shunt,n/a,267,267,1,karanb192,2026-11-21,2,2026-07-09,137,n/a,network,warnings,267.0,1
+operator,Session / memory / handoff,aerovato/operator-memory,packages/claude-code,n/a,521,521,1,karanb192,2026-11-05,18,2026-08-16,99,n/a,unknown,failed,260.5,2
+claude-carbon,Session / memory / handoff,gwittebolle/claude-carbon,.,n/a,254,254,1,karanb192,2026-11-19,4,2026-04-05,232,n/a,reads,failed,254.0,1
+agentctl,Guard / safety / permissions,sd0xdev/sd0x-harness,mods/agentctl,n/a,196,196,1,karanb192,2026-11-20,3,2026-01-30,297,n/a,writes or runs,passed,196.0,1
+multi-core,Guard / safety / permissions,greenpolo/cc-multi-cli-plugin,plugins/multi-core,n/a,195,195,1,karanb192,2026-11-19,4,2026-04-05,232,n/a,network,passed,195.0,1
+work-mode,Session / memory / handoff,danyuchn/claude-work-mode,plugins/work-mode,n/a,178,178,1,karanb192,2026-11-16,7,2026-11-08,15,n/a,writes or runs,passed,178.0,1
+code-modernization,Guard / safety / permissions,thevibeworks/claude-code-docs,content/github/claude-plugins-official/plugins/code-modernization,n/a,175,,2,karanb192,2026-11-20,3,2025-06-24,517,n/a,unknown,failed,175.0,1
+theme-examples,Session / memory / handoff,thevibeworks/claude-code-docs,content/github/claude-plugins-official/plugins/theme-examples,n/a,175,,2,karanb192,2026-11-20,3,2025-06-24,517,n/a,unknown,failed,175.0,1
+tokendoctor,Dashboard / usage / context,localixai/tokendoctor,.,n/a,170,170,1,karanb192,2026-11-20,3,2026-10-25,29,n/a,writes or runs,passed,170.0,1
+engineer,Git / PR / CI / deploy,swingerman/engineer,engineer,n/a,164,164,1,karanb192,2026-11-11,12,2026-02-16,280,n/a,writes or runs,warnings,164.0,1
+skins,Dashboard / usage / context,hellosverre/claude-skins,.,n/a,321,321,1,karanb192,2026-11-01,22,2026-10-02,52,n/a,network,warnings,160.5,2
+show-your-work,Other / misc,iamumeransari/claude-show-your-work,.,n/a,313,313,1,karanb192,2026-11-05,18,2026-10-08,46,n/a,network,passed,156.5,2
+jevmem-pane,Guard / safety / permissions,Avinash-jetwani/jevmem,pane,n/a,155,155,1,karanb192,2026-11-20,3,2026-09-22,62,n/a,writes or runs,passed,155.0,1
+hal-grammar-check,Status line / band,vinta/hal-9000,plugins/hal-grammar-check,n/a,143,,4,karanb192,2026-11-21,2,2015-11-21,4020,n/a,writes or runs,passed,143.0,1
+hal-session-auto-rename,Session / memory / handoff,vinta/hal-9000,plugins/hal-session-auto-rename,n/a,143,,4,karanb192,2026-11-21,2,2015-11-21,4020,n/a,network,passed,143.0,1
+hal-shell-mode-auto-suggest,Productivity / workflow,vinta/hal-9000,plugins/hal-shell-mode-auto-suggest,n/a,143,,4,karanb192,2026-11-21,2,2015-11-21,4020,n/a,reads,passed,143.0,1
+hal-subagent-rows,Dashboard / usage / context,vinta/hal-9000,plugins/hal-subagent-rows,n/a,143,,4,karanb192,2026-11-21,2,2015-11-21,4020,n/a,draws and remembers,passed,143.0,1
+savvy-progress,Dashboard / usage / context,JohnnyVizz/claude-kit,plugins/savvy-progress,n/a,420,,2,karanb192,2026-10-12,42,2026-10-04,50,n/a,writes or runs,warnings,140.0,3
+session-band,Dashboard / usage / context,JohnnyVizz/claude-kit,plugins/session-band,n/a,420,,2,karanb192,2026-10-12,42,2026-10-04,50,n/a,writes or runs,warnings,140.0,3
+ctx-handoff,Dashboard / usage / context,cablate/ctx-handoff-mod,.,n/a,132,132,1,karanb192,2026-11-12,11,2026-10-02,52,n/a,writes or runs,warnings,132.0,1
+inbox,Session / memory / handoff,petekp/inbox,.,n/a,128,128,1,karanb192,2026-11-21,2,2026-10-06,48,n/a,unknown,unknown,128.0,1
+lane-stack,Subagent / agent orchestration,VKirill/claude-lane-stack,plugins/lane-stack,n/a,125,125,1,karanb192,2026-11-13,10,2026-07-11,135,n/a,network,warnings,125.0,1
+cache-clock,Dashboard / usage / context,ray-amjad/claude-code-mods,plugins/cache-clock,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,passed,120.0,1
+decision-tree,Session / memory / handoff,ray-amjad/claude-code-mods,plugins/decision-tree,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,passed,120.0,1
+diagram-pane,Rendering / UI / theme,ray-amjad/claude-code-mods,plugins/diagram-pane,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,passed,120.0,1
+dream-pass,Session / memory / handoff,ray-amjad/claude-code-mods,plugins/dream-pass,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,passed,120.0,1
+jev-skill-suggestion,Guard / safety / permissions,ray-amjad/claude-code-mods,plugins/jev-skill-suggestion,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,network,passed,120.0,1
+memory-fork,Model routing / effort,ray-amjad/claude-code-mods,plugins/memory-fork,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,warnings,120.0,1
+prompt-bouncer,Git / PR / CI / deploy,ray-amjad/claude-code-mods,plugins/prompt-bouncer,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,passed,120.0,1
+secret-box,Guard / safety / permissions,ray-amjad/claude-code-mods,plugins/secret-box,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,passed,120.0,1
+transcript-redactor,Guard / safety / permissions,ray-amjad/claude-code-mods,plugins/transcript-redactor,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,reads,warnings,120.0,1
+vercel-deploy-status,Status line / band,ray-amjad/claude-code-mods,plugins/vercel-deploy-status,n/a,120,,10,karanb192,2026-11-20,3,2026-09-05,79,n/a,writes or runs,warnings,120.0,1
+effortless,Dashboard / usage / context,HeyCubit/effortless,.,n/a,355,,2,karanb192,2026-10-23,31,2026-10-06,48,n/a,network,failed,118.3,3
+textless,Fun / novelty,HeyCubit/effortless,textless/plugin,n/a,355,,2,karanb192,2026-10-23,31,2026-10-06,48,n/a,network,warnings,118.3,3
+compact-adviser,Session / memory / handoff,kunchenguid/compact-adviser,packages/claude-mod,n/a,235,235,1,karanb192,2026-10-26,28,2026-09-17,67,n/a,network,warnings,117.5,2
+great-cto,Dashboard / usage / context,avelikiy/great_cto,.,n/a,117,117,1,karanb192,2026-11-17,6,2026-04-05,232,n/a,network,unknown,117.0,1
+ripple,Dashboard / usage / context,PBJ-2/clauderipple,packages/mod,n/a,116,116,1,karanb192,2026-11-20,3,2026-09-13,71,n/a,network,warnings,116.0,1
+tavernweave-agent-skills,Status line / band,LiarMTTT/TavernWeave,.,n/a,226,226,1,karanb192,2026-11-04,19,2026-07-22,124,n/a,reads,passed,113.0,2
+genesis-secret-redact,Guard / safety / permissions,WingedGuardian/GENesis-AGI,plugins/genesis-secret-redact,n/a,103,,2,karanb192,2026-11-21,2,2026-03-21,247,n/a,writes or runs,warnings,103.0,1
+genesis-web-override,Browser / web / network,WingedGuardian/GENesis-AGI,plugins/genesis-web-override,n/a,103,,2,karanb192,2026-11-21,2,2026-03-21,247,n/a,network,warnings,103.0,1
+agent-usage-guard,Dashboard / usage / context,rbartoli/agent-usage-guard,.,n/a,102,102,1,karanb192,2026-11-19,4,2026-07-28,118,n/a,writes or runs,warnings,102.0,1
+cache-meter,Dashboard / usage / context,francize/my-better-claude,plugins/cache-meter,n/a,203,,3,karanb192,2026-10-27,27,2026-09-21,63,n/a,writes or runs,warnings,101.5,2
+image-preview,Status line / band,francize/my-better-claude,plugins/image-preview,n/a,203,,3,karanb192,2026-10-27,27,2026-09-21,63,n/a,writes or runs,warnings,101.5,2
+queue,Status line / band,francize/my-better-claude,plugins/queue,n/a,203,,3,karanb192,2026-10-27,27,2026-09-21,63,n/a,writes or runs,warnings,101.5,2
+rnb-terminal-routing,Model routing / effort,stuinfla/ruvnet-brain,config/model-router/claude-terminal-mod,n/a,85,85,1,karanb192,2026-11-18,5,2026-06-29,147,n/a,unknown,failed,85.0,1
+silica-core,Model routing / effort,kiycoh/silica-core,.,n/a,70,70,1,karanb192,2026-11-08,15,2026-05-24,183,n/a,writes or runs,warnings,70.0,1
+planchk-router,Model routing / effort,thejuran/triggarr,.claude/plugins/planchk-router,n/a,65,65,1,karanb192,2026-11-19,4,2026-02-24,272,n/a,draws and remembers,passed,65.0,1
+drift-fuse,Model routing / effort,darkroomengineering/cc-settings,plugins/drift-fuse,n/a,56,,3,karanb192,2026-11-20,3,2026-01-12,315,n/a,network,passed,56.0,1
+fast-jev-output,Model routing / effort,tamaratran/jev-pruner,.,n/a,170,,2,karanb192,2026-09-30,54,2026-09-18,66,n/a,network,warnings,42.5,4
+oh-my-fable,Subagent / agent orchestration,Junhan2/oh-my-fable,.,n/a,61,61,1,karanb192,2026-11-10,13,2026-09-02,82,n/a,draws and remembers,passed,61.0,1
+cc10x,Subagent / agent orchestration,romiluz13/cc10x,plugins/cc10x,n/a,167,167,1,karanb192,2026-10-21,33,2025-10-22,397,n/a,reads,warnings,55.7,3
+cc-intelligent-ui,Rendering / UI / theme,razorback16/cc-intelligent-ui,.,n/a,160,160,1,karanb192,2026-11-04,19,2026-10-16,38,n/a,network,passed,80.0,2
+scratchpad,Productivity / workflow,whyashthakker/awesome-claude-code-mods,mods/scratchpad,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,draws and remembers,passed,31.0,4
+stopwatch,Productivity / workflow,whyashthakker/awesome-claude-code-mods,mods/stopwatch,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,draws and remembers,passed,31.0,4
+task-board,Productivity / workflow,whyashthakker/awesome-claude-code-mods,mods/task-board,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,draws and remembers,passed,31.0,4
+test-ledger,Productivity / workflow,whyashthakker/awesome-claude-code-mods,mods/test-ledger,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,draws and remembers,passed,31.0,4
+commit-browser,Browser / web / network,whyashthakker/awesome-claude-code-mods,mods/commit-browser,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,writes or runs,passed,31.0,4
+link-shelf,Browser / web / network,whyashthakker/awesome-claude-code-mods,mods/link-shelf,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,draws and remembers,passed,31.0,4
+stash-browser,Browser / web / network,whyashthakker/awesome-claude-code-mods,mods/stash-browser,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,writes or runs,passed,31.0,4
+url-lab,Browser / web / network,whyashthakker/awesome-claude-code-mods,mods/url-lab,n/a,124,,70,karanb192,2026-10-03,51,2026-10-03,51,n/a,reads,passed,31.0,4
+github,Browser / web / network,bendrucker/claude,plugins/github,n/a,18,,12,karanb192,2026-11-21,2,2025-06-26,515,n/a,writes or runs,warnings,18.0,1
+issue-view,Browser / web / network,ushironoko/dotfiles,claude/.claude/skills/issue-view,n/a,13,,4,karanb192,2026-11-19,4,2025-09-04,445,n/a,writes or runs,passed,13.0,1
+pr-view,Browser / web / network,ushironoko/dotfiles,claude/.claude/skills/pr-view,n/a,13,,4,karanb192,2026-11-19,4,2025-09-04,445,n/a,writes or runs,passed,13.0,1
+autotel,Browser / web / network,jagreehal/autotel,packages/autotel-claude-code,n/a,8,8,1,karanb192,2026-11-20,3,2025-11-26,362,n/a,network,warnings,8.0,1
+cleanup-tracker,Fun / novelty,escapeboy/claude-code-kit,17-mods/marketplace/mods/cleanup-tracker,n/a,100,,13,karanb192,2026-10-09,45,2026-01-04,323,n/a,writes or runs,passed,33.3,3
+plugin-rollcall,Fun / novelty,xobotyi/cc-foundry,plugins/plugin-rollcall,n/a,23,,4,karanb192,2026-11-20,3,2026-01-30,297,n/a,writes or runs,warnings,23.0,1
+aicq,Fun / novelty,ashfulcra/fulcra-tools,packages/aicq-claude-mod,n/a,10,10,1,karanb192,2026-11-08,15,2026-05-21,186,n/a,writes or runs,passed,10.0,1
+code-pet,Fun / novelty,OneWave-AI/claude-code-mods,code-pet,n/a,32,,11,karanb192,2026-10-03,51,2026-10-02,52,n/a,reads,passed,8.0,4
+cc-restart,Fun / novelty,wdsewdser-bit/claude-code-mods,cc-restart,n/a,7,,9,karanb192,2026-11-18,5,2026-10-12,42,n/a,writes or runs,warnings,7.0,1
+changes-receipt,Fun / novelty,promptadvisers/claude-mods-starter-kit,plugins/changes-receipt,n/a,23,,10,karanb192,2026-10-02,52,2026-10-02,52,n/a,writes or runs,passed,5.8,4
+tea-egg,Fun / novelty,helenlin0621/tea-egg,.,n/a,4,4,1,karanb192,2026-11-17,6,2026-10-08,46,n/a,reads,warnings,4.0,1
+hermitd,Other / misc,gtapps/hermitd,plugins/hermitd,n/a,85,,2,karanb192,2026-11-21,2,2026-03-23,245,n/a,unknown,unknown,85.0,1
+hermitd-mod-tests,Other / misc,gtapps/hermitd,plugins/hermitd/mod,n/a,85,,2,karanb192,2026-11-21,2,2026-03-23,245,n/a,writes or runs,passed,85.0,1
+ase,Other / misc,rse/ase,plugin,n/a,77,77,1,karanb192,2026-11-20,3,2026-04-06,231,n/a,network,passed,77.0,1
+intermission,Other / misc,jarrodwatts/intermission,.,n/a,131,131,1,karanb192,2026-10-13,41,2026-10-02,52,n/a,writes or runs,passed,43.7,3
+delta,Other / misc,zed-industries/delta-claude,.,n/a,43,43,1,karanb192,2026-11-20,3,2026-10-01,53,n/a,network,passed,43.0,1
+jev-eval-observer,Other / misc,tamaratran/jev-pruner,evals/observer,n/a,170,,2,karanb192,2026-09-30,54,2026-09-18,66,n/a,writes or runs,warnings,42.5,4

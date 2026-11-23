@@ -2,7 +2,7 @@
 
 [English](README.md) · **简体中文** · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md)
 
-**逐个挑选、校验、固定版本。添加一次，43 个 mod 随装随用。**
+**逐个挑选、校验、固定版本。添加一次，41 个 mod 随装随用。**
 
 Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接管 Claude Code 的行为，也能绘制自己的界面。这个市场收录了社区里最好的 mod。每一个都用 `claude plugin validate` 校验过，并固定在校验时的 commit 上，作者之后的改动不会未经审核就到你这里。
 
@@ -27,79 +27,72 @@ Mod 是用函数钩子写成的 Claude Code 插件：可以观察、修改或接
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
-| [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>作者 hamzafer</sub> | 状态栏下一行：提示缓存还热几分钟，冷了以后下一条要重新缓存多少 token | 读写文件, 运行命令 |
-| [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>作者 hamzafer</sub> | 上下文窗口按类别分色的堆叠条，含 token 数和压缩点（/context-bar 开关） | — |
-| [`openai-balance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/openai-balance)<br><sub>作者 hamzafer</sub> | OpenAI API 余额估算、今日花费和主要去向（/openai-balance） | 联网, 运行命令 |
-| [`token-weather`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/token-weather)<br><sub>作者 hamzafer</sub> | 把上下文占用画成天气预报，附提示缓存倒计时 | 读写文件, 运行命令 |
-| [`usage-meter`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/usage-meter)<br><sub>作者 hamzafer</sub> | 5 小时和 7 天用量小进度条，带重置倒计时和本会话费用 | — |
-| [`usage-band`](https://github.com/JetsonChan/CC-Usage-Band/tree/60cd60949b1f52c96ddba3ea24ed0848ff302196/usage-band)<br><sub>作者 JetsonChan</sub> | 输入框上方显示 5 小时/7 天限额、上下文和缓存命中率，终端和桌面版都适配 | — |
-| [`context-view`](https://github.com/kongyo2/context-view/tree/137e4e3db754684144ec953c5e66085bc2959766)<br><sub>作者 kongyo2</sub> | 一行显示上下文占用，样式同 Claude Code 自带的仪表，含距自动压缩还剩多少 | — |
-| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/f31daca523d36c501cd0df23a737a44c7dc56ad6)<br><sub>作者 scasella</sub> | agent 仪表盘：模型状态、每次权限判定、子 agent 卡片和泳道、本轮小票、会话日志 | — |
-| [`cctop`](https://github.com/tomstagl/cctop/tree/6ceafc34a972f4e58d5e53b1c69f80e2a9759d41/plugin)<br><sub>作者 tomstagl</sub> | btop 风格的实时面板：上下文、token、费用、缓存命中、限额、各工具耗时（/cctop） | 读写文件, 运行命令 |
-| [`statuspane`](https://github.com/xuanji86/claude-statuspane/tree/13bd8e46edefdf282f117941b886cb529c7d79c3)<br><sub>作者 xuanji86</sub> | 输入框上方的浮动状态卡：模型、effort、上下文、5 小时/周限额、费用、分支、CI | 读写文件, 运行命令 |
-| [`plan-progress`](https://github.com/zycck/claude-mods/tree/3539d02d7435397d293e3120ebad22c23214f6c0/plugins/plan-progress)<br><sub>作者 zycck</sub> | 输入框上方的计划进度条：阶段、步骤、像素填充，决策/出错/完成时有提示音 | 读写文件, 运行命令 |
+| [`token-optimizer`](https://github.com/alexgreensh/token-optimizer/tree/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/desktop/token-optimizer-desktop)<br><sub>作者 alexgreensh</sub> | token 优化状态栏，显示 token 去向并给出更省钱的调整。 | 运行命令, 调用模型, 读写文件 |
+| [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)<br><sub>作者 hex</sub> | 同时咨询多个 AI agent 获取多种视角，带流式面板和可选的额外复查提示。 | 运行命令, 调用模型, 读写文件 |
+| [`codex-attachment-manager`](https://github.com/chipfighter/context-attachment-manager/tree/d68a721b7432059c9056d546ff2a26b11b3c0e0c)<br><sub>作者 chipfighter</sub> | 较早的图片以占位符发送、按 ID 取回原图，让长图片会话保住 prompt 缓存。 | 联网, MCP |
+| [`cache-tax`](https://github.com/karanb192/cache-tax/tree/535ff33225e666e605e731d78f5ac5efe243c7c3)<br><sub>作者 karanb192</sub> | 在休息时保持一小时 prompt 缓存温热，冷启动前先询问并显示重写成本。 | 调用模型 |
+| [`agent-standup-band`](https://github.com/Atoll92/agent-standup/tree/846d5324f7c00f06d598c86e87ed8b51d774b3ac/plugin-band)<br><sub>作者 Atoll92</sub> | 本机其他会话需要你时在提示上方显示一行，结束时给一个提醒。 | 运行命令, 读写文件 |
+| [`shunt`](https://github.com/pleaseai/shunt/tree/57182b328e92d3c70bc9ca5a1fd1ee9104cfbabb/plugins/shunt)<br><sub>作者 pleaseai</sub> | shunt 网关的用量条：各窗口花费与重置时间，以及完整的 /shunt:usage 明细。 | 联网, 运行命令 |
+| [`tokendoctor`](https://github.com/localixai/tokendoctor/tree/051fa9598f0a50ed30974b618f2911381b7dcf90)<br><sub>作者 localixai</sub> | 回放你过去的会话，展示每项改动能省多少，然后只应用你选择的改动。 | 运行命令, 调用模型 |
+| [`skins`](https://github.com/hellosverre/claude-skins/tree/cf0d39f3785d5c5a4b6189ecc487b1ac479efea0)<br><sub>作者 hellosverre</sub> | 转录皮肤的十五种主题、丰富卡片与用量条；/skin 实时切换。 | 联网, 运行命令, 调用模型, 读写文件 |
+| [`ctx-handoff`](https://github.com/cablate/ctx-handoff-mod/tree/a416713a0495be799a31f3650e18458e242270c7)<br><sub>作者 cablate</sub> | 把你教给 Claude 的内容沉淀为项目笔记，捕捉常见疏漏，保温缓存并续接长会话。 | 调用模型, 读写文件 |
+| [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)<br><sub>作者 avelikiy</sub> | 把 Claude Code 当作 73 个专家 agent 的流水线运行，每个阶段由独立模型复核。 | 联网 |
+| [`ripple`](https://github.com/PBJ-2/clauderipple/tree/c1c6b76a9e4e7a51df2ec5907d6e41d6bf8591e3/packages/mod)<br><sub>作者 PBJ-2</sub> | 为每条提示选择推理强度、为每个委派任务选择执行者，保温缓存并显示请求去向。 | 联网, 运行命令, 调用模型, MCP, 读写文件 |
+| [`tavernweave-agent-skills`](https://github.com/LiarMTTT/TavernWeave/tree/f9863d2b05305457fe9ed8b0c5688d52aca400a5)<br><sub>作者 LiarMTTT</sub> | 23 个共享技能用于角色卡、软件工作和有界云任务，提示上方有 Soul 模式开关。 | — |
+| [`agent-usage-guard`](https://github.com/rbartoli/agent-usage-guard/tree/02594c2620be9eb60c32e2f77d9d512d9f61b205)<br><sub>作者 rbartoli</sub> | 在子 agent 扩散、重上下文提示和重试循环消耗你的用量窗口之前将其拦下。 | 调用模型, 读写文件 |
 
 ### Agent 与子 agent
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
-| [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>作者 Charlie0113-T</sub> | /flow 在对话旁打开子 agent 和队友的实时树状图 | — |
-| [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>作者 hamzafer</sub> | 每个运行中的子 agent 一行：用时、工具次数、正在做什么（/radar 看全部） | — |
-| [`browser-lanes`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/browser-lanes)<br><sub>作者 hamzafer</sub> | 显示 Playwright 浏览器被谁占用；子 agent 要用时排队，/browser clean 清理残留 | 运行命令 |
-| [`mission-control`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/mission-control)<br><sub>作者 hamzafer</sub> | /mission 打开主 agent、子 agent 和所有工具调用的实时地图，外加文件代码地图 | 读写文件, 调用模型, 运行命令 |
-| [`review-watch`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/review-watch)<br><sub>作者 hamzafer</sub> | 每个进行中的代码审查（Codex 或审查子 agent）一行实时状态，结束时弹出结论 | 运行命令 |
-| [`switchboard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/switchboard)<br><sub>作者 hamzafer</sub> | 为没指定模型的子 agent 自动选模型（调用 OpenAI Decisions API 或 Jev），/route 看选择和花费 | 联网 |
-| [`agentpane`](https://github.com/xuanji86/claude-agentpane/tree/17be88979e5782591a2a184959df1c4168600066)<br><sub>作者 xuanji86</sub> | 侧边面板列出子 agent：各自在做什么、花了多少 token，点开看它的对话 | — |
+| [`shared-session`](https://github.com/Paradigm-Study/claude-share/tree/9d88f996ac4245c756a89b34e98cfde375028950/plugin)<br><sub>作者 Paradigm-Study</sub> | 用链接或团队共享会话；队友用自己的 Claude Code 加入并实时看到每一轮。 | — |
+| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/626cc0b46d417f81bbff9f5ba3b49abaf8912a85)<br><sub>作者 scasella</sub> | 实时 agent 仪表盘：模型体征、值班架构师、权限检查、子 agent 卡片与会话日志。 | — |
+| [`start`](https://github.com/rsmdt/the-startup/tree/e803d51fdb423271d3dde189f5416f3ec51386a9/plugins/start)<br><sub>作者 rsmdt</sub> | 面向 agent 软件开发的流程编排命令。 | 读写文件 |
+| [`lane-stack`](https://github.com/VKirill/claude-lane-stack/tree/8bac2b876b72053aa445bb9d1c7c6079bfc4ba8c/plugins/lane-stack)<br><sub>作者 VKirill</sub> | 单人 PM 流水线：编排 agent、泳道手册、入职与续接命令。 | 联网, 调用模型 |
 
 ### 效率与上下文
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
-| [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>作者 hamzafer</sub> | 一行显示需要你处理的事：下一个会议、PR、Linear 任务、Slack 私信（通过已连接的 MCP） | MCP, 运行命令 |
-| [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>作者 hamzafer</sub> | 每轮结束后给出 2–3 个可能的下一条提示，在空输入框里按 1/2/3 选用 | 调用模型 |
-| [`session-saver`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/session-saver)<br><sub>作者 hamzafer</sub> | 给未命名会话起名；/park 记下进度，恢复会话时显示 | 调用模型, 运行命令 |
-| [`where-am-i`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/where-am-i)<br><sub>作者 hamzafer</sub> | 输入框上方实时小结：目标、正在做、等你处理、下一步（/where 看详细） | 调用模型 |
-| [`aside`](https://github.com/JayDoubleu/aside/tree/cf2b7562ae7b376cdcf9e2436a926aba77dc759f)<br><sub>作者 JayDoubleu</sub> | 只读旁聊：/aside 在侧边问关于当前会话的问题，不写回主对话 | 调用模型 |
-| [`lcm`](https://github.com/lossless-claude/lcm/tree/0c17dbffda452cf7fae46929af427dff355aeaa3)<br><sub>作者 lossless-claude</sub> | 无损上下文管理：用 DAG 做分层摘要，每条消息都还能找回 | 读写文件, 联网, 调用模型, 运行命令 |
+| [`pebrel-prompt-suggestions`](https://github.com/Kuddev/pebrel/tree/ed9b2331340877ba3d775e38c4df6bd1a2abb1fe/pebrel_app/res/prompt-suggestions/claude)<br><sub>作者 Kuddev</sub> | 通过 Pebrel 会话桥在空输入框里给出原生提示预测。 | 联网 |
+| [`fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction/tree/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0)<br><sub>作者 tamaratran</sub> | 为 Claude Code 会话提供逐字保留的 Jev 压缩。 | 联网, 调用模型 |
+| [`lot-map`](https://github.com/alexeyw/lot-map/tree/ad60f057902765d778eedde770d337be45fac3af)<br><sub>作者 alexeyw</sub> | 聊天旁的实时地图：记忆、文件、Shell、网络、模型、agent、技能与 hooks 被使用时点亮。 | — |
+| [`storybloq`](https://github.com/Storybloq/storybloq/tree/f0b4c08e3a15ffb9841e5a3058c6b1ca57607154/plugins/storybloq)<br><sub>作者 Storybloq</sub> | 项目记忆：把工单、问题、交接和经验存进仓库里的 .story/ 目录。 | 读写文件 |
+| [`just-do-it`](https://github.com/Lifecycle-Innovations-Limited/claude-ops/tree/e434ef7e612f2ff5769def6101fc9d984888d377/claude-ops/skills/ops-jdi/plugin)<br><sub>作者 Lifecycle-Innovations-Limited</sub> | 把已授权的工作推进到验证与交付，并暴露需要修复的配置问题。 | 运行命令, 调用模型 |
+| [`filetree`](https://github.com/data-goblin/claude-code-filetree/tree/1fdc3a963f2dc22a939f661ff0ff5a76646c9112)<br><sub>作者 data-goblin</sub> | IDE 风格的目录树，显示 Claude 正在做什么、改到哪个文件。 | 运行命令, 调用模型, 读写文件 |
+| [`jev-auto-compact`](https://github.com/notque/vexjoy-agent/tree/c68ac1fea2a03e437ccc95112d1e56e467a9bd00/plugins/jev-auto-compact)<br><sub>作者 notque</sub> | 上下文到 60% 时以零生成裁剪陈旧工具调用；无可裁剪时跳过而非退化为 LLM 摘要。 | 联网, 调用模型 |
+| [`caliber-jev-compaction`](https://github.com/caliber-ai-org/ai-setup/tree/f5dbc002022a8a10acad25c1cce23ddefdc19d0d/plugin/caliber-jev-compaction)<br><sub>作者 caliber-ai-org</sub> | 为 Claude Code 会话提供逐字保留的 Jev 压缩。 | 联网, 调用模型 |
+| [`operator`](https://github.com/aerovato/operator-memory/tree/93c3fce64f0a72adeb89fa868600eb418548ec07/packages/claude-code)<br><sub>作者 aerovato</sub> | 面向 agent 开发的持久项目与用户记忆。 | — |
+| [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)<br><sub>作者 gwittebolle</sub> | 在终端和桌面应用中追踪 Claude Code 会话的碳足迹。 | 读写文件 |
+| [`work-mode`](https://github.com/danyuchn/claude-work-mode/tree/e19eda1e8465308bd79a74fad295cf9b6d9cdf71/plugins/work-mode)<br><sub>作者 danyuchn</sub> | 会话模式：auto（不中途提问）、out（委派批量工作）、wrap（收敛并收尾）。 | 运行命令, 读写文件 |
+| [`show-your-work`](https://github.com/iamumeransari/claude-show-your-work/tree/71e546044e3ba61b98a6938a03270da791f9ca2e)<br><sub>作者 iamumeransari</sub> | 在终端里展示成品：截图、操作录屏和前后对比的 QA。 | 联网, 运行命令, 调用模型, 读写文件 |
+| [`inbox`](https://github.com/petekp/inbox/tree/02e441cd447edf86fc30fbd03e9117a8ead9da7a)<br><sub>作者 petekp</sub> | 汇总会话中等待你处理的问题、任务、发现与 PR。 | — |
+| [`compact-adviser`](https://github.com/kunchenguid/compact-adviser/tree/37fa1a665b8933de68c90014312060e862cf121a/packages/claude-mod)<br><sub>作者 kunchenguid</sub> | 在完成的检查点建议或执行 /compact，由 TypeSafe Jev 判定。 | 联网, 调用模型, 读写文件 |
 
 ### 渲染与预览
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
-| [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>作者 briangtn</sub> | 在对话里渲染 GitHub 风格 Markdown：提示块、任务列表、删除线、Mermaid 图 | 运行命令 |
-| [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>作者 hamzafer</sub> | Claude 编辑的 Markdown 文件在侧边面板按 GitHub 样式渲染，修改前后对照（/md） | 读写文件, 运行命令 |
-| [`replay-theater`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/replay-theater)<br><sub>作者 hamzafer</sub> | 逐个 diff 回放上一轮的文件修改 | 读写文件 |
-| [`skins`](https://github.com/hellosverre/claude-skins/tree/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a)<br><sub>作者 hellosverre</sub> | 给对话记录换皮肤：工具行、回复边栏和 spinner 文案，/skin 实时切换 | — |
-| [`mdview`](https://github.com/xuanji86/claude-mdview/tree/da646556714507acf5d41610605b9911eb9aa42a)<br><sub>作者 xuanji86</sub> | 点击对话里的 .md 路径，在旁边渲染阅读（含图片），还能指着某段让 Claude 改 | 读写文件, 运行命令 |
-| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/2165ae76c9639e3996829ab0e6d54ddbd4f06ad8/claude-code-plugin)<br><sub>作者 zenbu-labs</sub> | 在对话旁开一个浏览器：预览网页和本地 HTML，也能让 agent 操作它 | 读写文件, 联网, 运行命令 |
+| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/fa9e5eb053d2a1da11f7ccba720a0d3d389c05a6/claude-code-plugin)<br><sub>作者 zenbu-labs</sub> | 内置在 Claude Code 里的浏览器：预览网站和 HTML，并可让 agent 操作这个浏览器。 | 联网, 运行命令, 调用模型, 读写文件 |
+| [`prismantis`](https://github.com/NahumLitvin/prismantis/tree/3718a40abc57b836108a65bd9f01d06d3237e52d/plugin)<br><sub>作者 NahumLitvin</sub> | 为回复提供可换主题的彩色渲染：表格、标题、代码、数字、路径与链接。 | 运行命令, 读写文件 |
 
 ### 安全与守卫
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
-| [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>作者 hamzafer</sub> | 拦住有风险的 Bash 命令，先展示会改动什么再让你确认 | 运行命令 |
-| [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>作者 hamzafer</sub> | `gh pr merge` 要等 CI 通过且跑过一次 Codex 审查才放行 | 读写文件, 运行命令 |
-| [`rulebook-guard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/rulebook-guard)<br><sub>作者 hamzafer</sub> | 写作和 git 规则：替换正文里的破折号；amend、未格式化的 push、提交里带个人信息时先问你 | 读写文件, 运行命令 |
-| [`secret-redactor`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/secret-redactor)<br><sub>作者 ray-amjad</sub> | 密钥、邮箱、IP 进对话前换成固定占位符，调用工具时再换回真实值 | — |
+| [`lcu-approve`](https://github.com/amontlabs/lcu/tree/1bd45b304295c7665b559fcc32f7b3a8f1b1d859/adapters/claude-mod/lcu-approve)<br><sub>作者 amontlabs</sub> | 电脑使用的按应用授权：本次允许、始终允许或拒绝，并有已授权应用面板。 | 运行命令, MCP, 读写文件 |
+| [`agentctl`](https://github.com/sd0xdev/sd0x-harness/tree/b0206637edd2e44c993da12b6b30858f96bc3cdc/mods/agentctl)<br><sub>作者 sd0xdev</sub> | 会话级 agent 控制面板：任务范围、证据与交接。 | 运行命令, 调用模型, 读写文件 |
+| [`multi-core`](https://github.com/greenpolo/cc-multi-cli-plugin/tree/66d9b0a6b06b25fd648ecd53311a647bb57e2fb4/plugins/multi-core)<br><sub>作者 greenpolo</sub> | 在单个会话里使用 ChatGPT、Cursor、OpenCode 与 Antigravity 模型，用 /model 切换。 | 联网, 调用模型 |
+| [`jevmem-pane`](https://github.com/Avinash-jetwani/jevmem/tree/c29753ccb2c9706e417fda25efa422682358955b/pane)<br><sub>作者 Avinash-jetwani</sub> | 侧栏显示 jevmem 召回了什么、守卫判定什么、上一轮保存了什么。 | 运行命令, 读写文件 |
 
 ### Git、PR 与部署
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
 | --- | --- | --- |
-| [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>作者 ray-amjad</sub> | 在输入框下方固定显示当前项目的 Vercel 部署队列和进度 | 读写文件, 运行命令 |
-| [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>作者 sezaakgun</sub> | 盯着的 GitHub PR 的合并状态、审查和必需检查，变化时提醒 | 读写文件, 运行命令 |
-
-### 等待时的消遣
-
-| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 权限 |
-| --- | --- | --- |
-| [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>作者 darrell-tw</sub> | 台股/美股自选股看板，按交易时段切换，含持仓损益模式 | 读写文件, 联网, 运行命令 |
-| [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>作者 halluton</sub> | Claude 干活时在输入框上方带你做呼吸练习，spinner 跟着呼吸计数 | — |
-| [`now-playing`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/now-playing)<br><sub>作者 hamzafer</sub> | 一行显示 Spotify 正在播放的歌、进度和当前歌词，带控制按钮（仅 macOS） | 联网, 运行命令 |
-| [`prayer-times`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/prayer-times)<br><sub>作者 hamzafer</sub> | 当前和下一次礼拜时间及剩余时长，在本机按位置计算，不联网 | — |
-| [`reels`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/reels)<br><sub>作者 hamzafer</sub> | 在终端面板播放 YouTube Shorts，Claude 工作时播放、完成时暂停 | 读写文件, 联网, 运行命令 |
-| [`snake`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/snake)<br><sub>作者 hamzafer</sub> | Claude 工作时在面板里玩贪吃蛇，需先 /snake 打开 | — |
-| [`cc-arcade`](https://github.com/sezaakgun/cc-arcade/tree/0baff06d31295850283c2eebe052f39bbc35473f)<br><sub>作者 sezaakgun</sub> | 输入框上方 9 个小游戏（贪吃蛇、俄罗斯方块、2048 等），外加随测试和提交成长的宠物 | — |
+| [`fm`](https://github.com/kunchenguid/firstmate/tree/427056c4181c41074ad24f051f79919330df0fa5/.claude/mods/firstmate-calm)<br><sub>作者 kunchenguid</sub> | 帆船工作动画与会话专用转录显示，跨会话共享 calm 模式偏好。 | 读写文件 |
+| [`turbo`](https://github.com/tobihagemann/turbo/tree/3bc6b4436d96be22497109e16e68fe4dfa323531/claude)<br><sub>作者 tobihagemann</sub> | 人工把关的 agent 软件工厂：你决定做什么并验收，技能负责构建与发布。 | 调用模型, 读写文件 |
+| [`mazyos`](https://github.com/Mazzeo-Marketing/MazyOS/tree/d2b65b392f1ee230afb088d155fc734def5f105d)<br><sub>作者 Mazzeo-Marketing</sub> | 葡语商业操作插件：每次会话带入公司记忆、输出带品牌形象，并提供 17 个营销/SEO 技能。 | 读写文件 |
+| [`engineer`](https://github.com/swingerman/engineer/tree/ae4cb5fe32007dd6a3d717c9998dcfb12b1f348e/engineer)<br><sub>作者 swingerman</sub> | 严谨的 agent 工程方法套件：需求受理、验收标准探索、规格、计划、实现、验证与加固。 | 运行命令, 调用模型 |
 
 ## 推荐 mod
 

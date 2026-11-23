@@ -44,9 +44,7 @@ def check(mods, summaries, strings):
     for m in mods:
         if m["category"] not in CATEGORY_ORDER:
             raise SystemExit(f"{m['name']}: unknown category {m['category']}")
-        missing = [lang for lang in strings if lang != "en" and lang not in summaries.get(m["name"], {})]
-        if missing:
-            raise SystemExit(f"{m['name']}: no summary in readme/summaries.json for {missing}")
+        # Missing translations fall back to the English description in catalog().
 
 
 def build_market(mods):

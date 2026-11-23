@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · **繁體中文** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md)
 
-**逐一挑選、驗證、固定版本。新增一次，43 個 mod 隨裝隨用。**
+**逐一挑選、驗證、固定版本。新增一次，41 個 mod 隨裝隨用。**
 
 Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接管 Claude Code 的行為，也能繪製自己的介面。這個市集收錄了社群中最好的 mod。每一個都以 `claude plugin validate` 驗證過，並固定在驗證時的 commit，作者之後的修改不會未經審核就到你這裡。
 
@@ -27,79 +27,72 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
-| [`cache-clock`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/cache-clock)<br><sub>作者 hamzafer</sub> | 狀態列下一行：提示快取還能保溫幾分鐘，冷掉後下一則要重新快取多少 token | 讀寫檔案, 執行指令 |
-| [`context-bar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/context-bar)<br><sub>作者 hamzafer</sub> | 上下文視窗依類別分色的堆疊條，含 token 數與壓縮點（/context-bar 開關） | — |
-| [`openai-balance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/openai-balance)<br><sub>作者 hamzafer</sub> | OpenAI API 餘額估算、今日花費與主要去向（/openai-balance） | 連網, 執行指令 |
-| [`token-weather`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/token-weather)<br><sub>作者 hamzafer</sub> | 把上下文占用畫成天氣預報，附提示快取倒數 | 讀寫檔案, 執行指令 |
-| [`usage-meter`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/usage-meter)<br><sub>作者 hamzafer</sub> | 5 小時與 7 天用量的小進度條，附重置倒數和本工作階段費用 | — |
-| [`usage-band`](https://github.com/JetsonChan/CC-Usage-Band/tree/60cd60949b1f52c96ddba3ea24ed0848ff302196/usage-band)<br><sub>作者 JetsonChan</sub> | 輸入框上方顯示 5 小時／7 天額度、上下文和快取命中率，終端機與桌面版皆適用 | — |
-| [`context-view`](https://github.com/kongyo2/context-view/tree/137e4e3db754684144ec953c5e66085bc2959766)<br><sub>作者 kongyo2</sub> | 一行顯示上下文占用，樣式與 Claude Code 內建儀表相同，含距離自動壓縮還剩多少 | — |
-| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/f31daca523d36c501cd0df23a737a44c7dc56ad6)<br><sub>作者 scasella</sub> | agent 儀表板：模型狀態、每次權限判定、子 agent 卡片與泳道、本輪收據、工作階段紀錄 | — |
-| [`cctop`](https://github.com/tomstagl/cctop/tree/6ceafc34a972f4e58d5e53b1c69f80e2a9759d41/plugin)<br><sub>作者 tomstagl</sub> | btop 風格的即時面板：上下文、token、費用、快取命中、額度、各工具耗時（/cctop） | 讀寫檔案, 執行指令 |
-| [`statuspane`](https://github.com/xuanji86/claude-statuspane/tree/13bd8e46edefdf282f117941b886cb529c7d79c3)<br><sub>作者 xuanji86</sub> | 輸入框上方的浮動狀態卡：模型、effort、上下文、5 小時／週額度、費用、分支、CI | 讀寫檔案, 執行指令 |
-| [`plan-progress`](https://github.com/zycck/claude-mods/tree/3539d02d7435397d293e3120ebad22c23214f6c0/plugins/plan-progress)<br><sub>作者 zycck</sub> | 輸入框上方的計畫進度條：階段、步驟、像素填色，決策／出錯／完成時有提示音 | 讀寫檔案, 執行指令 |
+| [`token-optimizer`](https://github.com/alexgreensh/token-optimizer/tree/e3f1a2dcad8d8999096b8a881c4d98cdba4ef1a5/desktop/token-optimizer-desktop)<br><sub>作者 alexgreensh</sub> | A token-optimizer status bar that shows where tokens go and how to spend less. | 執行指令, 呼叫模型, 讀寫檔案 |
+| [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)<br><sub>作者 hex</sub> | Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check. | 執行指令, 呼叫模型, 讀寫檔案 |
+| [`codex-attachment-manager`](https://github.com/chipfighter/context-attachment-manager/tree/d68a721b7432059c9056d546ff2a26b11b3c0e0c)<br><sub>作者 chipfighter</sub> | Sends earlier images as short placeholders and fetches originals back by ID, so long image sessions keep the prompt cache. | 連網, MCP |
+| [`cache-tax`](https://github.com/karanb192/cache-tax/tree/535ff33225e666e605e731d78f5ac5efe243c7c3)<br><sub>作者 karanb192</sub> | Keeps the one-hour prompt cache warm during breaks, asking before a cold send and showing the rewrite cost. | 呼叫模型 |
+| [`agent-standup-band`](https://github.com/Atoll92/agent-standup/tree/846d5324f7c00f06d598c86e87ed8b51d774b3ac/plugin-band)<br><sub>作者 Atoll92</sub> | A line above the prompt when another local session needs you, and a toast when one finishes. | 執行指令, 讀寫檔案 |
+| [`shunt`](https://github.com/pleaseai/shunt/tree/57182b328e92d3c70bc9ca5a1fd1ee9104cfbabb/plugins/shunt)<br><sub>作者 pleaseai</sub> | A usage band for the shunt gateway: each window's spend and reset time, plus a full /shunt:usage breakdown. | 連網, 執行指令 |
+| [`tokendoctor`](https://github.com/localixai/tokendoctor/tree/051fa9598f0a50ed30974b618f2911381b7dcf90)<br><sub>作者 localixai</sub> | Replays your past sessions to show what each change would have saved, then applies only what you pick. | 執行指令, 呼叫模型 |
+| [`skins`](https://github.com/hellosverre/claude-skins/tree/cf0d39f3785d5c5a4b6189ecc487b1ac479efea0)<br><sub>作者 hellosverre</sub> | Skins and fifteen themes for the transcript, with rich cards and a usage band; /skin swaps them live. | 連網, 執行指令, 呼叫模型, 讀寫檔案 |
+| [`ctx-handoff`](https://github.com/cablate/ctx-handoff-mod/tree/a416713a0495be799a31f3650e18458e242270c7)<br><sub>作者 cablate</sub> | Turns what you teach Claude into project notes, catches common slips, keeps the cache warm and resumes long sessions. | 呼叫模型, 讀寫檔案 |
+| [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)<br><sub>作者 avelikiy</sub> | Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage. | 連網 |
+| [`ripple`](https://github.com/PBJ-2/clauderipple/tree/c1c6b76a9e4e7a51df2ec5907d6e41d6bf8591e3/packages/mod)<br><sub>作者 PBJ-2</sub> | Picks reasoning effort per prompt and a worker per delegated task, keeps the cache warm and shows where each request went. | 連網, 執行指令, 呼叫模型, MCP, 讀寫檔案 |
+| [`tavernweave-agent-skills`](https://github.com/LiarMTTT/TavernWeave/tree/f9863d2b05305457fe9ed8b0c5688d52aca400a5)<br><sub>作者 LiarMTTT</sub> | 23 shared skills for rolecards, software work and bounded cloud tasks, plus a Soul mode switch above the prompt. | — |
+| [`agent-usage-guard`](https://github.com/rbartoli/agent-usage-guard/tree/02594c2620be9eb60c32e2f77d9d512d9f61b205)<br><sub>作者 rbartoli</sub> | Holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window. | 呼叫模型, 讀寫檔案 |
 
 ### Agent 與子 agent
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
-| [`agent-flow`](https://github.com/Charlie0113-T/claude-agent-flow/tree/d87b2559dec03979e088026e8f48aee5f9d2cab5)<br><sub>作者 Charlie0113-T</sub> | /flow 在對話旁開啟子 agent 與隊友的即時樹狀圖 | — |
-| [`agent-radar`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/agent-radar)<br><sub>作者 hamzafer</sub> | 每個執行中的子 agent 一行：用時、工具次數、正在做什麼（/radar 看全部） | — |
-| [`browser-lanes`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/browser-lanes)<br><sub>作者 hamzafer</sub> | 顯示 Playwright 瀏覽器被誰占用；子 agent 要用時排隊，/browser clean 清理殘留 | 執行指令 |
-| [`mission-control`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/mission-control)<br><sub>作者 hamzafer</sub> | /mission 開啟主 agent、子 agent 與所有工具呼叫的即時地圖，外加檔案程式碼地圖 | 讀寫檔案, 呼叫模型, 執行指令 |
-| [`review-watch`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/review-watch)<br><sub>作者 hamzafer</sub> | 每個進行中的程式碼審查（Codex 或審查子 agent）一行即時狀態，結束時跳出結論 | 執行指令 |
-| [`switchboard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/switchboard)<br><sub>作者 hamzafer</sub> | 為沒指定模型的子 agent 自動選模型（呼叫 OpenAI Decisions API 或 Jev），/route 查看選擇與花費 | 連網 |
-| [`agentpane`](https://github.com/xuanji86/claude-agentpane/tree/17be88979e5782591a2a184959df1c4168600066)<br><sub>作者 xuanji86</sub> | 側邊面板列出子 agent：各自在做什麼、花了多少 token，點開看它的對話 | — |
+| [`shared-session`](https://github.com/Paradigm-Study/claude-share/tree/9d88f996ac4245c756a89b34e98cfde375028950/plugin)<br><sub>作者 Paradigm-Study</sub> | Share a session with a link or your team; teammates join from their own Claude Code and watch every turn live. | — |
+| [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/626cc0b46d417f81bbff9f5ba3b49abaf8912a85)<br><sub>作者 scasella</sub> | A live agent dashboard: model vitals, an on-call architect, permission checks, subagent cards and a session log. | — |
+| [`start`](https://github.com/rsmdt/the-startup/tree/e803d51fdb423271d3dde189f5416f3ec51386a9/plugins/start)<br><sub>作者 rsmdt</sub> | Workflow orchestration commands for agentic software development. | 讀寫檔案 |
+| [`lane-stack`](https://github.com/VKirill/claude-lane-stack/tree/8bac2b876b72053aa445bb9d1c7c6079bfc4ba8c/plugins/lane-stack)<br><sub>作者 VKirill</sub> | A solo PM conveyor: orchestrator agents, lane playbooks, onboard and resume commands. | 連網, 呼叫模型 |
 
 ### 效率與上下文
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
-| [`glance`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/glance)<br><sub>作者 hamzafer</sub> | 一行顯示需要你處理的事：下一場會議、PR、Linear 任務、Slack 私訊（透過已連線的 MCP） | MCP, 執行指令 |
-| [`next-steps`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/next-steps)<br><sub>作者 hamzafer</sub> | 每輪結束後提供 2–3 個可能的下一則提示，在空白輸入框按 1/2/3 選用 | 呼叫模型 |
-| [`session-saver`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/session-saver)<br><sub>作者 hamzafer</sub> | 替未命名的工作階段命名；/park 記下進度，恢復時顯示 | 呼叫模型, 執行指令 |
-| [`where-am-i`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/where-am-i)<br><sub>作者 hamzafer</sub> | 輸入框上方即時摘要：目標、正在做、等你處理、下一步（/where 看詳細） | 呼叫模型 |
-| [`aside`](https://github.com/JayDoubleu/aside/tree/cf2b7562ae7b376cdcf9e2436a926aba77dc759f)<br><sub>作者 JayDoubleu</sub> | 唯讀旁聊：/aside 在側邊詢問關於目前工作階段的問題，不寫回主對話 | 呼叫模型 |
-| [`lcm`](https://github.com/lossless-claude/lcm/tree/0c17dbffda452cf7fae46929af427dff355aeaa3)<br><sub>作者 lossless-claude</sub> | 無損上下文管理：以 DAG 做分層摘要，每則訊息都還能找回 | 讀寫檔案, 連網, 呼叫模型, 執行指令 |
+| [`pebrel-prompt-suggestions`](https://github.com/Kuddev/pebrel/tree/ed9b2331340877ba3d775e38c4df6bd1a2abb1fe/pebrel_app/res/prompt-suggestions/claude)<br><sub>作者 Kuddev</sub> | Native empty-composer prompt predictions through the Pebrel session bridge. | 連網 |
+| [`fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction/tree/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0)<br><sub>作者 tamaratran</sub> | Verbatim Jev-guided compaction for Claude Code sessions. | 連網, 呼叫模型 |
+| [`lot-map`](https://github.com/alexeyw/lot-map/tree/ad60f057902765d778eedde770d337be45fac3af)<br><sub>作者 alexeyw</sub> | A live map beside the chat: memory, files, shell, web, model, agents, skills and hooks light up as they are used. | — |
+| [`storybloq`](https://github.com/Storybloq/storybloq/tree/f0b4c08e3a15ffb9841e5a3058c6b1ca57607154/plugins/storybloq)<br><sub>作者 Storybloq</sub> | Project memory: tickets, issues, handovers and lessons kept in a .story/ folder in your repo. | 讀寫檔案 |
+| [`just-do-it`](https://github.com/Lifecycle-Innovations-Limited/claude-ops/tree/e434ef7e612f2ff5769def6101fc9d984888d377/claude-ops/skills/ops-jdi/plugin)<br><sub>作者 Lifecycle-Innovations-Limited</sub> | Continues authorized work through verification and delivery, and surfaces setup issues to repair. | 執行指令, 呼叫模型 |
+| [`filetree`](https://github.com/data-goblin/claude-code-filetree/tree/1fdc3a963f2dc22a939f661ff0ff5a76646c9112)<br><sub>作者 data-goblin</sub> | An IDE-style file tree that shows what Claude is doing and where in your files. | 執行指令, 呼叫模型, 讀寫檔案 |
+| [`jev-auto-compact`](https://github.com/notque/vexjoy-agent/tree/c68ac1fea2a03e437ccc95112d1e56e467a9bd00/plugins/jev-auto-compact)<br><sub>作者 notque</sub> | At 60% context, prunes stale tool calls with zero generation; skips instead of falling back to an LLM summary. | 連網, 呼叫模型 |
+| [`caliber-jev-compaction`](https://github.com/caliber-ai-org/ai-setup/tree/f5dbc002022a8a10acad25c1cce23ddefdc19d0d/plugin/caliber-jev-compaction)<br><sub>作者 caliber-ai-org</sub> | Verbatim Jev-guided compaction for Claude Code sessions. | 連網, 呼叫模型 |
+| [`operator`](https://github.com/aerovato/operator-memory/tree/93c3fce64f0a72adeb89fa868600eb418548ec07/packages/claude-code)<br><sub>作者 aerovato</sub> | Durable project and user memory for agent-driven development. | — |
+| [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)<br><sub>作者 gwittebolle</sub> | Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app. | 讀寫檔案 |
+| [`work-mode`](https://github.com/danyuchn/claude-work-mode/tree/e19eda1e8465308bd79a74fad295cf9b6d9cdf71/plugins/work-mode)<br><sub>作者 danyuchn</sub> | Session modes: auto (no mid-task questions), out (delegate batch work) and wrap (converge and finish). | 執行指令, 讀寫檔案 |
+| [`show-your-work`](https://github.com/iamumeransari/claude-show-your-work/tree/71e546044e3ba61b98a6938a03270da791f9ca2e)<br><sub>作者 iamumeransari</sub> | Shows finished work in the terminal: screenshots, click-through videos and synced before/after QA. | 連網, 執行指令, 呼叫模型, 讀寫檔案 |
+| [`inbox`](https://github.com/petekp/inbox/tree/02e441cd447edf86fc30fbd03e9117a8ead9da7a)<br><sub>作者 petekp</sub> | Gathers the questions, tasks, findings and PRs waiting on you in a session. | — |
+| [`compact-adviser`](https://github.com/kunchenguid/compact-adviser/tree/37fa1a665b8933de68c90014312060e862cf121a/packages/claude-mod)<br><sub>作者 kunchenguid</sub> | Suggests or runs /compact at a completed checkpoint, judged by TypeSafe Jev. | 連網, 呼叫模型, 讀寫檔案 |
 
 ### 呈現與預覽
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
-| [`gfm-render`](https://github.com/briangtn/claude-gfm-render/tree/a209ad5a0ec35c0813d2d80ab62b596140b0c807)<br><sub>作者 briangtn</sub> | 在對話裡渲染 GitHub 風格 Markdown：提示區塊、任務清單、刪除線、Mermaid 圖 | 執行指令 |
-| [`md-preview`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/md-preview)<br><sub>作者 hamzafer</sub> | Claude 編輯的 Markdown 檔案在側邊面板以 GitHub 樣式呈現，修改前後對照（/md） | 讀寫檔案, 執行指令 |
-| [`replay-theater`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/replay-theater)<br><sub>作者 hamzafer</sub> | 逐一 diff 回放上一輪的檔案修改 | 讀寫檔案 |
-| [`skins`](https://github.com/hellosverre/claude-skins/tree/342fbc0dd49ec44c824ed9c8eb95cd4927d7f81a)<br><sub>作者 hellosverre</sub> | 替對話紀錄換外觀：工具列、回覆邊欄和 spinner 文字，/skin 即時切換 | — |
-| [`mdview`](https://github.com/xuanji86/claude-mdview/tree/da646556714507acf5d41610605b9911eb9aa42a)<br><sub>作者 xuanji86</sub> | 點擊對話裡的 .md 路徑，在旁邊渲染閱讀（含圖片），還能指著某段讓 Claude 修改 | 讀寫檔案, 執行指令 |
-| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/2165ae76c9639e3996829ab0e6d54ddbd4f06ad8/claude-code-plugin)<br><sub>作者 zenbu-labs</sub> | 在對話旁開一個瀏覽器：預覽網頁和本機 HTML，也能讓 agent 操作它 | 讀寫檔案, 連網, 執行指令 |
+| [`terminal-browser`](https://github.com/zenbu-labs/terminal-browser/tree/fa9e5eb053d2a1da11f7ccba720a0d3d389c05a6/claude-code-plugin)<br><sub>作者 zenbu-labs</sub> | A browser inside Claude Code: preview sites and HTML, and let the agent drive the built-in browser. | 連網, 執行指令, 呼叫模型, 讀寫檔案 |
+| [`prismantis`](https://github.com/NahumLitvin/prismantis/tree/3718a40abc57b836108a65bd9f01d06d3237e52d/plugin)<br><sub>作者 NahumLitvin</sub> | Colorful, themeable rendering for replies: tables, headings, code, numbers, paths and links. | 執行指令, 讀寫檔案 |
 
 ### 安全與防護
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
-| [`blast-radius`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/blast-radius)<br><sub>作者 hamzafer</sub> | 攔下有風險的 Bash 指令，先顯示會改動什麼再讓你確認 | 執行指令 |
-| [`merge-gate`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/merge-gate)<br><sub>作者 hamzafer</sub> | `gh pr merge` 要等 CI 通過並跑過一次 Codex 審查才放行 | 讀寫檔案, 執行指令 |
-| [`rulebook-guard`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/rulebook-guard)<br><sub>作者 hamzafer</sub> | 寫作與 git 規則：替換內文的破折號；amend、未格式化的 push、提交含個人資訊時先問你 | 讀寫檔案, 執行指令 |
-| [`secret-redactor`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/secret-redactor)<br><sub>作者 ray-amjad</sub> | 金鑰、電子郵件、IP 進入對話前換成固定佔位符，呼叫工具時再換回真實值 | — |
+| [`lcu-approve`](https://github.com/amontlabs/lcu/tree/1bd45b304295c7665b559fcc32f7b3a8f1b1d859/adapters/claude-mod/lcu-approve)<br><sub>作者 amontlabs</sub> | Per-app approval for computer use: allow this conversation, always allow, or deny, plus a panel of approved apps. | 執行指令, MCP, 讀寫檔案 |
+| [`agentctl`](https://github.com/sd0xdev/sd0x-harness/tree/b0206637edd2e44c993da12b6b30858f96bc3cdc/mods/agentctl)<br><sub>作者 sd0xdev</sub> | An agent control plane for a session: task scope, evidence and hand-over. | 執行指令, 呼叫模型, 讀寫檔案 |
+| [`multi-core`](https://github.com/greenpolo/cc-multi-cli-plugin/tree/66d9b0a6b06b25fd648ecd53311a647bb57e2fb4/plugins/multi-core)<br><sub>作者 greenpolo</sub> | Use ChatGPT, Cursor, OpenCode and Antigravity models inside one session, switching with /model. | 連網, 呼叫模型 |
+| [`jevmem-pane`](https://github.com/Avinash-jetwani/jevmem/tree/c29753ccb2c9706e417fda25efa422682358955b/pane)<br><sub>作者 Avinash-jetwani</sub> | A side pane showing what jevmem recalled, what its guard decided and what the last turn saved. | 執行指令, 讀寫檔案 |
 
 ### Git、PR 與部署
 
 | Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
 | --- | --- | --- |
-| [`vercel-deploy-status`](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/12b5fea27a4bd1b88cd9c9b6abc1efc0756c6625/plugins/vercel-deploy-status)<br><sub>作者 ray-amjad</sub> | 在輸入框下方固定顯示目前專案的 Vercel 部署佇列與進度 | 讀寫檔案, 執行指令 |
-| [`cc-pr-tracker`](https://github.com/sezaakgun/cc-pr-tracker/tree/2d96fc7ed6bcca44a350700ac4c37e9066d58b46)<br><sub>作者 sezaakgun</sub> | 追蹤 GitHub PR 的合併狀態、審查與必要檢查，有變化時提醒 | 讀寫檔案, 執行指令 |
-
-### 等待時的消遣
-
-| Mod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 功能 | 權限 |
-| --- | --- | --- |
-| [`tw-stock-mod`](https://github.com/darrell-tw/darrelltw-mods/tree/649efd272da992051c48d25f30a393e0e0ce45b8/mods/tw-stock-mod)<br><sub>作者 darrell-tw</sub> | 台股／美股自選股看板，依交易時段切換，含持股損益模式 | 讀寫檔案, 連網, 執行指令 |
-| [`mindful-claude`](https://github.com/halluton/Mindful-Claude/tree/411c9c4f4f1c3d128159be7315823341ae7d9e2d)<br><sub>作者 halluton</sub> | Claude 工作時在輸入框上方帶你做呼吸練習，spinner 跟著呼吸計數 | — |
-| [`now-playing`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/now-playing)<br><sub>作者 hamzafer</sub> | 一行顯示 Spotify 正在播放的歌曲、進度與當前歌詞，附控制按鈕（僅 macOS） | 連網, 執行指令 |
-| [`prayer-times`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/prayer-times)<br><sub>作者 hamzafer</sub> | 目前與下一次禮拜時間及剩餘時間，在本機依位置計算，不連網 | — |
-| [`reels`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/reels)<br><sub>作者 hamzafer</sub> | 在終端機面板播放 YouTube Shorts，Claude 工作時播放、完成時暫停 | 讀寫檔案, 連網, 執行指令 |
-| [`snake`](https://github.com/hamzafer/claude-code-mods/tree/e687416b0f2df0f3ad7f4dfc2065eefe6bc17ea9/mods/snake)<br><sub>作者 hamzafer</sub> | Claude 工作時在面板裡玩貪食蛇，需先 /snake 開啟 | — |
-| [`cc-arcade`](https://github.com/sezaakgun/cc-arcade/tree/0baff06d31295850283c2eebe052f39bbc35473f)<br><sub>作者 sezaakgun</sub> | 輸入框上方 9 款小遊戲（貪食蛇、俄羅斯方塊、2048 等），外加隨測試與提交成長的寵物 | — |
+| [`fm`](https://github.com/kunchenguid/firstmate/tree/427056c4181c41074ad24f051f79919330df0fa5/.claude/mods/firstmate-calm)<br><sub>作者 kunchenguid</sub> | The sailboat working animation and a conversation-only transcript, sharing a calm-mode preference across sessions. | 讀寫檔案 |
+| [`turbo`](https://github.com/tobihagemann/turbo/tree/3bc6b4436d96be22497109e16e68fe4dfa323531/claude)<br><sub>作者 tobihagemann</sub> | A human-gated agentic software factory: you decide what to build and judge the result, skills build and ship it. | 呼叫模型, 讀寫檔案 |
+| [`mazyos`](https://github.com/Mazzeo-Marketing/MazyOS/tree/d2b65b392f1ee230afb088d155fc734def5f105d)<br><sub>作者 Mazzeo-Marketing</sub> | A Portuguese business OS plugin: your company memory in every session, brand identity on outputs, and 17 marketing/SEO skills. | 讀寫檔案 |
+| [`engineer`](https://github.com/swingerman/engineer/tree/ae4cb5fe32007dd6a3d717c9998dcfb12b1f348e/engineer)<br><sub>作者 swingerman</sub> | A disciplined agentic-engineering methodology kit: intake, AC discovery, spec, planning, implementation, verification, hardening. | 執行指令, 呼叫模型 |
 
 ## 推薦 mod
 
