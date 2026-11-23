@@ -63,7 +63,7 @@ def language_bar(strings, current):
         for lang, s in strings.items())
 
 
-def catalog(mods, summaries, s, lang):
+def catalog(mods, summaries, s, lang, images):
     lines = []
     for key in CATEGORY_ORDER:
         group = [m for m in mods if m["category"] == key]
@@ -78,7 +78,14 @@ def catalog(mods, summaries, s, lang):
             text = text.replace("|", "\\|")
             reach = ", ".join(s["reach"][a] for a in m["access"] if a in s["reach"]) or "—"
             author = m["repo"].split("/")[0]
-            lines.append(f"| [`{m['name']}`]({homepage(m)})<br><sub>{s['by']} {author} · [🖼 preview](https://github.com/{m['repo']})</sub> "
+            pics = images.get(m['repo'], [])
+            pic = ''
+            if pics:
+                url = pics[0]
+                if url.startswith('/'):
+                    url = 'https://github.com' + url
+                pic = f'<a href="{homepage(m)}"><img src="{url}" width="200" alt="{m["name"]}"></a><br>'
+            lines.append(f"| {pic}[`{m['name']}`]({homepage(m)})<br><sub>{s['by']} {author}</sub> "
                          f"| {text} | {reach} |")
         lines.append("")
     return "\n".join(lines).rstrip()
@@ -88,13 +95,14 @@ def main():
     mods = load("community.json")
     summaries = load("readme/summaries.json")
     strings = load("readme/strings.json")
+    images = load("readme/images.json")
     check(mods, summaries, strings)
     build_market(mods)
     for lang, s in strings.items():
         page = (ROOT / "readme" / "pages" / f"{lang}.md").read_text(encoding="utf-8")
         page = (page.replace("{{languages}}", language_bar(strings, lang))
                     .replace("{{count}}", str(len(mods)))
-                    .replace("{{catalog}}", catalog(mods, summaries, s, lang)))
+                    .replace("{{catalog}}", catalog(mods, summaries, s, lang, images)))
         write(ROOT / s["file"], page)
     print(f"{len(mods)} mods; {len(strings)} READMEs")
 
