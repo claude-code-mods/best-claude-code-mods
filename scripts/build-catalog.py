@@ -71,7 +71,7 @@ def catalog(mods, summaries, s, lang, images):
         if not group:
             continue
         lines += [f"### {s['categories'][key]}", ""]
-        for m in group:
+        for index, m in enumerate(group):
             name = m["name"]
             link = homepage(m)
             text = summaries.get(name, {}).get(lang, m["description"])
@@ -92,6 +92,8 @@ def catalog(mods, summaries, s, lang, images):
                       f"*{s['by']} {author}* · {text}", "",
                       f"**{s['columns'][2]}:** {reach}", "",
                       f"`/plugin install {name}@best-claude-code-mods`", ""]
+            if index < len(group) - 1:
+                lines += ["---", ""]
         lines.append("")
     return "\n".join(lines).rstrip()
 

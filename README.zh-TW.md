@@ -35,6 +35,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install token-optimizer@best-claude-code-mods`
 
+---
+
 [![claude-council](https://github.com/hex/claude-council/raw/main/assets/desktop-code-tab.png)](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
 
 #### [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
@@ -44,6 +46,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 執行指令, 呼叫模型, 讀寫檔案
 
 `/plugin install claude-council@best-claude-code-mods`
+
+---
 
 [![codex-attachment-manager](https://github.com/chipfighter/context-attachment-manager/raw/main/docs/images/hero.gif)](https://github.com/chipfighter/context-attachment-manager/tree/d68a721b7432059c9056d546ff2a26b11b3c0e0c)
 
@@ -55,6 +59,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install codex-attachment-manager@best-claude-code-mods`
 
+---
+
 [![cache-tax](https://github.com/karanb192/cache-tax/raw/main/site/assets/refusal.gif)](https://github.com/karanb192/cache-tax/tree/535ff33225e666e605e731d78f5ac5efe243c7c3)
 
 #### [`cache-tax`](https://github.com/karanb192/cache-tax/tree/535ff33225e666e605e731d78f5ac5efe243c7c3)
@@ -64,6 +70,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 呼叫模型
 
 `/plugin install cache-tax@best-claude-code-mods`
+
+---
 
 [![agent-standup-band](https://atoll92.github.io/agent-standup/media/banner.png)](https://github.com/Atoll92/agent-standup/tree/846d5324f7c00f06d598c86e87ed8b51d774b3ac/plugin-band)
 
@@ -75,6 +83,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install agent-standup-band@best-claude-code-mods`
 
+---
+
 [![shunt](docs/assets/shunt.png)](https://github.com/pleaseai/shunt/tree/57182b328e92d3c70bc9ca5a1fd1ee9104cfbabb/plugins/shunt)
 
 #### [`shunt`](https://github.com/pleaseai/shunt/tree/57182b328e92d3c70bc9ca5a1fd1ee9104cfbabb/plugins/shunt)
@@ -84,6 +94,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 連網, 執行指令
 
 `/plugin install shunt@best-claude-code-mods`
+
+---
 
 [![tokendoctor](https://github.com/localixai/tokendoctor/raw/main/docs/demo.gif)](https://github.com/localixai/tokendoctor/tree/051fa9598f0a50ed30974b618f2911381b7dcf90)
 
@@ -95,6 +107,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install tokendoctor@best-claude-code-mods`
 
+---
+
 [![skins](https://github.com/hellosverre/claude-skins/raw/main/docs/demo.gif)](https://github.com/hellosverre/claude-skins/tree/cf0d39f3785d5c5a4b6189ecc487b1ac479efea0)
 
 #### [`skins`](https://github.com/hellosverre/claude-skins/tree/cf0d39f3785d5c5a4b6189ecc487b1ac479efea0)
@@ -104,6 +118,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 連網, 執行指令, 呼叫模型, 讀寫檔案
 
 `/plugin install skins@best-claude-code-mods`
+
+---
 
 [![ctx-handoff](docs/assets/ctx-handoff-mod.png)](https://github.com/cablate/ctx-handoff-mod/tree/a416713a0495be799a31f3650e18458e242270c7)
 
@@ -115,6 +131,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install ctx-handoff@best-claude-code-mods`
 
+---
+
 [![great-cto](docs/assets/great_cto.png)](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
 
 #### [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
@@ -124,6 +142,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 連網
 
 `/plugin install great-cto@best-claude-code-mods`
+
+---
 
 [![ripple](https://github.com/PBJ-2/clauderipple/raw/main/docs/media/demo.webp)](https://github.com/PBJ-2/clauderipple/tree/c1c6b76a9e4e7a51df2ec5907d6e41d6bf8591e3/packages/mod)
 
@@ -135,6 +155,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install ripple@best-claude-code-mods`
 
+---
+
 [![tavernweave-agent-skills](https://github.com/LiarMTTT/TavernWeave/raw/main/docs/assets/tavernweave-v1-cover.png)](https://github.com/LiarMTTT/TavernWeave/tree/f9863d2b05305457fe9ed8b0c5688d52aca400a5)
 
 #### [`tavernweave-agent-skills`](https://github.com/LiarMTTT/TavernWeave/tree/f9863d2b05305457fe9ed8b0c5688d52aca400a5)
@@ -144,6 +166,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** —
 
 `/plugin install tavernweave-agent-skills@best-claude-code-mods`
+
+---
 
 [![agent-usage-guard](https://github.com/rbartoli/agent-usage-guard/releases/download/agent-usage-guard--v1.0.0/agent-usage-guard.gif)](https://github.com/rbartoli/agent-usage-guard/tree/02594c2620be9eb60c32e2f77d9d512d9f61b205)
 
@@ -168,6 +192,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install shared-session@best-claude-code-mods`
 
+---
+
 [![flightdeck](https://github.com/scasella/claude-flightdeck/raw/main/docs/media/demo.gif)](https://github.com/scasella/claude-flightdeck/tree/626cc0b46d417f81bbff9f5ba3b49abaf8912a85)
 
 #### [`flightdeck`](https://github.com/scasella/claude-flightdeck/tree/626cc0b46d417f81bbff9f5ba3b49abaf8912a85)
@@ -178,6 +204,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install flightdeck@best-claude-code-mods`
 
+---
+
 [![start](https://github.com/rsmdt/the-startup/raw/main/logo.png)](https://github.com/rsmdt/the-startup/tree/e803d51fdb423271d3dde189f5416f3ec51386a9/plugins/start)
 
 #### [`start`](https://github.com/rsmdt/the-startup/tree/e803d51fdb423271d3dde189f5416f3ec51386a9/plugins/start)
@@ -187,6 +215,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 讀寫檔案
 
 `/plugin install start@best-claude-code-mods`
+
+---
 
 [![lane-stack](docs/assets/claude-lane-stack.png)](https://github.com/VKirill/claude-lane-stack/tree/8bac2b876b72053aa445bb9d1c7c6079bfc4ba8c/plugins/lane-stack)
 
@@ -211,6 +241,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install pebrel-prompt-suggestions@best-claude-code-mods`
 
+---
+
 [![fast-jev-compaction](docs/assets/fast-jev-compaction.png)](https://github.com/tamaratran/fast-jev-compaction/tree/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0)
 
 #### [`fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction/tree/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0)
@@ -220,6 +252,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 連網, 呼叫模型
 
 `/plugin install fast-jev-compaction@best-claude-code-mods`
+
+---
 
 [![lot-map](https://github.com/alexeyw/lot-map/raw/main/docs/demo.gif)](https://github.com/alexeyw/lot-map/tree/ad60f057902765d778eedde770d337be45fac3af)
 
@@ -231,6 +265,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install lot-map@best-claude-code-mods`
 
+---
+
 [![storybloq](https://raw.githubusercontent.com/Storybloq/storybloq/main/assets/board.png)](https://github.com/Storybloq/storybloq/tree/f0b4c08e3a15ffb9841e5a3058c6b1ca57607154/plugins/storybloq)
 
 #### [`storybloq`](https://github.com/Storybloq/storybloq/tree/f0b4c08e3a15ffb9841e5a3058c6b1ca57607154/plugins/storybloq)
@@ -240,6 +276,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 讀寫檔案
 
 `/plugin install storybloq@best-claude-code-mods`
+
+---
 
 [![just-do-it](docs/assets/claude-ops.png)](https://github.com/Lifecycle-Innovations-Limited/claude-ops/tree/e434ef7e612f2ff5769def6101fc9d984888d377/claude-ops/skills/ops-jdi/plugin)
 
@@ -251,6 +289,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install just-do-it@best-claude-code-mods`
 
+---
+
 [![filetree](https://github.com/data-goblin/claude-code-filetree/raw/main/media/filetree-shimmer.gif)](https://github.com/data-goblin/claude-code-filetree/tree/1fdc3a963f2dc22a939f661ff0ff5a76646c9112)
 
 #### [`filetree`](https://github.com/data-goblin/claude-code-filetree/tree/1fdc3a963f2dc22a939f661ff0ff5a76646c9112)
@@ -260,6 +300,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 執行指令, 呼叫模型, 讀寫檔案
 
 `/plugin install filetree@best-claude-code-mods`
+
+---
 
 [![jev-auto-compact](https://github.com/notque/vexjoy-agent/raw/main/docs/repo-hero.png)](https://github.com/notque/vexjoy-agent/tree/c68ac1fea2a03e437ccc95112d1e56e467a9bd00/plugins/jev-auto-compact)
 
@@ -271,6 +313,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install jev-auto-compact@best-claude-code-mods`
 
+---
+
 [![caliber-jev-compaction](https://github.com/caliber-ai-org/ai-setup/raw/master/assets/readme/pillars.png)](https://github.com/caliber-ai-org/ai-setup/tree/f5dbc002022a8a10acad25c1cce23ddefdc19d0d/plugin/caliber-jev-compaction)
 
 #### [`caliber-jev-compaction`](https://github.com/caliber-ai-org/ai-setup/tree/f5dbc002022a8a10acad25c1cce23ddefdc19d0d/plugin/caliber-jev-compaction)
@@ -280,6 +324,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 連網, 呼叫模型
 
 `/plugin install caliber-jev-compaction@best-claude-code-mods`
+
+---
 
 [![operator](https://github.com/aerovato/operator-memory/raw/main/docs/assets/change-the-loop.png)](https://github.com/aerovato/operator-memory/tree/93c3fce64f0a72adeb89fa868600eb418548ec07/packages/claude-code)
 
@@ -291,6 +337,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install operator@best-claude-code-mods`
 
+---
+
 [![claude-carbon](https://github.com/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png)](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
 
 #### [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
@@ -300,6 +348,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 讀寫檔案
 
 `/plugin install claude-carbon@best-claude-code-mods`
+
+---
 
 [![work-mode](https://github.com/danyuchn/claude-work-mode/raw/main/promo/demo-poster-en.png)](https://github.com/danyuchn/claude-work-mode/tree/e19eda1e8465308bd79a74fad295cf9b6d9cdf71/plugins/work-mode)
 
@@ -311,6 +361,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install work-mode@best-claude-code-mods`
 
+---
+
 [![show-your-work](https://github.com/iamumeransari/claude-show-your-work/raw/main/docs/homepage.jpg)](https://github.com/iamumeransari/claude-show-your-work/tree/71e546044e3ba61b98a6938a03270da791f9ca2e)
 
 #### [`show-your-work`](https://github.com/iamumeransari/claude-show-your-work/tree/71e546044e3ba61b98a6938a03270da791f9ca2e)
@@ -321,6 +373,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install show-your-work@best-claude-code-mods`
 
+---
+
 [![inbox](docs/assets/inbox.png)](https://github.com/petekp/inbox/tree/02e441cd447edf86fc30fbd03e9117a8ead9da7a)
 
 #### [`inbox`](https://github.com/petekp/inbox/tree/02e441cd447edf86fc30fbd03e9117a8ead9da7a)
@@ -330,6 +384,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** —
 
 `/plugin install inbox@best-claude-code-mods`
+
+---
 
 [![compact-adviser](https://github.com/kunchenguid/compact-adviser/raw/main/docs/hint-status-line.png)](https://github.com/kunchenguid/compact-adviser/tree/37fa1a665b8933de68c90014312060e862cf121a/packages/claude-mod)
 
@@ -354,6 +410,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install terminal-browser@best-claude-code-mods`
 
+---
+
 [![prismantis](https://github.com/NahumLitvin/prismantis/raw/main/docs/tour.gif)](https://github.com/NahumLitvin/prismantis/tree/3718a40abc57b836108a65bd9f01d06d3237e52d/plugin)
 
 #### [`prismantis`](https://github.com/NahumLitvin/prismantis/tree/3718a40abc57b836108a65bd9f01d06d3237e52d/plugin)
@@ -377,6 +435,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install lcu-approve@best-claude-code-mods`
 
+---
+
 [![agentctl](https://raw.githubusercontent.com/sd0xdev/sd0x-harness/main/banner.jpg)](https://github.com/sd0xdev/sd0x-harness/tree/b0206637edd2e44c993da12b6b30858f96bc3cdc/mods/agentctl)
 
 #### [`agentctl`](https://github.com/sd0xdev/sd0x-harness/tree/b0206637edd2e44c993da12b6b30858f96bc3cdc/mods/agentctl)
@@ -387,6 +447,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install agentctl@best-claude-code-mods`
 
+---
+
 [![multi-core](docs/assets/cc-multi-cli-plugin.png)](https://github.com/greenpolo/cc-multi-cli-plugin/tree/66d9b0a6b06b25fd648ecd53311a647bb57e2fb4/plugins/multi-core)
 
 #### [`multi-core`](https://github.com/greenpolo/cc-multi-cli-plugin/tree/66d9b0a6b06b25fd648ecd53311a647bb57e2fb4/plugins/multi-core)
@@ -396,6 +458,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 連網, 呼叫模型
 
 `/plugin install multi-core@best-claude-code-mods`
+
+---
 
 [![jevmem-pane](docs/assets/jevmem.png)](https://github.com/Avinash-jetwani/jevmem/tree/c29753ccb2c9706e417fda25efa422682358955b/pane)
 
@@ -420,6 +484,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install fm@best-claude-code-mods`
 
+---
+
 [![turbo](https://github.com/tobihagemann/turbo/raw/main/assets/logo/thunderbolt-icon-256.png)](https://github.com/tobihagemann/turbo/tree/3bc6b4436d96be22497109e16e68fe4dfa323531/claude)
 
 #### [`turbo`](https://github.com/tobihagemann/turbo/tree/3bc6b4436d96be22497109e16e68fe4dfa323531/claude)
@@ -430,6 +496,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 `/plugin install turbo@best-claude-code-mods`
 
+---
+
 [![mazyos](docs/assets/MazyOS.png)](https://github.com/Mazzeo-Marketing/MazyOS/tree/d2b65b392f1ee230afb088d155fc734def5f105d)
 
 #### [`mazyos`](https://github.com/Mazzeo-Marketing/MazyOS/tree/d2b65b392f1ee230afb088d155fc734def5f105d)
@@ -439,6 +507,8 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 讀寫檔案
 
 `/plugin install mazyos@best-claude-code-mods`
+
+---
 
 [![engineer](docs/assets/engineer.png)](https://github.com/swingerman/engineer/tree/ae4cb5fe32007dd6a3d717c9998dcfb12b1f348e/engineer)
 
