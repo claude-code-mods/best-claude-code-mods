@@ -78,7 +78,7 @@ def catalog(mods, summaries, s, lang):
             text = text.replace("|", "\\|")
             reach = ", ".join(s["reach"][a] for a in m["access"] if a in s["reach"]) or "—"
             author = m["repo"].split("/")[0]
-            lines.append(f"| [`{m['name']}`]({homepage(m)})<br><sub>{s['by']} {author}</sub> "
+            lines.append(f"| [`{m['name']}`]({homepage(m)})<br><sub>{s['by']} {author} · [🖼 preview](https://github.com/{m['repo']})</sub> "
                          f"| {text} | {reach} |")
         lines.append("")
     return "\n".join(lines).rstrip()
