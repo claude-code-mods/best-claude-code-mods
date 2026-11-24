@@ -59,8 +59,12 @@ def build_market(mods):
 
 
 def language_bar(strings, current, links):
-    parts = [f"**{s['label']}**" for lang, s in strings.items() if lang == current]
-    parts += [f"[{link['label']}](https://github.com/{link['repo']})" for link in links]
+    parts = []
+    for link in links:
+        if link["locale"] == current:
+            parts.append(f"**{link['label']}**")
+        else:
+            parts.append(f"[{link['label']}](https://github.com/{link['repo']})")
     return " · ".join(parts)
 
 def catalog(mods, summaries, s, lang, images):
