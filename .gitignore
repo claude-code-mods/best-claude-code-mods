@@ -3,3 +3,5 @@
 node_modules/
 .velloc/
 claude-code-mods-zh/
+mods-lib/
+download-status.json
