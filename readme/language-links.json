@@ -1,0 +1,10 @@
+[
+  {
+    "label": "简体中文",
+    "repo": "claude-code-mods/claude-code-mods-zh"
+  },
+  {
+    "label": "繁體中文",
+    "repo": "claude-code-mods/claude-code-mods-zh-tw"
+  }
+]
