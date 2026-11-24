@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md)
 
-**Elegidos a mano, validados y fijados. Una sola adición, 41 mods.**
+**Elegidos a mano, validados y fijados. Una sola adición, 40 mods.**
 
 Los mods son plugins de Claude Code hechos con hooks de funciones: observan, cambian o responden a lo que hace Claude Code, y dibujan su propia interfaz. Este marketplace reúne los mejores mods de la comunidad. Cada uno se ha comprobado con `claude plugin validate` y está fijado al commit comprobado, así que los cambios posteriores de su autor nunca te llegan sin revisar.
 
@@ -37,15 +37,15 @@ El campo **Acceso** de cada tarjeta indica lo que, según el validador, puede ha
 
 ---
 
-[![claude-council](https://github.com/hex/claude-council/raw/main/assets/desktop-code-tab.png)](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
+[![council](https://github.com/hex/claude-council/raw/main/assets/desktop-code-tab.png)](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
 
-#### [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
+#### [`council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
 
 *de hex* · Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check.
 
 **Acceso:** ejecuta comandos, llama a modelos, archivos
 
-`/plugin install claude-council@best-claude-code-mods`
+`/plugin install council@best-claude-code-mods`
 
 ---
 
@@ -130,18 +130,6 @@ El campo **Acceso** de cada tarjeta indica lo que, según el validador, puede ha
 **Acceso:** llama a modelos, archivos
 
 `/plugin install ctx-handoff@best-claude-code-mods`
-
----
-
-[![great-cto](docs/assets/great_cto.png)](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
-
-#### [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
-
-*de avelikiy* · Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage.
-
-**Acceso:** red
-
-`/plugin install great-cto@best-claude-code-mods`
 
 ---
 
@@ -339,15 +327,15 @@ El campo **Acceso** de cada tarjeta indica lo que, según el validador, puede ha
 
 ---
 
-[![claude-carbon](https://github.com/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png)](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
+[![carbon](https://github.com/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png)](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
 
-#### [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
+#### [`carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
 
 *de gwittebolle* · Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app.
 
 **Acceso:** archivos
 
-`/plugin install claude-carbon@best-claude-code-mods`
+`/plugin install carbon@best-claude-code-mods`
 
 ---
 

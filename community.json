@@ -109,7 +109,7 @@
   ]
  },
  {
-  "name": "claude-council",
+  "name": "council",
   "repo": "hex/claude-council",
   "path": "",
   "sha": "f2f7f42122b288599cef8cea97dcc490acea98a5",
@@ -364,7 +364,7 @@
   "access": []
  },
  {
-  "name": "claude-carbon",
+  "name": "carbon",
   "repo": "gwittebolle/claude-carbon",
   "path": "",
   "sha": "9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b",
@@ -565,21 +565,6 @@
    "http",
    "model",
    "fs",
-   "state",
-   "ui"
-  ]
- },
- {
-  "name": "great-cto",
-  "repo": "avelikiy/great_cto",
-  "path": "",
-  "sha": "12dfd86e99627cd6dd1ed394de4786f4ba08499b",
-  "version": "0.0.0",
-  "license": "MIT",
-  "category": "dashboards",
-  "description": "Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage.",
-  "access": [
-   "http",
    "state",
    "ui"
   ]

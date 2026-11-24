@@ -1,166 +1,162 @@
 {
- "fm": {
-  "en": "The sailboat working animation and a conversation-only transcript, sharing a calm-mode preference across sessions.",
-  "zh-CN": "帆船工作动画与会话专用转录显示，跨会话共享 calm 模式偏好。"
- },
- "terminal-browser": {
-  "en": "A browser inside Claude Code: preview sites and HTML, and let the agent drive the built-in browser.",
-  "zh-CN": "内置在 Claude Code 里的浏览器：预览网站和 HTML，并可让 agent 操作这个浏览器。"
- },
- "pebrel-prompt-suggestions": {
-  "en": "Native empty-composer prompt predictions through the Pebrel session bridge.",
-  "zh-CN": "通过 Pebrel 会话桥在空输入框里给出原生提示预测。"
- },
- "token-optimizer": {
-  "en": "A token-optimizer status bar that shows where tokens go and how to spend less.",
-  "zh-CN": "token 优化状态栏，显示 token 去向并给出更省钱的调整。"
- },
- "lcu-approve": {
-  "en": "Per-app approval for computer use: allow this conversation, always allow, or deny, plus a panel of approved apps.",
-  "zh-CN": "电脑使用的按应用授权：本次允许、始终允许或拒绝，并有已授权应用面板。"
- },
- "fast-jev-compaction": {
-  "en": "Verbatim Jev-guided compaction for Claude Code sessions.",
-  "zh-CN": "为 Claude Code 会话提供逐字保留的 Jev 压缩。"
- },
- "lot-map": {
-  "en": "A live map beside the chat: memory, files, shell, web, model, agents, skills and hooks light up as they are used.",
-  "zh-CN": "聊天旁的实时地图：记忆、文件、Shell、网络、模型、agent、技能与 hooks 被使用时点亮。"
- },
- "claude-council": {
-  "en": "Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check.",
-  "zh-CN": "同时咨询多个 AI agent 获取多种视角，带流式面板和可选的额外复查提示。"
- },
- "codex-attachment-manager": {
-  "en": "Sends earlier images as short placeholders and fetches originals back by ID, so long image sessions keep the prompt cache.",
-  "zh-CN": "较早的图片以占位符发送、按 ID 取回原图，让长图片会话保住 prompt 缓存。"
- },
- "storybloq": {
-  "en": "Project memory: tickets, issues, handovers and lessons kept in a .story/ folder in your repo.",
-  "zh-CN": "项目记忆：把工单、问题、交接和经验存进仓库里的 .story/ 目录。"
- },
- "shared-session": {
-  "en": "Share a session with a link or your team; teammates join from their own Claude Code and watch every turn live.",
-  "zh-CN": "用链接或团队共享会话；队友用自己的 Claude Code 加入并实时看到每一轮。"
- },
- "just-do-it": {
-  "en": "Continues authorized work through verification and delivery, and surfaces setup issues to repair.",
-  "zh-CN": "把已授权的工作推进到验证与交付，并暴露需要修复的配置问题。"
- },
- "prismantis": {
-  "en": "Colorful, themeable rendering for replies: tables, headings, code, numbers, paths and links.",
-  "zh-CN": "为回复提供可换主题的彩色渲染：表格、标题、代码、数字、路径与链接。"
- },
- "filetree": {
-  "en": "An IDE-style file tree that shows what Claude is doing and where in your files.",
-  "zh-CN": "IDE 风格的目录树，显示 Claude 正在做什么、改到哪个文件。"
- },
- "jev-auto-compact": {
-  "en": "At 60% context, prunes stale tool calls with zero generation; skips instead of falling back to an LLM summary.",
-  "zh-CN": "上下文到 60% 时以零生成裁剪陈旧工具调用；无可裁剪时跳过而非退化为 LLM 摘要。"
- },
- "cache-tax": {
-  "en": "Keeps the one-hour prompt cache warm during breaks, asking before a cold send and showing the rewrite cost.",
-  "zh-CN": "在休息时保持一小时 prompt 缓存温热，冷启动前先询问并显示重写成本。"
- },
- "turbo": {
-  "en": "A human-gated agentic software factory: you decide what to build and judge the result, skills build and ship it.",
-  "zh-CN": "人工把关的 agent 软件工厂：你决定做什么并验收，技能负责构建与发布。"
- },
- "agent-standup-band": {
-  "en": "A line above the prompt when another local session needs you, and a toast when one finishes.",
-  "zh-CN": "本机其他会话需要你时在提示上方显示一行，结束时给一个提醒。"
- },
- "flightdeck": {
-  "en": "A live agent dashboard: model vitals, an on-call architect, permission checks, subagent cards and a session log.",
-  "zh-CN": "实时 agent 仪表盘：模型体征、值班架构师、权限检查、子 agent 卡片与会话日志。"
- },
- "caliber-jev-compaction": {
-  "en": "Verbatim Jev-guided compaction for Claude Code sessions.",
-  "zh-CN": "为 Claude Code 会话提供逐字保留的 Jev 压缩。"
- },
- "mazyos": {
-  "en": "A Portuguese business OS plugin: your company memory in every session, brand identity on outputs, and 17 marketing/SEO skills.",
-  "zh-CN": "葡语商业操作插件：每次会话带入公司记忆、输出带品牌形象，并提供 17 个营销/SEO 技能。"
- },
- "start": {
-  "en": "Workflow orchestration commands for agentic software development.",
-  "zh-CN": "面向 agent 软件开发的流程编排命令。"
- },
- "shunt": {
-  "en": "A usage band for the shunt gateway: each window's spend and reset time, plus a full /shunt:usage breakdown.",
-  "zh-CN": "shunt 网关的用量条：各窗口花费与重置时间，以及完整的 /shunt:usage 明细。"
- },
- "operator": {
-  "en": "Durable project and user memory for agent-driven development.",
-  "zh-CN": "面向 agent 开发的持久项目与用户记忆。"
- },
- "claude-carbon": {
-  "en": "Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app.",
-  "zh-CN": "在终端和桌面应用中追踪 Claude Code 会话的碳足迹。"
- },
- "agentctl": {
-  "en": "An agent control plane for a session: task scope, evidence and hand-over.",
-  "zh-CN": "会话级 agent 控制面板：任务范围、证据与交接。"
- },
- "multi-core": {
-  "en": "Use ChatGPT, Cursor, OpenCode and Antigravity models inside one session, switching with /model.",
-  "zh-CN": "在单个会话里使用 ChatGPT、Cursor、OpenCode 与 Antigravity 模型，用 /model 切换。"
- },
- "work-mode": {
-  "en": "Session modes: auto (no mid-task questions), out (delegate batch work) and wrap (converge and finish).",
-  "zh-CN": "会话模式：auto（不中途提问）、out（委派批量工作）、wrap（收敛并收尾）。"
- },
- "tokendoctor": {
-  "en": "Replays your past sessions to show what each change would have saved, then applies only what you pick.",
-  "zh-CN": "回放你过去的会话，展示每项改动能省多少，然后只应用你选择的改动。"
- },
- "engineer": {
-  "en": "A disciplined agentic-engineering methodology kit: intake, AC discovery, spec, planning, implementation, verification, hardening.",
-  "zh-CN": "严谨的 agent 工程方法套件：需求受理、验收标准探索、规格、计划、实现、验证与加固。"
- },
- "skins": {
-  "en": "Skins and fifteen themes for the transcript, with rich cards and a usage band; /skin swaps them live.",
-  "zh-CN": "转录皮肤的十五种主题、丰富卡片与用量条；/skin 实时切换。"
- },
- "show-your-work": {
-  "en": "Shows finished work in the terminal: screenshots, click-through videos and synced before/after QA.",
-  "zh-CN": "在终端里展示成品：截图、操作录屏和前后对比的 QA。"
- },
- "jevmem-pane": {
-  "en": "A side pane showing what jevmem recalled, what its guard decided and what the last turn saved.",
-  "zh-CN": "侧栏显示 jevmem 召回了什么、守卫判定什么、上一轮保存了什么。"
- },
- "ctx-handoff": {
-  "en": "Turns what you teach Claude into project notes, catches common slips, keeps the cache warm and resumes long sessions.",
-  "zh-CN": "把你教给 Claude 的内容沉淀为项目笔记，捕捉常见疏漏，保温缓存并续接长会话。"
- },
- "inbox": {
-  "en": "Gathers the questions, tasks, findings and PRs waiting on you in a session.",
-  "zh-CN": "汇总会话中等待你处理的问题、任务、发现与 PR。"
- },
- "lane-stack": {
-  "en": "A solo PM conveyor: orchestrator agents, lane playbooks, onboard and resume commands.",
-  "zh-CN": "单人 PM 流水线：编排 agent、泳道手册、入职与续接命令。"
- },
- "compact-adviser": {
-  "en": "Suggests or runs /compact at a completed checkpoint, judged by TypeSafe Jev.",
-  "zh-CN": "在完成的检查点建议或执行 /compact，由 TypeSafe Jev 判定。"
- },
- "great-cto": {
-  "en": "Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage.",
-  "zh-CN": "把 Claude Code 当作 73 个专家 agent 的流水线运行，每个阶段由独立模型复核。"
- },
- "ripple": {
-  "en": "Picks reasoning effort per prompt and a worker per delegated task, keeps the cache warm and shows where each request went.",
-  "zh-CN": "为每条提示选择推理强度、为每个委派任务选择执行者，保温缓存并显示请求去向。"
- },
- "tavernweave-agent-skills": {
-  "en": "23 shared skills for rolecards, software work and bounded cloud tasks, plus a Soul mode switch above the prompt.",
-  "zh-CN": "23 个共享技能用于角色卡、软件工作和有界云任务，提示上方有 Soul 模式开关。"
- },
- "agent-usage-guard": {
-  "en": "Holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window.",
-  "zh-CN": "在子 agent 扩散、重上下文提示和重试循环消耗你的用量窗口之前将其拦下。"
- }
+  "fm": {
+    "en": "The sailboat working animation and a conversation-only transcript, sharing a calm-mode preference across sessions.",
+    "zh-CN": "帆船工作动画与会话专用转录显示，跨会话共享 calm 模式偏好。"
+  },
+  "terminal-browser": {
+    "en": "A browser inside Claude Code: preview sites and HTML, and let the agent drive the built-in browser.",
+    "zh-CN": "内置在 Claude Code 里的浏览器：预览网站和 HTML，并可让 agent 操作这个浏览器。"
+  },
+  "pebrel-prompt-suggestions": {
+    "en": "Native empty-composer prompt predictions through the Pebrel session bridge.",
+    "zh-CN": "通过 Pebrel 会话桥在空输入框里给出原生提示预测。"
+  },
+  "token-optimizer": {
+    "en": "A token-optimizer status bar that shows where tokens go and how to spend less.",
+    "zh-CN": "token 优化状态栏，显示 token 去向并给出更省钱的调整。"
+  },
+  "lcu-approve": {
+    "en": "Per-app approval for computer use: allow this conversation, always allow, or deny, plus a panel of approved apps.",
+    "zh-CN": "电脑使用的按应用授权：本次允许、始终允许或拒绝，并有已授权应用面板。"
+  },
+  "fast-jev-compaction": {
+    "en": "Verbatim Jev-guided compaction for Claude Code sessions.",
+    "zh-CN": "为 Claude Code 会话提供逐字保留的 Jev 压缩。"
+  },
+  "lot-map": {
+    "en": "A live map beside the chat: memory, files, shell, web, model, agents, skills and hooks light up as they are used.",
+    "zh-CN": "聊天旁的实时地图：记忆、文件、Shell、网络、模型、agent、技能与 hooks 被使用时点亮。"
+  },
+  "codex-attachment-manager": {
+    "en": "Sends earlier images as short placeholders and fetches originals back by ID, so long image sessions keep the prompt cache.",
+    "zh-CN": "较早的图片以占位符发送、按 ID 取回原图，让长图片会话保住 prompt 缓存。"
+  },
+  "storybloq": {
+    "en": "Project memory: tickets, issues, handovers and lessons kept in a .story/ folder in your repo.",
+    "zh-CN": "项目记忆：把工单、问题、交接和经验存进仓库里的 .story/ 目录。"
+  },
+  "shared-session": {
+    "en": "Share a session with a link or your team; teammates join from their own Claude Code and watch every turn live.",
+    "zh-CN": "用链接或团队共享会话；队友用自己的 Claude Code 加入并实时看到每一轮。"
+  },
+  "just-do-it": {
+    "en": "Continues authorized work through verification and delivery, and surfaces setup issues to repair.",
+    "zh-CN": "把已授权的工作推进到验证与交付，并暴露需要修复的配置问题。"
+  },
+  "prismantis": {
+    "en": "Colorful, themeable rendering for replies: tables, headings, code, numbers, paths and links.",
+    "zh-CN": "为回复提供可换主题的彩色渲染：表格、标题、代码、数字、路径与链接。"
+  },
+  "filetree": {
+    "en": "An IDE-style file tree that shows what Claude is doing and where in your files.",
+    "zh-CN": "IDE 风格的目录树，显示 Claude 正在做什么、改到哪个文件。"
+  },
+  "jev-auto-compact": {
+    "en": "At 60% context, prunes stale tool calls with zero generation; skips instead of falling back to an LLM summary.",
+    "zh-CN": "上下文到 60% 时以零生成裁剪陈旧工具调用；无可裁剪时跳过而非退化为 LLM 摘要。"
+  },
+  "cache-tax": {
+    "en": "Keeps the one-hour prompt cache warm during breaks, asking before a cold send and showing the rewrite cost.",
+    "zh-CN": "在休息时保持一小时 prompt 缓存温热，冷启动前先询问并显示重写成本。"
+  },
+  "turbo": {
+    "en": "A human-gated agentic software factory: you decide what to build and judge the result, skills build and ship it.",
+    "zh-CN": "人工把关的 agent 软件工厂：你决定做什么并验收，技能负责构建与发布。"
+  },
+  "agent-standup-band": {
+    "en": "A line above the prompt when another local session needs you, and a toast when one finishes.",
+    "zh-CN": "本机其他会话需要你时在提示上方显示一行，结束时给一个提醒。"
+  },
+  "flightdeck": {
+    "en": "A live agent dashboard: model vitals, an on-call architect, permission checks, subagent cards and a session log.",
+    "zh-CN": "实时 agent 仪表盘：模型体征、值班架构师、权限检查、子 agent 卡片与会话日志。"
+  },
+  "caliber-jev-compaction": {
+    "en": "Verbatim Jev-guided compaction for Claude Code sessions.",
+    "zh-CN": "为 Claude Code 会话提供逐字保留的 Jev 压缩。"
+  },
+  "mazyos": {
+    "en": "A Portuguese business OS plugin: your company memory in every session, brand identity on outputs, and 17 marketing/SEO skills.",
+    "zh-CN": "葡语商业操作插件：每次会话带入公司记忆、输出带品牌形象，并提供 17 个营销/SEO 技能。"
+  },
+  "start": {
+    "en": "Workflow orchestration commands for agentic software development.",
+    "zh-CN": "面向 agent 软件开发的流程编排命令。"
+  },
+  "shunt": {
+    "en": "A usage band for the shunt gateway: each window's spend and reset time, plus a full /shunt:usage breakdown.",
+    "zh-CN": "shunt 网关的用量条：各窗口花费与重置时间，以及完整的 /shunt:usage 明细。"
+  },
+  "operator": {
+    "en": "Durable project and user memory for agent-driven development.",
+    "zh-CN": "面向 agent 开发的持久项目与用户记忆。"
+  },
+  "agentctl": {
+    "en": "An agent control plane for a session: task scope, evidence and hand-over.",
+    "zh-CN": "会话级 agent 控制面板：任务范围、证据与交接。"
+  },
+  "multi-core": {
+    "en": "Use ChatGPT, Cursor, OpenCode and Antigravity models inside one session, switching with /model.",
+    "zh-CN": "在单个会话里使用 ChatGPT、Cursor、OpenCode 与 Antigravity 模型，用 /model 切换。"
+  },
+  "work-mode": {
+    "en": "Session modes: auto (no mid-task questions), out (delegate batch work) and wrap (converge and finish).",
+    "zh-CN": "会话模式：auto（不中途提问）、out（委派批量工作）、wrap（收敛并收尾）。"
+  },
+  "tokendoctor": {
+    "en": "Replays your past sessions to show what each change would have saved, then applies only what you pick.",
+    "zh-CN": "回放你过去的会话，展示每项改动能省多少，然后只应用你选择的改动。"
+  },
+  "engineer": {
+    "en": "A disciplined agentic-engineering methodology kit: intake, AC discovery, spec, planning, implementation, verification, hardening.",
+    "zh-CN": "严谨的 agent 工程方法套件：需求受理、验收标准探索、规格、计划、实现、验证与加固。"
+  },
+  "skins": {
+    "en": "Skins and fifteen themes for the transcript, with rich cards and a usage band; /skin swaps them live.",
+    "zh-CN": "转录皮肤的十五种主题、丰富卡片与用量条；/skin 实时切换。"
+  },
+  "show-your-work": {
+    "en": "Shows finished work in the terminal: screenshots, click-through videos and synced before/after QA.",
+    "zh-CN": "在终端里展示成品：截图、操作录屏和前后对比的 QA。"
+  },
+  "jevmem-pane": {
+    "en": "A side pane showing what jevmem recalled, what its guard decided and what the last turn saved.",
+    "zh-CN": "侧栏显示 jevmem 召回了什么、守卫判定什么、上一轮保存了什么。"
+  },
+  "ctx-handoff": {
+    "en": "Turns what you teach Claude into project notes, catches common slips, keeps the cache warm and resumes long sessions.",
+    "zh-CN": "把你教给 Claude 的内容沉淀为项目笔记，捕捉常见疏漏，保温缓存并续接长会话。"
+  },
+  "inbox": {
+    "en": "Gathers the questions, tasks, findings and PRs waiting on you in a session.",
+    "zh-CN": "汇总会话中等待你处理的问题、任务、发现与 PR。"
+  },
+  "lane-stack": {
+    "en": "A solo PM conveyor: orchestrator agents, lane playbooks, onboard and resume commands.",
+    "zh-CN": "单人 PM 流水线：编排 agent、泳道手册、入职与续接命令。"
+  },
+  "compact-adviser": {
+    "en": "Suggests or runs /compact at a completed checkpoint, judged by TypeSafe Jev.",
+    "zh-CN": "在完成的检查点建议或执行 /compact，由 TypeSafe Jev 判定。"
+  },
+  "ripple": {
+    "en": "Picks reasoning effort per prompt and a worker per delegated task, keeps the cache warm and shows where each request went.",
+    "zh-CN": "为每条提示选择推理强度、为每个委派任务选择执行者，保温缓存并显示请求去向。"
+  },
+  "tavernweave-agent-skills": {
+    "en": "23 shared skills for rolecards, software work and bounded cloud tasks, plus a Soul mode switch above the prompt.",
+    "zh-CN": "23 个共享技能用于角色卡、软件工作和有界云任务，提示上方有 Soul 模式开关。"
+  },
+  "agent-usage-guard": {
+    "en": "Holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window.",
+    "zh-CN": "在子 agent 扩散、重上下文提示和重试循环消耗你的用量窗口之前将其拦下。"
+  },
+  "council": {
+    "en": "Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check.",
+    "zh-CN": "同时咨询多个 AI agent 获取多种视角，带流式面板和可选的额外复查提示。"
+  },
+  "carbon": {
+    "en": "Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app.",
+    "zh-CN": "在终端和桌面应用中追踪 Claude Code 会话的碳足迹。"
+  }
 }

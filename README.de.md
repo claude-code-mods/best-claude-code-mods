@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · **Deutsch** · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md)
 
-**Handverlesen, geprüft, festgepinnt. Einmal hinzufügen, 41 Mods.**
+**Handverlesen, geprüft, festgepinnt. Einmal hinzufügen, 40 Mods.**
 
 Mods sind Claude-Code-Plugins aus Funktions-Hooks: Sie beobachten, ändern oder übernehmen, was Claude Code tut, und zeichnen ihre eigene Oberfläche. Dieser Marketplace sammelt die besten Mods der Community. Jeder ist mit `claude plugin validate` geprüft und auf den geprüften Commit festgelegt, sodass spätere Änderungen des Autors dich nie ungeprüft erreichen.
 
@@ -37,15 +37,15 @@ Der Eintrag **Zugriff** auf jeder Karte zeigt, was der Code eines Mods laut Vali
 
 ---
 
-[![claude-council](https://github.com/hex/claude-council/raw/main/assets/desktop-code-tab.png)](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
+[![council](https://github.com/hex/claude-council/raw/main/assets/desktop-code-tab.png)](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
 
-#### [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
+#### [`council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
 
 *von hex* · Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check.
 
 **Zugriff:** führt Befehle aus, ruft Modelle auf, Dateien
 
-`/plugin install claude-council@best-claude-code-mods`
+`/plugin install council@best-claude-code-mods`
 
 ---
 
@@ -130,18 +130,6 @@ Der Eintrag **Zugriff** auf jeder Karte zeigt, was der Code eines Mods laut Vali
 **Zugriff:** ruft Modelle auf, Dateien
 
 `/plugin install ctx-handoff@best-claude-code-mods`
-
----
-
-[![great-cto](docs/assets/great_cto.png)](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
-
-#### [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
-
-*von avelikiy* · Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage.
-
-**Zugriff:** Netzwerk
-
-`/plugin install great-cto@best-claude-code-mods`
 
 ---
 
@@ -339,15 +327,15 @@ Der Eintrag **Zugriff** auf jeder Karte zeigt, was der Code eines Mods laut Vali
 
 ---
 
-[![claude-carbon](https://github.com/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png)](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
+[![carbon](https://github.com/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png)](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
 
-#### [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
+#### [`carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
 
 *von gwittebolle* · Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app.
 
 **Zugriff:** Dateien
 
-`/plugin install claude-carbon@best-claude-code-mods`
+`/plugin install carbon@best-claude-code-mods`
 
 ---
 

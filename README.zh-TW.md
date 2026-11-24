@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · **繁體中文** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português (Brasil)](README.pt-BR.md) · [Русский](README.ru.md)
 
-**逐一挑選、驗證、固定版本。新增一次，41 個 mod 隨裝隨用。**
+**逐一挑選、驗證、固定版本。新增一次，40 個 mod 隨裝隨用。**
 
 Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接管 Claude Code 的行為，也能繪製自己的介面。這個市集收錄了社群中最好的 mod。每一個都以 `claude plugin validate` 驗證過，並固定在驗證時的 commit，作者之後的修改不會未經審核就到你這裡。
 
@@ -37,15 +37,15 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ---
 
-[![claude-council](https://github.com/hex/claude-council/raw/main/assets/desktop-code-tab.png)](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
+[![council](https://github.com/hex/claude-council/raw/main/assets/desktop-code-tab.png)](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
 
-#### [`claude-council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
+#### [`council`](https://github.com/hex/claude-council/tree/f2f7f42122b288599cef8cea97dcc490acea98a5)
 
 *作者 hex* · Consult several AI agents at once for diverse perspectives, with a streaming pane and an optional heads-up side check.
 
 **權限:** 執行指令, 呼叫模型, 讀寫檔案
 
-`/plugin install claude-council@best-claude-code-mods`
+`/plugin install council@best-claude-code-mods`
 
 ---
 
@@ -130,18 +130,6 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 **權限:** 呼叫模型, 讀寫檔案
 
 `/plugin install ctx-handoff@best-claude-code-mods`
-
----
-
-[![great-cto](docs/assets/great_cto.png)](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
-
-#### [`great-cto`](https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b)
-
-*作者 avelikiy* · Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage.
-
-**權限:** 連網
-
-`/plugin install great-cto@best-claude-code-mods`
 
 ---
 
@@ -339,15 +327,15 @@ Mod 是以函式鉤子寫成的 Claude Code 外掛：可以觀察、修改或接
 
 ---
 
-[![claude-carbon](https://github.com/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png)](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
+[![carbon](https://github.com/gwittebolle/claude-carbon/raw/main/docs/desktop-pane.png)](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
 
-#### [`claude-carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
+#### [`carbon`](https://github.com/gwittebolle/claude-carbon/tree/9ad53f1dd07fb0e11fcdb94d294ed794d660cf4b)
 
 *作者 gwittebolle* · Tracks the carbon footprint of your Claude Code sessions in the terminal and desktop app.
 
 **權限:** 讀寫檔案
 
-`/plugin install claude-carbon@best-claude-code-mods`
+`/plugin install carbon@best-claude-code-mods`
 
 ---
 

@@ -22,7 +22,9 @@ EXCLUDED_REPOS = {
     "ruvnet/ruflo",
     "Yeachan-Heo/oh-my-claudecode",
     "anthropics/claude-plugins-official",
+    "avelikiy/great_cto",
 }
+NAME_OVERRIDES = {"claude-council": "council", "claude-carbon": "carbon"}
 
 def core_of(row):
     stars = int(row.get("own_stars") or row.get("stars") or 0)
@@ -54,7 +56,7 @@ def main():
     args = ap.parse_args()
 
     chosen = select(pathlib.Path(args.dataset))
-    names = {row["mod"] for _, row in chosen}
+    names = {NAME_OVERRIDES.get(row["mod"], row["mod"]) for _, row in chosen}
     print(f"{len(names)} mods score above {MIN_CORE:g}: (dataset {args.dataset})")
     for core, row in chosen:
         print(f"  {core:8.1f}  n={max(1, math.ceil(int(row.get('days_since') or 0) / 15))}  {row['mod']:<26} {row['repo']}")

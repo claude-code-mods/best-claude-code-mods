@@ -123,7 +123,7 @@
       "category": "productivity"
     },
     {
-      "name": "claude-council",
+      "name": "council",
       "source": {
         "source": "url",
         "url": "https://github.com/hex/claude-council.git",
@@ -406,7 +406,7 @@
       "category": "productivity"
     },
     {
-      "name": "claude-carbon",
+      "name": "carbon",
       "source": {
         "source": "url",
         "url": "https://github.com/gwittebolle/claude-carbon.git",
@@ -619,22 +619,6 @@
       "homepage": "https://github.com/kunchenguid/compact-adviser/tree/37fa1a665b8933de68c90014312060e862cf121a/packages/claude-mod",
       "license": "MIT",
       "category": "productivity"
-    },
-    {
-      "name": "great-cto",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/avelikiy/great_cto.git",
-        "sha": "12dfd86e99627cd6dd1ed394de4786f4ba08499b"
-      },
-      "description": "Runs Claude Code as a pipeline of 73 specialist agents, with an independent model checking each stage.",
-      "version": "0.0.0",
-      "author": {
-        "name": "avelikiy"
-      },
-      "homepage": "https://github.com/avelikiy/great_cto/tree/12dfd86e99627cd6dd1ed394de4786f4ba08499b",
-      "license": "MIT",
-      "category": "dashboards"
     },
     {
       "name": "ripple",
